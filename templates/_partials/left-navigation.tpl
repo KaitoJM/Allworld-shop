@@ -23,5 +23,6 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {block name='left_navigation'}
-  {hook h="displayLeftNav"}
+  {* {hook h="displayLeftNav"} *}
+  {hook h="displayLeftColumn"}
 {/block}

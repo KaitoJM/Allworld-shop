@@ -23,30 +23,5 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {block name='left_navigation'}
-  <ul class="left-navigation-ul">
-    <li>
-      <a href="./gaming-computers">Gaming Computers</a>
-    </li>
-    <li>
-      <a href="./computers">Computers</a>
-    </li>
-    <li>
-      <a href="./laptops">Laptops</a>
-    </li>
-    <li>
-      <a href="./gaming-laptops">Gaming Laptops</a>
-    </li>
-    <li>
-      <a href="./consoles">Consoles</a>
-    </li>
-    <li>
-      <a href="./phones">Phones</a>
-    </li>
-    <li>
-      <a href="./printers">Printers</a>
-    </li>
-    <li>
-      <a href="./accessories">Accessories</a>
-    </li>
-  </ul>
+  {hook h="displayLeftNav"}
 {/block}

@@ -82,6 +82,9 @@ a {
   display: block;
   font-weight: bold;
 }
+#header .header-container .menu ul .current a {
+  color: var(--accent_color);
+}
 /* ========================== End of Header ========================== */
 
 /* ========================== Main Layout ========================== */
@@ -101,14 +104,15 @@ a {
   background-color: #fff;
   z-index: 998;
   box-sizing: border-box;
+  padding: 50px;
 }
-.main-layout .left-navigation-ul {
+.main-layout .left-navigation ul {
   list-style-type: none;
   margin: 0px;
-  padding: 50px;
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding: 0px;
 }
 /* -------------------------- Main Content -------------------------- */
 .main-layout .main-content {

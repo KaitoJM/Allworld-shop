@@ -62,6 +62,8 @@ global_settings:
      - ps_linklist
   hooks:
     modules_to_hook:
+      displayLeftNav:
+        - ps_categorytree
       displayAfterBodyOpeningTag:
         - blockreassurance
       displayNavFullWidth:
@@ -144,7 +146,8 @@ global_settings:
 theme_settings:
   default_layout: layout-with-left-nav
   layouts:
-    category: layout-left-column
+    # category: layout-left-column
+    category: layout-with-left-nav
     best-sales: layout-left-column
     new-products: layout-left-column
     prices-drop: layout-left-column

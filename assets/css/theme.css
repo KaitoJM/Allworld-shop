@@ -62,21 +62,13 @@ a {
   height: 100%;
   justify-content: space-between;
 }
-#header .header-container #search_widget {
-  background-color: #fff;
-  border-radius: 5px;
-  overflow: hidden;
-  width: 400px;
-}
-#header .header-container #search_widget input[type=text] {
-  background-color: #fff;
-}
 #header .header-container .menu ul {
   display: flex;
   margin: 0px;
   padding: 0px;
   list-style: none;
   gap: 25px;
+  font-size: 0.9em;
 }
 #header .header-container .menu ul a {
   display: block;
@@ -84,6 +76,45 @@ a {
 }
 #header .header-container .menu ul .current a {
   color: var(--accent_color);
+}
+#header .header-container .header-nav2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#header .header-container .header-nav2 .header-cart {
+  position: relative;
+}
+#header .header-container .header-nav2 .header-cart .cart-products-count {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--accent_color);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+}
+#header .header-container .header-nav2 #_desktop_user_info .user-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#header .header-container .header-nav2 #_desktop_user_info .account-link {
+  width: 35px;
+  height: 35px;
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#header .header-container .header-nav2 #_desktop_user_info .account-link i {
+  transform: translateY(9px);
 }
 /* ========================== End of Header ========================== */
 

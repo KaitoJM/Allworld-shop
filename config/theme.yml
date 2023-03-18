@@ -41,6 +41,8 @@ assets:
        path: assets/css/owl.carousel.min.css
      - id: owl-carousel-theme-style
        path: assets/css/owl.theme.default.min.css
+     - id: uicons-bold-rounded-style
+       path: assets/css/uicons-bold-rounded.css
 #    product:
 #      - id: product-style
 #        path: assets/css/product.css
@@ -77,8 +79,9 @@ global_settings:
       displayNav1:
         - ps_mainmenu
       displayNav2:
-        - ps_customersignin
+        - blockwishlist
         - ps_shoppingcart
+        - ps_customersignin
       displayTop:
         - ps_searchbar
       displayHome:

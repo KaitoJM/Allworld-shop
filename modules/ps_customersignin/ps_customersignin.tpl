@@ -29,18 +29,19 @@
         class="logout hidden-sm-down"
         href="{$urls.actions.logout}"
         rel="nofollow"
+        title="logout"
       >
-        <i class="material-icons">&#xE7FF;</i>
-        {l s='Sign out' d='Shop.Theme.Actions'}
+        <i class="fi-br-sign-out-alt"></i>
+        {* {l s='Sign out' d='Shop.Theme.Actions'} *}
       </a>
       <a
-        class="account"
+        class="account account-link"
         href="{$urls.pages.my_account}"
         title="{l s='View my customer account' d='Shop.Theme.Customeraccount'}"
         rel="nofollow"
       >
-        <i class="material-icons hidden-md-up logged">&#xE7FF;</i>
-        <span class="hidden-sm-down">{$customerName}</span>
+        <i class="fi-br-user"></i>
+        {* <span class="hidden-sm-down">{$customerName}</span> *}
       </a>
     {else}
       <a
@@ -48,7 +49,7 @@
         title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
         rel="nofollow"
       >
-        <i class="material-icons">&#xE7FF;</i>
+        <i class="fi-br-user"></i>
         <span class="hidden-sm-down">{l s='Sign in' d='Shop.Theme.Actions'}</span>
       </a>
     {/if}

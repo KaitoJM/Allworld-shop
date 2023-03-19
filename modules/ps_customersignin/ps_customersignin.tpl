@@ -26,7 +26,7 @@
   <div class="user-info">
     {if $logged}
       <a
-        class="logout hidden-sm-down"
+        class="logout hidden-sm-down h-icon"
         href="{$urls.actions.logout}"
         rel="nofollow"
         title="logout"
@@ -45,12 +45,12 @@
       </a>
     {else}
       <a
+        class="account account-link"
         href="{$urls.pages.my_account}"
         title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
         rel="nofollow"
       >
         <i class="fi-br-user"></i>
-        <span class="hidden-sm-down">{l s='Sign in' d='Shop.Theme.Actions'}</span>
       </a>
     {/if}
   </div>

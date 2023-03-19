@@ -237,3 +237,7 @@ a {
   background-color: var(--background_color_main);
   border-radius: 3px;
 }
+
+.h-icon {
+  transform: translateY(3px);
+}

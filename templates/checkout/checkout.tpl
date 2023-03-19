@@ -24,9 +24,9 @@
  *}
 {extends file=$layout}
 
-{block name='header'}
+{* {block name='header'}
   {include file='checkout/_partials/header.tpl'}
-{/block}
+{/block} *}
 
 {block name='content'}
   <section id="content">

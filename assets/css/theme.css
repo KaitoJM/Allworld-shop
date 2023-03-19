@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
   --space_gutter: 50px;
-  --left_nav_width: 300px;
+  --left_nav_width: 280px;
   --header_height: 80px;
   --background_color_main: #f5f5f5;
   --background_color_secondary: #efefef;
@@ -12,7 +13,7 @@
 
 html, body {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--background_color_main);
   font-size: 16px;
 }
@@ -72,7 +73,6 @@ a {
 }
 #header .header-container .menu ul a {
   display: block;
-  font-weight: bold;
 }
 #header .header-container .menu ul .current a {
   color: var(--accent_color);
@@ -169,21 +169,28 @@ a {
 }
 .product-list-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
   gap: 40px;
-  justify-content: space-between;
   font-size: 1rem;
 }
+.page-home .product-list-container {
+  justify-content: space-between;
+}
 .product-list-container .product {
-  flex: 1;
+  width: calc(23.5% - 20px);
   align-self: stretch;
   min-height: 100%;
   position: relative;
+}
+.product-list-container .product .product-miniature {
+  height: 100%;
 }
 .product-list-container .product .prod-thumbnail {
   border-radius: 5px;
   overflow: hidden;
   background-color: #fff;
+  height: 100%;
 }
 .product-list-container .product .prod-thumbnail img {
   width: 100%;
@@ -197,7 +204,8 @@ a {
 .product-list-container .product .product-description .h3 {
   margin: 0px;
   margin-bottom: 5px;
-  font-size: 1em;
+  font-size: 0.9em;
+  font-weight: normal;
 }
 .product-list-container .product .product-flags {
   position: absolute;

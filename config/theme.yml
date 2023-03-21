@@ -90,14 +90,11 @@ global_settings:
         - ps_banner
         - ps_customtext
       displayFooterBefore:
-        - blockreassurance
-        - ps_emailsubscription
+        - ps_mainmenu
         - ps_socialfollow
       displayFooter:
         - ps_linklist
-        - ps_customeraccountlinks
         - ps_contactinfo
-        - blockwishlist
       displayFooterAfter:
         - blockreassurance
       displayLeftColumn:

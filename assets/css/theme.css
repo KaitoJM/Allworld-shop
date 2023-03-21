@@ -159,6 +159,33 @@ a {
   padding-right: var(--space_gutter);
   box-sizing: border-box;
 }
+.main-layout .main-content .site-features {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  margin-top: 80px;
+}
+.main-layout .main-content .site-features .feature-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 300px;
+
+}
+.main-layout .main-content .site-features .feature-item img {
+  width: 86px;
+  height: auto;
+}
+.main-layout .main-content .site-features .feature-item .item-details .item-title {
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1em;
+}
+.main-layout .main-content .site-features .feature-item .item-details p {
+  font-size: 0.9em;
+}
 /* ========================== End of Main Layout ========================== */
 
 /* ========================== Feature Products ========================== */

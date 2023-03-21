@@ -30,7 +30,9 @@
 
     {block name='page_content'}
       {block name='hook_home'}
-        {$HOOK_HOME nofilter}
+        {widget name="ps_imageslider"}
+        {widget name="ps_bestsellers"}
+        {widget name="ps_featuredproducts"}
       {/block}
     {/block}
   </section>

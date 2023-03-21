@@ -24,11 +24,11 @@
  *}
 <section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Top picks for you' d='Shop.Theme.Catalog'}
+    {l s='Popular products in Computers & Accessories' d='Shop.Theme.Catalog'}
   </h2>
   <p>This is just a placeholder text. Don't be alarmed.</p>
   {include file="catalog/_partials/productlist.tpl" products=$products cssClass="quads"}
-  {* <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
-    {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
-  </a> *}
+  <a class="all-product-link" href="{$allProductsLink}">
+    {l s='All products' d='Shop.Theme.Catalog'}<i class="fi-br-arrow-small-right"></i>
+  </a>
 </section>

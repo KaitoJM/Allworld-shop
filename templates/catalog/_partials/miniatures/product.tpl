@@ -57,15 +57,7 @@
       </div>
 
       <div class="product-description">
-        {block name='product_name'}
-          {if $page.page_name == 'index'}
-            <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h3>
-          {else}
-            <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h2>
-          {/if}
-        {/block}
-
-        {block name='product_price_and_shipping'}
+      {block name='product_price_and_shipping'}
           {if $product.show_price}
             <div class="product-price-and-shipping">
               {hook h='displayProductPriceBlock' product=$product type="before_price"}
@@ -83,6 +75,13 @@
 
               {hook h='displayProductPriceBlock' product=$product type='weight'}
             </div>
+          {/if}
+        {/block}
+        {block name='product_name'}
+          {if $page.page_name == 'index'}
+            <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h3>
+          {else}
+            <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h2>
           {/if}
         {/block}
       </div>

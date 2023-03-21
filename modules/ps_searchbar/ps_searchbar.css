@@ -7,6 +7,12 @@
   min-width: 400px;
   height: 45px;
 }
+@media(max-width:1260px) {
+  #search_widget {
+    width: 280px;
+    min-width: 280px;
+  }
+}
 #search_widget form {
   position: relative;
   height: 100%;
@@ -58,7 +64,6 @@
 
 @media only screen and (min-width: 768px) {
   #search_widget {
-    float: right;
     margin-bottom: 0;
   }
 

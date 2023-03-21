@@ -24,5 +24,8 @@
  *}
 {block name='left_navigation'}
   {* {hook h="displayLeftNav"} *}
-  {hook h="displayLeftColumn"}
+  <div class="navs-container">
+    {hook h="displayLeftColumn"}
+  </div>
+  <img src="{$urls.theme_assets}icons/home-credit.png" class="home-credit-logo" />
 {/block}

@@ -48,6 +48,13 @@
           {block name='header'}
             {include file='_partials/header.tpl'}
           {/block}
+          <div class="for-m" style="display:none;">
+            {block name='header_top'}
+              <div class="header-top">
+                {hook h='displayTop'}
+              </div>
+            {/block}
+          </div>
         </header>
 
         <div class="main-layout">

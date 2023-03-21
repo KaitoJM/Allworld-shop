@@ -95,6 +95,7 @@ global_settings:
         - ps_linklist
         - ps_contactinfo
       displayFooterAfter:
+        - ps_linklist
         - blockreassurance
       displayLeftColumn:
         - ps_categorytree

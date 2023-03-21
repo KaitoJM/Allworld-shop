@@ -87,6 +87,7 @@ global_settings:
       displayHome:
         - ps_imageslider
         - ps_bestsellers
+        - ps_brandlist
         - ps_featuredproducts
       displayFooterBefore:
         - ps_mainmenu

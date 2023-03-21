@@ -25,7 +25,7 @@
 
 <div id="search_filters_brands">
   <section class="facet">
-    {if $display_link_brand}
+    {* {if $display_link_brand}
       <a href="{$page_link}" class="h6 text-uppercase facet-label" title="{l s='brands' d='Shop.Theme.Catalog'}">
         {l s='Brands' d='Shop.Theme.Catalog'}
       </a>
@@ -33,8 +33,11 @@
       <p class="h6 text-uppercase facet-label">
         {l s='Brands' d='Shop.Theme.Catalog'}
       </p>
-    {/if}
-
+    {/if} *}
+    <h2>{l s='Brands we trust' d='Shop.Theme.Catalog'}</h2>
+    <p>
+    This is just a placeholder text. Don't be alarmed.
+    </p>
     <div>
       {if $brands}
         {include file="module:ps_brandlist/views/templates/_partials/$brand_display_type.tpl" brands=$brands}

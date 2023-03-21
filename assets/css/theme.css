@@ -186,6 +186,45 @@ a {
 .main-layout .main-content .site-features .feature-item .item-details p {
   font-size: 0.9em;
 }
+.main-layout .main-content #search_filters_brands {
+  margin-bottom: 30px;
+}
+.main-layout .main-content #search_filters_brands h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: center;
+}
+.main-layout .main-content #search_filters_brands p {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+.main-layout .main-content #search_filters_brands ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: top;
+}
+.main-layout .main-content #search_filters_brands ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: calc(16.66666666% - 20px);
+}
+.main-layout .main-content #search_filters_brands ul li img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main-layout .main-content #search_filters_brands ul li .brand-name {
+  font-weight: 500;
+  font-size: 1em;
+  display: block;
+}
 /* ========================== End of Main Layout ========================== */
 
 /* ========================== Feature Products ========================== */

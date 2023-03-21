@@ -32,6 +32,7 @@
       {block name='hook_home'}
         {widget name="ps_imageslider"}
         {widget name="ps_bestsellers"}
+        {widget name="ps_brandlist"}
         {widget name="ps_featuredproducts"}
         <div class="site-features">
           <div class="feature-item">

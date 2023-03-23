@@ -41,31 +41,31 @@
           {block name='delivery_options'}
             <div class="delivery-options">
               {foreach from=$delivery_options item=carrier key=carrier_id}
-                  <div class="row delivery-option js-delivery-option">
-                    <div class="col-sm-1">
+                  <div class="delivery-option js-delivery-option">
+                    <div class="check-container">
                       <span class="custom-radio float-xs-left">
                         <input type="radio" name="delivery_option[{$id_address}]" id="delivery_option_{$carrier.id}" value="{$carrier_id}"{if $delivery_option == $carrier_id} checked{/if}>
                         <span></span>
                       </span>
                     </div>
-                    <label for="delivery_option_{$carrier.id}" class="col-xs-9 col-sm-11 delivery-option-2">
+                    <label for="delivery_option_{$carrier.id}" class="delivery-option-2">
                       <div class="row">
                         <div class="col-sm-5 col-xs-12">
                           <div class="row carrier{if $carrier.logo} carrier-hasLogo{/if}">
                             {if $carrier.logo}
-                            <div class="col-xs-12 col-md-4 carrier-logo">
+                            <div class="carrier-logo">
                                 <img src="{$carrier.logo}" alt="{$carrier.name}" loading="lazy" />
                             </div>
                             {/if}
-                            <div class="col-xs-12 carriere-name-container{if $carrier.logo} col-md-8{/if}">
+                            <div class="carriere-name-container">
                               <span class="h6 carrier-name">{$carrier.name}</span>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-4 col-xs-12">
+                        <div class="carrier-container">
                           <span class="carrier-delay">{$carrier.delay}</span>
                         </div>
-                        <div class="col-sm-3 col-xs-12">
+                        <div class="carrier-price">
                           <span class="carrier-price">{$carrier.price}</span>
                         </div>
                       </div>

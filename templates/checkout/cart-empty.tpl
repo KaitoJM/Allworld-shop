@@ -29,8 +29,8 @@
 {/block}
 
 {block name='continue_shopping' append}
-  <a class="label" href="{$urls.pages.index}">
-    <i class="material-icons">chevron_left</i>{l s='Continue shopping' d='Shop.Theme.Actions'}
+  <a class="label back-link" href="{$urls.pages.index}">
+    <i class="fi-br-angle-small-left"></i> {l s='Continue shopping' d='Shop.Theme.Actions'}
   </a>
 {/block}
 

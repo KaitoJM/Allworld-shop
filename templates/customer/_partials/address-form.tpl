@@ -37,13 +37,15 @@
 
       {block name="address_form_fields"}
         <section class="form-fields">
-          {block name='form_fields'}
-            {foreach from=$formFields item="field"}
-              {block name='form_field'}
-                {form_field field=$field}
-              {/block}
-            {/foreach}
-          {/block}
+          <div class="form-container">
+            {block name='form_fields'}
+              {foreach from=$formFields item="field"}
+                {block name='form_field'}
+                  {form_field field=$field}
+                {/block}
+              {/foreach}
+            {/block}
+          </div>
         </section>
       {/block}
 

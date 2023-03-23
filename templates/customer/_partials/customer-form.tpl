@@ -28,7 +28,7 @@
   {/block}
 
 <form action="{block name='customer_form_actionurl'}{$action}{/block}" id="customer-form" class="js-customer-form" method="post">
-  <div>
+  <div class="form-container">
     {block "form_fields"}
       {foreach from=$formFields item="field"}
         {block "form_field"}

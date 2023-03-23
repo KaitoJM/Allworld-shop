@@ -35,7 +35,7 @@
         <div class="card-block">
           <h1 class="h1 page-title">{l s='Checkout' d='Shop.Theme.Checkout'}</h1>
         </div>
-        <div class="box">
+        <div class="checkout-process box">
           {block name='checkout_process'}
             {render file='checkout/checkout-process.tpl' ui=$checkout_process}
           {/block}

@@ -751,6 +751,62 @@ a {
   font-size: 0.8em;
   color: var(--grey);
 }
+.checkout-process section {
+  border-bottom: 1px solid var(--stroke_color);
+  padding: 15px 0;
+}
+.checkout-process section:last-child {
+  border: none;
+}
+.checkout-process section .step-title {
+  font-size: 1.1em;
+  font-weight: 500;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0px;
+}
+.checkout-process section .step-title .step-number {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid var(--stroke_color);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1em;
+  display: block;
+  line-height: 46px;
+}
+.checkout-process section .step-title .done {
+  color: var(--accent_color);
+  display: block;
+  width: 46px;
+  text-align: center;
+  font-size: 1.4em;
+}
+.checkout-process section.-current .step-title .done, .checkout-process section.-unreachable .step-title .done {
+  display: none;
+}
+.checkout-process section.-current .step-title .step-number {
+  background-color: var(--accent_color);
+  color: #fff;
+  display: block !important;
+}
+.checkout-process section.-complete .step-title .step-number {
+  display: none;
+}
+.checkout-process section .step-title .step-edit, .checkout-process section.current .step-title .step-edit {
+  display: none;
+}
+.checkout-process section.-done .step-title .step-edit {
+  display: block;
+}
+.checkout-process section .content {
+  border-top: 1px solid var(--stroke_color);
+  padding: 8px 0;
+  margin-top: 15px;
+}
 /* ========================== End of Checkout Page ========================== */
 
 .back-link {

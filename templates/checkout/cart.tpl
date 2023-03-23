@@ -27,25 +27,26 @@
 {block name='content'}
 
   <section id="main">
-    <div class="cart-grid row">
+    <div class="cart-grid">
 
       <!-- Left Block: cart product informations & shpping -->
-      <div class="cart-grid-body col-xs-12 col-lg-8">
+      <div class="cart-grid-body">
 
         <!-- cart products detailed -->
-        <div class="card cart-container">
+        <div class="cart-items-container">
           <div class="card-block">
-            <h1 class="h1">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
+            <h1 class="h1 page-title">{l s='Shopping Cart' d='Shop.Theme.Checkout'}</h1>
           </div>
-          <hr class="separator">
-          {block name='cart_overview'}
-            {include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
-          {/block}
+          <div class="box">
+            {block name='cart_overview'}
+              {include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
+            {/block}
+          </div>
         </div>
 
         {block name='continue_shopping'}
-          <a class="label" href="{$urls.pages.index}">
-            <i class="material-icons">chevron_left</i>{l s='Continue shopping' d='Shop.Theme.Actions'}
+          <a class="label back-link" href="{$urls.pages.index}">
+            <i class="fi-br-angle-small-left"></i> {l s='Continue shopping' d='Shop.Theme.Actions'}
           </a>
         {/block}
 
@@ -56,29 +57,36 @@
       </div>
 
       <!-- Right Block: cart subtotal & cart total -->
-      <div class="cart-grid-right col-xs-12 col-lg-4">
+      <div class="cart-grid-right">
+        <div class="box">
+          {* <h6>Location</h6>
+          <div class="address">
+            <i class="fi-br-marker icon"></i>
+            {$customer.addresses[1]|print_r}
+            <p>sdkfds jfhsdkjf hsdkj fdsjhkf gsdjk fgdsjkhg fdshjk fgshj</p>
+          </div> *}
+          {block name='cart_summary'}
+            <div class="card cart-summary">
+              <h5>Order Summary</h5>
+              {* {block name='hook_shopping_cart'}
+                {hook h='displayShoppingCart'}
+              {/block} *}
 
-        {block name='cart_summary'}
-          <div class="card cart-summary">
+              {block name='cart_totals'}
+                {include file='checkout/_partials/cart-detailed-totals.tpl' cart=$cart}
+              {/block}
 
-            {block name='hook_shopping_cart'}
-              {hook h='displayShoppingCart'}
-            {/block}
+              {block name='cart_actions'}
+                {include file='checkout/_partials/cart-detailed-actions.tpl' cart=$cart}
+              {/block}
 
-            {block name='cart_totals'}
-              {include file='checkout/_partials/cart-detailed-totals.tpl' cart=$cart}
-            {/block}
+            </div>
+          {/block}
+        </div>
 
-            {block name='cart_actions'}
-              {include file='checkout/_partials/cart-detailed-actions.tpl' cart=$cart}
-            {/block}
-
-          </div>
-        {/block}
-
-        {block name='hook_reassurance'}
+        {* {block name='hook_reassurance'}
           {hook h='displayReassurance'}
-        {/block}
+        {/block} *}
 
       </div>
 

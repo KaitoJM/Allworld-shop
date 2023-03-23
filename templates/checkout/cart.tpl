@@ -91,5 +91,6 @@
       </div>
 
     </div>
+    {include file='_partials/site-features.tpl' cart=$cart}
   </section>
 {/block}

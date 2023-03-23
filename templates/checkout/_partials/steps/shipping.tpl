@@ -49,25 +49,25 @@
                       </span>
                     </div>
                     <label for="delivery_option_{$carrier.id}" class="delivery-option-2">
-                      <div class="row">
-                        <div class="col-sm-5 col-xs-12">
-                          <div class="row carrier{if $carrier.logo} carrier-hasLogo{/if}">
-                            {if $carrier.logo}
-                            <div class="carrier-logo">
-                                <img src="{$carrier.logo}" alt="{$carrier.name}" loading="lazy" />
-                            </div>
-                            {/if}
-                            <div class="carriere-name-container">
-                              <span class="h6 carrier-name">{$carrier.name}</span>
-                            </div>
+                      <div class="logo">
+                        {if $carrier.logo}
+                          <div class="carrier-logo">
+                            <img src="{$carrier.logo}" alt="{$carrier.name}" loading="lazy" />
                           </div>
-                        </div>
+                        {else}
+                          <div class="carrier-logo">
+                            <img src="{$urls.theme_assets}icons/home-shipping.png" alt="no logo" loading="lazy" />
+                          </div>
+                        {/if}
+                      </div>
+                      <div class="carriere-name-container">
+                        <span class="h6 carrier-name">{$carrier.name}</span>
                         <div class="carrier-container">
                           <span class="carrier-delay">{$carrier.delay}</span>
                         </div>
-                        <div class="carrier-price">
-                          <span class="carrier-price">{$carrier.price}</span>
-                        </div>
+                      </div>
+                      <div class="carrier-price">
+                        <span class="carrier-price">{$carrier.price}</span>
                       </div>
                     </label>
                   </div>
@@ -87,7 +87,6 @@
             {if $recyclablePackAllowed}
               <span class="custom-checkbox">
                 <input type="checkbox" id="input_recyclable" name="recyclable" value="1" {if $recyclable} checked {/if}>
-                <span><i class="material-icons rtl-no-flip checkbox-checked">&#xE5CA;</i></span>
                 <label for="input_recyclable">{l s='I would like to receive my order in recycled packaging.' d='Shop.Theme.Checkout'}</label>
               </span>
             {/if}
@@ -95,7 +94,6 @@
             {if $gift.allowed}
               <span class="custom-checkbox">
                 <input class="js-gift-checkbox" id="input_gift" name="gift" type="checkbox" value="1" {if $gift.isGift}checked="checked"{/if}>
-                <span><i class="material-icons rtl-no-flip checkbox-checked">&#xE5CA;</i></span>
                 <label for="input_gift">{$gift.label}</label >
               </span>
 

@@ -823,6 +823,65 @@ a {
 .checkout-process section.-current  .content {
   display: block;
 }
+/* -------------------------- Shipping Step -------------------------- */
+.delivery-options {
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+.delivery-options .delivery-option {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  width: 100%;
+}
+.delivery-options .delivery-option .delivery-option-2 {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+.delivery-options .delivery-option .delivery-option-2 .logo {
+  width: 80px;
+  height: 80px;
+}
+.delivery-options .delivery-option .delivery-option-2 .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.delivery-options .delivery-option .delivery-option-2 .carriere-name-container {
+  flex: 1;
+}
+.delivery-options .delivery-option .delivery-option-2 .carriere-name-container .carrier-container {
+  font-size: 0.8em;
+}
+.delivery-options .delivery-option .delivery-option-2 .carrier-price {
+  text-align: right;
+  width: 210px;
+  font-size: 1.1em;
+}
+.js-conditions-to-approve ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-top: 30px;
+}
+.js-conditions-to-approve ul li {
+  display: flex;
+  align-items: center;
+}
+#bankwire-modal {
+  display: none;
+}
+.payment-options .additional-information {
+  margin: 30px;
+  border: 1px dashed var(--stroke_color);
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+}
 /* ========================== End of Checkout Page ========================== */
 .form-container {
   display: flex;
@@ -893,7 +952,13 @@ a {
   display: flex;
   justify-content: end;
 }
-.btn.continue {
+#payment-confirmation {
+  overflow: hidden;
+}
+#payment-confirmation .btn:disabled {
+  background-color: var(--grey);
+}
+.btn.continue, #payment-confirmation .btn {
   display: block;
   background-color: var(--accent_color);
   color: #fff;
@@ -903,6 +968,7 @@ a {
   margin-top: 30px;
   border: none;
   width: 260px;
+  float: right;
 }
 .custom-checkbox {
   display: flex;
@@ -975,4 +1041,8 @@ ul.nav.nav-inline {
   background-color: #fff;
   border-radius: 12px;
   padding: 30px 20px;
+}
+
+.clearfix {
+  overflow: hidden;
 }

@@ -148,10 +148,10 @@ theme_settings:
   default_layout: layout-with-left-nav
   layouts:
     category: layout-with-left-nav
-    best-sales: layout-left-column
-    new-products: layout-left-column
-    prices-drop: layout-left-column
-    contact: layout-left-column
+    best-sales: layout-with-left-nav
+    new-products: layout-with-left-nav
+    prices-drop: layout-with-left-nav
+    contact: layout-with-left-nav
     cart: layout-full
     order: layout-full
     order-confirmation: layout-full

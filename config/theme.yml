@@ -154,3 +154,4 @@ theme_settings:
     contact: layout-left-column
     cart: layout-full
     order: layout-full
+    order-confirmation: layout-full

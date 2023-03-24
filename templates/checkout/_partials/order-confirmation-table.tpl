@@ -101,8 +101,6 @@
         </div>
       {/foreach}
 
-      <hr>
-
       <table>
         {foreach $subtotals as $subtotal}
           {if $subtotal !== null && $subtotal.type !== 'tax' && $subtotal.label !== null}

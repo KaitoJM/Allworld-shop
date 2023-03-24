@@ -1142,6 +1142,132 @@ a {
 }
 /* ========================== End of Category / Listing Page ========================== */
 
+/* ========================== Order Confirmation Page ========================== */
+.box-order-confirm {
+  padding: 30px 50px !important;
+  max-width: 923px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.box-order-confirm .box-head {
+  background-color: var(--accent_color);
+  color: #fff;
+  margin: 0 -50px;
+  margin-top: -30px;
+  height: 120px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  background-image: url('../images/shipping.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 50px center;
+}
+.box-order-confirm .box-head h3 {
+  margin: 0px;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 300px;
+  line-height: 32px;
+  margin-left: 30px;
+}
+.box-order-confirm .msg-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 40px;
+}
+.box-order-confirm .email-msg {
+  width: 300px;
+}
+.box-order-confirm .email-msg .email {
+  color: var(--accent_color);
+}
+.box-order-confirm  #order-items>.row {
+  display: flex;
+  border-bottom: 1px solid var(--stroke_color);
+  margin-bottom: 20px;
+}
+.box-order-confirm  #order-items>.row .card-title {
+  width: 150px;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 10px 0;
+  text-align: center;
+}
+.box-order-confirm  #order-items>.row .card-title:first-child {
+  flex: 1;
+  text-align: left;
+}
+.box-order-confirm  #order-items>.row .card-title:last-child {
+  text-align: right;
+}
+.order-confirmation-table .order-line.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.order-confirmation-table .order-line.row>div:nth-child(2) {
+  flex: 1;
+  padding: 0 20px;
+}
+.order-confirmation-table .order-line.row>div:last-child {
+  width: 450px;
+}
+.order-confirmation-table .order-line.row>div:first-child {
+  width: 130px;
+  flex: none;
+}
+.order-confirmation-table .order-line.row>div:first-child .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.order-confirmation-table .order-line.row>div.qty .row {
+  display: flex;
+}
+.order-confirmation-table .order-line.row>div.qty .row>div {
+  width: 150px;
+  padding: 0 15px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+.order-confirmation-table .order-line.row>div.qty .row>div:last-child {
+  text-align: right;
+}
+.order-confirmation-table table {
+  width: 100%;
+  border-top: 1px dashed var(--stroke_color);
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.order-confirmation-table table tr td:first-child {
+  font-size: 0.8em;
+  color: var(--grey);
+}
+.order-confirmation-table table tr.total-value td:first-child {
+  color: #000;
+}
+.order-confirmation-table table tr td:last-child {
+  text-align: right;
+  font-size: 1.2em;
+}
+.box-order-confirm .action-footer {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.box-order-confirm .action-footer a {
+  display: block;
+  width: 260px;
+  height: 40px;
+  background-color: var(--accent_color);
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 0.9em;
+}
+/* ========================== End of Order Confirmation Page ========================== */
+
 .form-container {
   display: flex;
   flex-wrap: wrap;
@@ -1300,6 +1426,7 @@ ul.nav.nav-inline {
   background-color: #fff;
   border-radius: 12px;
   padding: 30px 20px;
+  overflow: hidden;
 }
 
 .clearfix {

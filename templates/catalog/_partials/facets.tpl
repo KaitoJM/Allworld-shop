@@ -32,8 +32,8 @@
       {if $activeFilters|count}
         <div id="_desktop_search_filters_clear_all" class="hidden-sm-down clear-all-wrapper">
           <button data-search-url="{$clear_all_link}" class="btn btn-tertiary js-search-filters-clear-all">
-            <i class="material-icons">&#xE14C;</i>
-            {l s='Clear all' d='Shop.Theme.Actions'}
+            <i class="fi-br-cross"></i>
+            {l s='Clear all Filters' d='Shop.Theme.Actions'}
           </button>
         </div>
       {/if}
@@ -56,8 +56,8 @@
           <p class="h6 facet-title">{$facet.label}</p>
           <span class="float-xs-right">
             <span class="navbar-toggler collapse-icons">
-              <i class="material-icons add">&#xE313;</i>
-              <i class="material-icons remove">&#xE316;</i>
+              <i class="fi-br-angle-small-down"></i>
+              <i class="fi-br-angle-small-up"></i>
             </span>
           </span>
         </div>
@@ -139,7 +139,7 @@
                         {l s='(no filter)' d='Shop.Theme.Global'}
                       {/if}
                     </span>
-                    <i class="material-icons float-xs-right">&#xE5C5;</i>
+                    <i class="fi-br-caret-down"></i>
                   </a>
                   <div class="dropdown-menu">
                     {foreach from=$facet.filters item="filter"}

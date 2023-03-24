@@ -24,8 +24,8 @@
  *}
 {if !empty($subcategories)}
   {if (isset($display_subcategories) && $display_subcategories eq 1) || !isset($display_subcategories) }
-    <div id="subcategories" class="card card-block">
-      <ul class="subcategories-list">
+  <div id="subcategories" class="card card-block">
+      <ul class="subcategories-list {if $subcategories|count gt 3}names-only{/if}">
         {foreach from=$subcategories item=subcategory}
           <li>
             <div class="subcategory-image">

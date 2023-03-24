@@ -39,9 +39,9 @@
           width="{$product.default_image.bySize.large_default.width}"
           height="{$product.default_image.bySize.large_default.height}"
         >
-        <div class="layer hidden-sm-down" data-toggle="modal" data-target="#product-modal">
+        {* <div class="layer hidden-sm-down" data-toggle="modal" data-target="#product-modal">
           <i class="material-icons zoom-in">search</i>
-        </div>
+        </div> *}
       {else}
         <img
           class="img-fluid"
@@ -56,7 +56,7 @@
 
   {block name='product_images'}
     <div class="js-qv-mask mask">
-      <ul class="product-images js-qv-product-images">
+      <ul class="product-images js-qv-product-images owl-carousel">
         {foreach from=$product.images item=image}
           <li class="thumb-container js-thumb-container">
             <img

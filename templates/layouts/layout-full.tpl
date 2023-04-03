@@ -49,13 +49,14 @@
             {include file='_partials/header.tpl'}
           {/block}
           <div class="for-m" style="display:none;">
-            {block name='header_top'}
-              <div class="header-top">
-                {hook h='displayTop'}
-              </div>
-            {/block}
+          {block name='header_top'}
+            <div class="header-top">
+            {hook h='displayTop'}
+            </div>
+          {/block}
           </div>
         </header>
+        {include file='_partials/custom-menu.tpl'}
 
         <div class="main-layout full">
           <div class="main-content">

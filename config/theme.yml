@@ -143,7 +143,7 @@ global_settings:
       scope: [stores]
 
 theme_settings:
-  default_layout: layout-with-left-nav
+  default_layout: layout-full
   layouts:
     category: layout-with-left-nav
     best-sales: layout-with-left-nav

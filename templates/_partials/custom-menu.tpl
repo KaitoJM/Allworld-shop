@@ -23,7 +23,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -47,7 +47,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -65,7 +65,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -80,7 +80,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -93,6 +93,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -121,7 +159,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -145,7 +183,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -163,7 +201,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -178,7 +216,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -191,6 +229,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -219,7 +295,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -243,7 +319,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -261,7 +337,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -276,7 +352,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -289,6 +365,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -317,7 +431,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -341,7 +455,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -359,7 +473,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -374,7 +488,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -387,6 +501,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -415,7 +567,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -439,7 +591,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -457,7 +609,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -472,7 +624,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -485,6 +637,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -513,7 +703,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -537,7 +727,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -555,7 +745,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -570,7 +760,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -583,6 +773,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -611,7 +839,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -635,7 +863,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -653,7 +881,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -668,7 +896,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -681,6 +909,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -709,7 +975,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -733,7 +999,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -751,7 +1017,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -766,7 +1032,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -779,6 +1045,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>
@@ -807,7 +1111,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-entry-level.png">
-          <a href="#">Entry Level</a>
+          <a href="#">Entry Level <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone XR</a>
@@ -831,7 +1135,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-mid-range.png">
-          <a href="#">Mid range</a>
+          <a href="#">Mid range <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>iPhone SE 3</a>
@@ -849,7 +1153,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-gaming.png">
-          <a href="#">Gaming</a>
+          <a href="#">Gaming <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Galaxy S22 Ultra</a>
@@ -864,7 +1168,7 @@
         </li>
         <li>
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-flagship.png">
-          <a href="#">Flagship</a>
+          <a href="#">Flagship <i class="fi-br-angle-small-right"></i></a>
           <ul class="sub-sub-menu">
             <li>
               <a>Vivo V25 Pro 5G</a>
@@ -877,6 +1181,44 @@
             </li>
             <li>
               <a>Infinix Zero Ultra</a>
+            </li>
+          </ul>
+        </li>
+        <li class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/samsung.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/apple.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/huawei.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/mi.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/oppo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/vivo.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/nokia.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/infinix.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img class="brand-img" src="{$urls.theme_assets}/images/brands/realme.png" /></a>
+            </li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
             </li>
           </ul>
         </li>

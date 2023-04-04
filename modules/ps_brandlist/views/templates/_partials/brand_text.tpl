@@ -23,12 +23,12 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-<ul>
+<ul class="brand-carousel owl-carousel">
   {foreach from=$brands item=brand name=brand_list}
     {if $smarty.foreach.brand_list.iteration <= $text_list_nb}
       <li class="facet-label">
-        <img src="{$urls.img_manu_url}/{$brand['id_manufacturer']}.jpg" />
         <a href="{$brand['link']}" title="{$brand['name']}" class="brand-name">
+          <img src="{$urls.img_manu_url}/{$brand['id_manufacturer']}.jpg" />
           {$brand['name']}
         </a>
       </li>

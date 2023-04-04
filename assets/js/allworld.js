@@ -21,4 +21,14 @@ jQuery(function() {
     smartSpeed: 1000,
     autoplayHoverPause: true
   })
+  $('.brand-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    items: 6,
+    autoplay: true,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true
+  })
 })

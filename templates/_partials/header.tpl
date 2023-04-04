@@ -26,20 +26,23 @@
   {renderLogo}
 </div>
 <div class="header-container">
-  {block name='header_top'}
-    <div class="header-top">
-      {hook h='displayTop'}
-    </div>
-  {/block}
-
   {block name='header_nav1'}
     <nav class="header-nav1">
       {hook h='displayNav1'}
     </nav>
   {/block}
 
+  {block name='header_top'}
+    <div class="header-top">
+      {hook h='displayTop'}
+    </div>
+  {/block}
+
   {block name='header_nav2'}
     <nav class="header-nav2">
+      {if $customer.is_logged}
+        <a class="link-fav" href="#"><i class="fi-br-heart"></i></a>
+      {/if}
       {hook h='displayNav2'}
     </nav>
   {/block}

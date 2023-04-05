@@ -56,6 +56,7 @@
             {/block}
           </div>
         </header>
+        {include file='_partials/custom-menu.tpl'}
 
         <div class="main-layout">
           <div class="left-navigation">

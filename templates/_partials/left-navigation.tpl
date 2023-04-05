@@ -25,7 +25,11 @@
 {block name='left_navigation'}
   {* {hook h="displayLeftNav"} *}
   <div class="navs-container">
+    <a href="{$urls.base_url}" class="nav-back-link">
+      <i class="fi-br-angle-small-left"></i>
+      Back to home page
+    </a>
     {hook h="displayLeftColumn"}
   </div>
-  <img src="{$urls.theme_assets}icons/home-credit.png" class="home-credit-logo" />
+  {* <img src="{$urls.theme_assets}icons/home-credit.png" class="home-credit-logo" /> *}
 {/block}

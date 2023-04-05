@@ -23,7 +23,6 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {if isset($listing.rendered_facets)}
-<br />
 <div id="search_filters_wrapper" class="hidden-sm-down">
   {* <div id="search_filter_controls" class="hidden-md-up">
       <span id="_mobile_search_filters_clear_all"></span>

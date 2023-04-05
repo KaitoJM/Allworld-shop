@@ -26,7 +26,7 @@
     {if $listing.pagination.items_shown_from == 1}
         <div class="block-category card card-block">
             <h1 class="h1 page-title">{$category.name}</h1>
-            <div class="block-category-inner {if $category.description and !empty($category.image.large.url)}box box-category-details{else}cat-description{/if}">
+            {* <div class="block-category-inner {if $category.description and !empty($category.image.large.url)}box box-category-details{else}cat-description{/if}">
                 {if $category.description and !empty($category.image.large.url)}
                     <div class="category-cover">
                         <img src="{$category.image.large.url}" alt="{if !empty($category.image.legend)}{$category.image.legend}{else}{$category.name}{/if}" loading="lazy" width="141" height="180">
@@ -35,7 +35,7 @@
                 {if $category.description}
                     <div id="category-description" class="text-muted">{$category.description nofilter}</div>
                 {/if}
-            </div>
+            </div> *}
         </div>
     {/if}
 </div>

@@ -99,7 +99,7 @@ global_settings:
         - ps_linklist
         - blockreassurance
       displayLeftColumn:
-        - ps_categorytree
+        # - ps_categorytree
         - ps_facetedsearch
       displaySearch:
         - ps_searchbar

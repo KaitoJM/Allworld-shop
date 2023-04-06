@@ -23,6 +23,8 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-<section class="special-offers-section-container">
-  {include file="catalog/_partials/productlist-special.tpl" products=$products}
-</section>
+<div class="special-offers-section products{if !empty($cssClass)} {$cssClass}{/if}">
+    {foreach from=$products item="product" key="position"}
+        {include file="catalog/_partials/miniatures/product-special.tpl" product=$product position=$position}
+    {/foreach}
+</div>

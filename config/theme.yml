@@ -111,6 +111,8 @@ global_settings:
         - ps_featuredproducts
       displayCrossSellingShoppingCart:
         - ps_featuredproducts
+      displaySpecialProductFeature:
+        - ps_specials
 
   image_types:
     cart_default:

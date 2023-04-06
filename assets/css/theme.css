@@ -671,7 +671,7 @@ a {
   align-items: center;
   float: right;
   gap: 5px;
-  margin-bottom: 3px;
+  margin-bottom: 20px;
 }
 .featured-products .all-product-link i {
   transform: translateY(3px);
@@ -1838,6 +1838,108 @@ a {
   margin: 0px;
 }
 /* ========================== End of Product Page ========================== */
+
+/* ========================== Double Product Feautre ========================== */
+.special-offers-section {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.special-offers-section .product {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1 !important;
+  position: relative;
+  overflow: hidden;
+}
+.special-offers-section .product::before {
+  content: "";
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background-color: #474747;
+  border-radius: 50%;
+  top: 50px;
+  right: -100px;
+  z-index: 0;
+}
+.special-offers-section .product .product-miniature {
+  z-index: 9;
+}
+.special-offers-section .product .prod-thumbnail {
+  min-height: 250px;
+  display: flex;
+  gap: 20px;
+  z-index: 9;
+}
+.special-offers-section .product .prod-thumbnail .product-description {
+  flex: 1;
+  z-index: 9;
+}
+.special-offers-section .product .prod-thumbnail .thumbnail-img {
+  max-width: 180px;
+  display: flex;
+  align-items: center;
+  z-index: 9;
+}
+.special-offers-section .product .prod-thumbnail .thumbnail-img img {
+  width: 100%;
+}
+.special-offers-section .product .prod-thumbnail .thumbnail-img a {
+  position: relative;
+}
+.special-offers-section .product .prod-thumbnail .thumbnail-img a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: #3d3d3d;
+  box-shadow: 0 0 10px #2f2f2f;
+  bottom: -20px;
+  left: 0px;
+  border-radius: 50%;
+}
+.special-offers-section .product .prod-thumbnail .product-title {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 10px;
+}
+.special-offers-section .product .prod-thumbnail .product-summary {
+  font-size: 0.8em;
+}
+.special-offers-section .product .prod-thumbnail .regular-price {
+  color: var(--grey);
+  text-decoration: line-through;
+}
+.special-offers-section .product .prod-thumbnail .discount-product {
+  background-color: var(--accent_color);
+  color: #fff;
+  display: inline-block;
+  padding: 3px 8px;
+  font-size: 0.7em;
+  border-radius: 6px;
+}
+.special-offers-section .product .prod-thumbnail .price {
+  font-size: 1.2em;
+}
+.special-offers-section .product .prod-thumbnail .product-add-to-cart {
+  width: 208px;
+  border-radius: 10px;
+  background-color: var(--accent_color);
+  color: #fff;
+  border: none;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 1em;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+/* ========================== End of Double Product Feautre ========================== */
 .form-container {
   display: flex;
   flex-wrap: wrap;
@@ -2001,6 +2103,10 @@ ul.nav.nav-inline {
 
 .clearfix {
   overflow: hidden;
+}
+
+.featured-products.clearfix {
+  overflow: visible !important;
 }
 
 .modal-backdrop {

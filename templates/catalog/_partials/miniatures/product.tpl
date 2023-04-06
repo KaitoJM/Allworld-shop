@@ -84,25 +84,24 @@
             <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h2>
           {/if}
         {/block}
-
-        <div class="display-hover">
-          <form action="{$urls.pages.cart}" method="post">
-            <input type="hidden" name="token" value="{$static_token}">
-            <input type="hidden" name="id_product" value="{$product.id}">
-            <input type="hidden" name="qty" value="1">
-            <button type="submit" class="product-add-to-cart" data-button-action="add-to-cart">
-              <i class="fi-br-shopping-bag-add"></i>
-              Add to cart
-            </button>
-          </form>
-          <div class="other-action-container">
-            <button class="product-buy-now">
-              Buy now
-            </button>
-            <a href="#" class="add-to-whish-list" data-product_id="{$product.id}" data-customer_id="{$customer.id}">
-              <i class="fi-br-heart"></i>
-            </a>
-          </div>
+      </div>
+      <div class="display-hover">
+        <form action="{$urls.pages.cart}" method="post">
+          <input type="hidden" name="token" value="{$static_token}">
+          <input type="hidden" name="id_product" value="{$product.id}">
+          <input type="hidden" name="qty" value="1">
+          <button type="submit" class="product-add-to-cart" data-button-action="add-to-cart">
+            <i class="fi-br-shopping-bag-add"></i>
+            Add to cart
+          </button>
+        </form>
+        <div class="other-action-container">
+          <button class="product-buy-now">
+            Buy now
+          </button>
+          <a href="#" class="add-to-whish-list" data-product_id="{$product.id}" data-customer_id="{$customer.id}">
+            <i class="fi-br-heart"></i>
+          </a>
         </div>
       </div>
 

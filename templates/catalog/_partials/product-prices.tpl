@@ -47,15 +47,6 @@
             {/if}
           </span>
 
-          {if $product.has_discount}
-            {if $product.discount_type === 'percentage'}
-              <span class="discount discount-percentage">{l s='Save %percentage%' d='Shop.Theme.Catalog' sprintf=['%percentage%' => $product.discount_percentage_absolute]}</span>
-            {else}
-              <span class="discount discount-amount">
-                  {l s='Save %amount%' d='Shop.Theme.Catalog' sprintf=['%amount%' => $product.discount_to_display]}
-              </span>
-            {/if}
-          {/if}
         </div>
 
         {block name='product_unit_price'}
@@ -65,6 +56,16 @@
         {/block}
       </div>
     {/block}
+
+    {if $product.has_discount}
+      {if $product.discount_type === 'percentage'}
+        <span class="discount discount-percentage">{l s='%percentage% OFF' d='Shop.Theme.Catalog' sprintf=['%percentage%' => $product.discount_percentage_absolute]}</span>
+      {else}
+        <span class="discount discount-amount">
+            {l s='%amount% OFF' d='Shop.Theme.Catalog' sprintf=['%amount%' => $product.discount_to_display]}
+        </span>
+      {/if}
+    {/if}
 
     {block name='product_without_taxes'}
       {if $priceDisplay == 2}

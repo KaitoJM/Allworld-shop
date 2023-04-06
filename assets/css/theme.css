@@ -9,7 +9,7 @@
   --background_color_main: #f5f5f5;
   --background_color_secondary: #efefef;
   --link_color: #333;
-  --accent_color: #E70216;
+  --accent_color: #D9072D;
   --border_color: #e1e1e1;
   --stroke_color: #E3E3E3;
   --grey: #B1B1B1;
@@ -22,6 +22,10 @@ html, body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--background_color_main);
   font-size: 16px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -1940,6 +1944,116 @@ a {
   justify-content: center;
 }
 /* ========================== End of Double Product Feautre ========================== */
+
+/* ========================== Added to Cart Modal ========================== */
+.modal .modal-dialog .modal-header {
+  background-color: var(--accent_color);
+  color: #fff;
+  position: relative;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 40px;
+  height: 120px;
+}
+.modal .modal-dialog .modal-header h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+.modal .modal-dialog .modal-header h4 i {
+  font-size: 1.8em;
+  transform: translateY(5px);
+}
+.modal .modal-dialog .modal-header .close {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.4em;
+}
+.modal .modal-dialog .modal-body {
+  padding: 40px 20px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.modal .modal-dialog .modal-body table {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.modal .modal-dialog .modal-body table th {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 1px solid var(--stroke_color);
+  padding: 10px;
+}
+.modal .modal-dialog .modal-body table th:first-child {
+  padding-left: 0px;
+}
+.modal .modal-dialog .modal-body table td {
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 1.2em;
+}
+.modal .modal-dialog .modal-body table td.img {
+  width: 90px;
+  padding-left: 0px;
+}
+.modal .modal-dialog .modal-body table td.img img {
+  width: 100%;
+}
+.modal .modal-dialog .modal-body table td  .product-name {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.modal .modal-dialog .modal-body .cart-content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.modal .modal-dialog .modal-body .cart-content-btn .btn-proceed-tocheckout {
+  width: 260px;
+  display: block;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: var(--accent_color);
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.modal .modal-dialog .modal-body .cart-content-btn .btn-continue-shopping {
+  width: 260px;
+  display: block;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey);
+  background-color: transparent;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 0.9em;
+  border: none;
+}
+/* ========================== End of Added to Cart Modal ========================== */
+
 .form-container {
   display: flex;
   flex-wrap: wrap;

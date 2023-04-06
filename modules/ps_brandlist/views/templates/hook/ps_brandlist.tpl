@@ -34,7 +34,7 @@
         {l s='Brands' d='Shop.Theme.Catalog'}
       </p>
     {/if} *}
-    <h2>{l s='Brands we trust' d='Shop.Theme.Catalog'}</h2>
+    <h2>{l s='Our Brands' d='Shop.Theme.Catalog'}</h2>
     <p>
     This is just a placeholder text. Don't be alarmed.
     </p>

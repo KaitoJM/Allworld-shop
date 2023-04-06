@@ -1089,7 +1089,7 @@
       </ul>
     </li>
     <li>
-      <a href="#">Clearance Sale</a>
+      <a href="#">Discounts & Promos</a>
       <ul class="sub-menu">
         <li class="bordered">
           <img class="sub-menu-img" src="{$urls.theme_assets}/images/menu-feature.png">

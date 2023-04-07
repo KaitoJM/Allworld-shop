@@ -150,12 +150,44 @@
       {include file='catalog/_partials/product-additional-info.tpl'}
     {/block}
 
-    {if $product.description}
-      <div class="box">
-        <h3>About this item</h3>
-        {$product.description nofilter}
+    <div class="box">
+      <h3>About this item</h3>
+      <div class="product-spec-desc">
+        <div class="specification">
+          <h4>Specifications</h4>
+          {if isset($product_manufacturer->id)}
+            <div class="specification-flex">
+              <span class="feature">Brand</span>
+              <span class="value">{$product_manufacturer->name}</span>
+            </div>
+          {/if}
+          {if $product.features}
+            {foreach from=$product.features item="feature"}
+              <div class="specification-flex">
+                <div class="feature">{$feature.name}</div>
+                <div class="value">{$feature.value}</div>
+              </div>
+            {/foreach}
+          {/if}
+          {if $product.show_condition}
+            <div class="specification-flex">
+              <span class="feature">Condition</span>
+              <span class="value">{$product.condition}</span>
+            </div>
+          {/if}
+          <div class="specification-flex">
+            <span class="feature">Stock</span>
+            <span class="value">{$product.quantity}</span>
+          </div>
+        </div>
+        {if $product.description}
+          <div class="description">
+            <h4>Description</h4>
+            {$product.description nofilter}
+          </div>
+        {/if}
       </div>
-    {/if}
+    </div>
 
     {if $product.attachments}
       <div class="box" id="attachments" role="tabpanel">

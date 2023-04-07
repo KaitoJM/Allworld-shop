@@ -2158,6 +2158,30 @@ a {
 .product-details-container .tabs .tab-content .product-features dd {
   margin: 0px;
 }
+.product-spec-desc {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+.product-spec-desc h4 {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.product-spec-desc .specification {
+  max-width: 500px;
+}
+.product-spec-desc .description {
+  flex: 1;
+}
+.product-spec-desc .specification .specification-flex {
+  display: flex;
+  margin-bottom: 15px;
+}
+.product-spec-desc .specification .specification-flex .feature {
+  min-width: 300px;
+  max-width: 300px;
+  color: grey;
+}
 /* ========================== End of Product Page ========================== */
 
 /* ========================== Double Product Feautre ========================== */

@@ -31,20 +31,29 @@ jQuery(function() {
     smartSpeed: 1000,
     autoplayHoverPause: true
   });
-  const product_image_cover_carousel = $('.product-cover-carousel').owlCarousel({
-    loop:false,
-    margin:30,
-    items: 1,
-    autoplay: false,
-    slideSpeed: 1000,
-    fluidSpeed: true,
-    smartSpeed: 1000,
-    dotsContainer: '.product-images'
-  })
 
-  $('.thumb-container').click(function () {
-    product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 500]);
-  });
+  function initProductCoverCarousel() {
+    const product_image_cover_carousel = $('.product-cover-carousel').owlCarousel({
+      loop:false,
+      margin:30,
+      items: 1,
+      autoplay: false,
+      slideSpeed: 1000,
+      fluidSpeed: true,
+      smartSpeed: 1000,
+      dotsContainer: '.product-images'
+    })
+  
+    $('.thumb-container').click(function () {
+      product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 500]);
+    });
+  }
+
+  initProductCoverCarousel();
+
+  prestashop.on('updatedProduct', function() {
+    initProductCoverCarousel();
+  })
 
   $(document).on('change', '.payment-method-chck', function() {
     $('.payment-option-item').removeClass('selected');

@@ -30,8 +30,23 @@ jQuery(function() {
     fluidSpeed: true,
     smartSpeed: 1000,
     autoplayHoverPause: true
+  });
+  const product_image_cover_carousel = $('.product-cover-carousel').owlCarousel({
+    loop:false,
+    margin:30,
+    items: 1,
+    autoplay: false,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    dotsContainer: '.product-images'
   })
+
+  $('.thumb-container').click(function () {
+    product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 1000]);
+  });
 })
+
 
 $(document).on('click', '.product-buy-now', function(e) {
   $(this).closest('.display-hover').find('.product-add-to-cart').trigger('click');

@@ -1668,16 +1668,76 @@ a {
   width: 50px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
   font-size: 1.3em;
   align-items: end;
 }
 .product-details-container  .product-header-container .header-actions a {
   display: block;
   color: var(--grey);
+  padding: 5px 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.product-details-container  .product-header-container .header-actions .social-sharing {
+  position: relative;
+  margin: 0px;
+}
+.product-details-container  .product-header-container .header-actions .social-sharing:hover .product-share {
+  background-color: #fff;
+  color: #333;
+  border-radius: 12px 12px 0 0;
+}
+.product-details-container  .product-header-container .header-actions .social-sharing:hover .product-share i {
+  transform: scale(0.8);
+}
+.product-details-container  .product-header-container .header-actions .social-sharing ul {
+  position: absolute;
+  top: 40px;
+  right: -12px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 0px;
+  transform: translateY(15px);
+}
+.product-details-container  .product-header-container .header-actions .social-sharing:hover ul {
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 0 30px 80px -40px #000;
+  transform: translateY(0px);
+}
+.product-details-container  .product-header-container .header-actions .social-sharing ul a {
+  border: none;
+  border-bottom: 1px solid var(--stroke_color);
+  padding: 5px 20px;
+  border-radius: 0px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.product-details-container  .product-header-container .header-actions .social-sharing ul a:hover {
+  color: #333;
+}
+.product-details-container  .product-header-container .header-actions .social-sharing ul li:last-child a {
+  border: none;
 }
 .product-details-container .product-description {
   font-size: 0.9em;
+}
+.similar-products {
+  margin: 30px 0;
 }
 .brand-detail {
   display: flex;
@@ -2352,6 +2412,13 @@ ul.nav.nav-inline {
   border-radius: 12px;
   padding: 30px 20px;
   overflow: hidden;
+}
+
+.box h3 {
+  font-weight: 500;
+  border-bottom: 1px solid var(--stroke_color);
+  margin-top: 0px;
+  padding-bottom: 20px;
 }
 
 .clearfix {

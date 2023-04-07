@@ -103,8 +103,6 @@ global_settings:
         - ps_facetedsearch
       displaySearch:
         - ps_searchbar
-      displayProductAdditionalInfo:
-        - ps_sharebuttons
       displayReassurance:
         - blockreassurance
       displayOrderConfirmation2:
@@ -113,6 +111,8 @@ global_settings:
         - ps_featuredproducts
       displaySpecialProductFeature:
         - ps_specials
+      displayProductIconsAction:
+        - ps_sharebuttons
 
   image_types:
     cart_default:

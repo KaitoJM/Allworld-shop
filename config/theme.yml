@@ -107,8 +107,6 @@ global_settings:
         - blockreassurance
       displayOrderConfirmation2:
         - ps_featuredproducts
-      displayCrossSellingShoppingCart:
-        - ps_featuredproducts
       displaySpecialProductFeature:
         - ps_specials
       displayProductIconsAction:

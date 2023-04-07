@@ -45,6 +45,13 @@ jQuery(function() {
   $('.thumb-container').click(function () {
     product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 500]);
   });
+
+  $(document).on('change', '.payment-method-chck', function() {
+    $('.payment-option-item').removeClass('selected');
+    if ($(this).prop('checked')) {
+      $(this).closest('.payment-option-item').addClass('selected');
+    }
+  })
 })
 
 

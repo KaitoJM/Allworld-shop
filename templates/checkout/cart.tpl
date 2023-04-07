@@ -91,6 +91,13 @@
       </div>
 
     </div>
+    <br />
+    <br />
+    {widget name="ps_bestsellers"}
+    <br />
+    {widget name="ps_specials"}
+    <br />
+    {widget name="ps_featuredproducts"}
     {include file='_partials/site-features.tpl' cart=$cart}
   </section>
 {/block}

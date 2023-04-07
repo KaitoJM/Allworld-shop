@@ -43,7 +43,7 @@ jQuery(function() {
   })
 
   $('.thumb-container').click(function () {
-    product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 1000]);
+    product_image_cover_carousel.trigger('to.owl.carousel', [$(this).index(), 500]);
   });
 })
 

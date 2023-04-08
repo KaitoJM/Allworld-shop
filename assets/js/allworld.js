@@ -61,6 +61,34 @@ jQuery(function() {
       $(this).closest('.payment-option-item').addClass('selected');
     }
   })
+
+  $(document).on('click', '.tab-filter-status', function(e) {
+    $('.order-table tbody tr').hide();
+    $('.orders-tab li').removeClass('active')
+    $(this).closest('li').addClass('active')
+
+    if ($(this).hasClass('tab-all')) {
+      $('.order-table tbody tr').show();
+    }
+
+    if ($(this).hasClass('tab-to-pay')) {
+      $('.order-table tbody tr[data-paid="0"]').show();
+    }
+
+    if ($(this).hasClass('tab-to-ship')) {
+      $('.order-table tbody tr[data-paid="1"][data-shipped="0"]').show();
+    }
+
+    if ($(this).hasClass('tab-to-receive')) {
+      $('.order-table tbody tr[data-paid="1"][data-shipped="1"][data-id_order_state!="5"]').show();
+    }
+
+    if ($(this).hasClass('tab-completed')) {
+      $('.order-table tbody tr[data-id_order_state="5"]').show();
+    }
+
+    e.preventDefault();
+  });
 })
 
 

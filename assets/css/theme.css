@@ -2451,7 +2451,7 @@ a {
   flex: 1;
 }
 .my-account-container .my-account-page-container h1 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
   margin: 15px 0px;
 }
@@ -2537,6 +2537,76 @@ a {
 }
 .personal-info-block .address-info .address-block .address-content .addr-address,
 .personal-info-block .address-info .address-block .address-content .addr-phone {
+  font-size: 0.8em;
+}
+/* -------------------------- My Orders -------------------------- */
+.order-table {
+  width: 100%;
+  border-spacing: 0;
+}
+.order-table thead th {
+  background-color: var(--stroke_color);
+  font-weight: 400;
+  font-size: 0.8em;
+  height: 40px;
+  text-align: left;
+  padding: 0 10px;
+}
+.order-table tbody td {
+  font-weight: 400;
+  font-size: 0.8em;
+  height: 40px;
+  text-align: left;
+  padding: 0 10px;
+  transition: font-size 0.3s ease-in-out;
+}
+.order-table tbody th {
+  font-size: 0.8em;
+  text-align: left;
+  height: 40px;
+  padding: 0 10px;
+  font-weight: 500;
+}
+.order-table tbody .label-pill {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+.order-table tbody tr:hover td, .order-table tbody tr:hover th {
+  background-color: var(--background_color_main);
+}
+.order-table tbody tr:hover td:first-child {
+  font-size: 1em;
+  font-weight: 600;
+}
+.orders-tab {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--stroke_color);
+}
+.orders-tab li{
+  margin-bottom: -2px;
+  border-bottom: 2px solid var(--stroke_color);
+  transition: background-color 0.3s ease-in-out;
+}
+.orders-tab li:hover {
+  background-color: var(--background_color_main);
+}
+.orders-tab li.active{
+  border-bottom: 2px solid var(--accent_color);
+}
+.orders-tab li a {
+  display: block;
+  height: 100%;
+  padding: 10px 20px;
+}
+.semi-title {
   font-size: 0.8em;
 }
 /* ========================== End of My Account Page ========================== */

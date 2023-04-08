@@ -50,7 +50,7 @@
             </ul>
           </li>
           <li>
-            <a href="{$urls.pages.history}">My Orders</a>
+            <a href="{$urls.pages.history}" class="{if $current == 'history'}current{/if}">My Orders</a>
             <ul>
               <li><a href="#">Returns</a></li>
               <li><a href="#">Cancellations</a></li>

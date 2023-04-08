@@ -1601,6 +1601,14 @@ a {
 .box-order-confirm .email-msg .email {
   color: var(--accent_color);
 }
+.box-order-confirm  .order-confirmation-hook {
+  margin: 40px 0;
+  color: var(--grey);
+  font-size: 0.9em;
+}
+.box-order-confirm  .order-confirmation-hook p {
+  margin: 0px;
+}
 .box-order-confirm  #order-items>.row {
   display: flex;
   border-bottom: 1px solid var(--stroke_color);
@@ -1612,6 +1620,8 @@ a {
   font-weight: 500;
   margin: 10px 0;
   text-align: center;
+  border-bottom: 0px;
+  padding-bottom: 0px;
 }
 .box-order-confirm  #order-items>.row .card-title:first-child {
   flex: 1;
@@ -2189,6 +2199,9 @@ a {
   display: flex;
   gap: 30px;
   margin-bottom: 20px;
+}
+.special-offers-section .js-product {
+  width: 50%;
 }
 .special-offers-section article {
   background-color: #fff;

@@ -40,9 +40,11 @@
             </p>
           </div>
           <div class="col-md-12">
-            {block name='hook_order_confirmation'}
-              {$HOOK_ORDER_CONFIRMATION nofilter}
-            {/block}
+            <div class="order-confirmation-hook">
+              {block name='hook_order_confirmation'}
+                {$HOOK_ORDER_CONFIRMATION nofilter}
+              {/block}
+            </div>
 
             {block name='order_confirmation_table'}
               {include
@@ -116,4 +118,6 @@
       {hook h='displayOrderConfirmation2'}
     </section>
   {/block}
+  <br />
+  {widget name="ps_specials"}
 {/block}

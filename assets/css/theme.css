@@ -2450,10 +2450,26 @@ a {
 .my-account-container .my-account-page-container {
   flex: 1;
 }
+.my-account-container .my-account-page-container .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .my-account-container .my-account-page-container h1 {
   font-weight: 600;
   font-size: 1.5rem;
   margin: 15px 0px;
+}
+.my-account-container .my-account-page-container h1 .mini {
+  font-size: 0.7em;
+}
+.my-account-container .my-account-page-container .page-header a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent_color);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 0.7em;
 }
 .btn-logout {
   width: 100%;
@@ -2558,7 +2574,6 @@ a {
   height: 40px;
   text-align: left;
   padding: 0 10px;
-  transition: font-size 0.3s ease-in-out;
 }
 .order-table tbody th {
   font-size: 0.8em;
@@ -2577,7 +2592,6 @@ a {
   background-color: var(--background_color_main);
 }
 .order-table tbody tr:hover td:first-child {
-  font-size: 1em;
   font-weight: 600;
 }
 .orders-tab {
@@ -2607,6 +2621,101 @@ a {
   padding: 10px 20px;
 }
 .semi-title {
+  font-size: 0.8em;
+}
+/* -------------------------- Order Details -------------------------- */
+.order-details-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--stroke_color);
+  padding-bottom: 20px;
+}
+.order-details-head .order-status {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.order-details-head .order-status .status {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 0.8em;
+}
+.pm-carrier-container {
+  display: flex;
+  align-items: top;
+  gap: 40px;
+  margin: 20px 0;
+}
+.pm-carrier-container div {
+  width: 300px;
+}
+.pm-carrier-container .lbl {
+  font-size: 0.8em;
+}
+.pm-carrier-container p {
+  margin: 0px;
+  font-weight: 500;
+}
+.pm-carrier-container small {
+  font-size: 0.7em;
+  color: #ED5500;
+}
+.pm-carrier-container .line {
+  height: 80px;
+  width: 1px;
+  margin: 0px;
+  background-color: var(--stroke_color);
+  margin-right: 50px;
+}
+.order-history-container {
+  width: 300px;
+  flex: none !important;
+}
+.order-history-container .title, .address-container .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+  height: 30px;
+  margin-top: -20px;
+  border-bottom: 1px solid var(--stroke_color);
+  margin-bottom: 15px;
+  padding: 0px;
+}
+.order-history-container .label-pill {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.address-container .address-block {
+  border-bottom: 1px solid var(--stroke_color);
+  margin-bottom: 15px;
+}
+.address-container .address-block:last-child {
+  border: none;
+  margin-bottom: 0px;
+}
+.address-container .address-block .address-title {
+  color: var(--accent_color);
+  font-size: 0.8em;
+}
+.address-container .address-block .address-content {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.address-container .address-block .address-content .addr-cname {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+.address-container .address-block .address-content .addr-address,
+.address-container .address-block .address-content .addr-phone {
   font-size: 0.8em;
 }
 /* ========================== End of My Account Page ========================== */
@@ -2855,4 +2964,13 @@ input[type=checkbox]:checked:after{
   position: absolute;
   top: 3px;
   left: 3px;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+.flex>*{
+  flex: 1;
 }

@@ -74,11 +74,15 @@
         </a>
       </div>
       <div class="my-account-page-container">
-        {block name='may_account_title'}
-          <header class="page-header">
+        <header class="page-header">
+          {block name='may_account_title'}
             <h1>{$smarty.block.child}</h1>
-          </header>
-        {/block}
+          {/block}
+          {block name='my_account_header_action'}
+            {* header action *}
+            <div class="header-action">{$smarty.block.child}</div>
+          {/block}
+        </header>
         {block name='page_content'}
           <!-- Page content -->
         {/block}

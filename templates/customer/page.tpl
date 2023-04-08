@@ -26,6 +26,9 @@
 
 {block name='notifications'}{/block}
 
+{block name='page_header_container'}
+{/block}
+
 {block name='page_content_container'}
   <section id="content" class="page-content">
     {block name='page_content_top'}
@@ -33,14 +36,53 @@
         {include file='_partials/notifications.tpl'}
       {/block}
     {/block}
-    {block name='page_content'}
-      <!-- Page content -->
-    {/block}
+    
+    <div class="my-account-container">
+      <div class="my-account-nav-containner">
+        <h2>Hello, {$customer.firstname}</h2>
+        <ul>
+          <li>
+            <a href="{$urls.pages.my_account}" class="{if $current == 'my-account'}current{/if}">Manage My Account</a>
+            <ul>
+              <li><a href="{$urls.pages.identity}">My Profile</a></li>
+              <li><a href="{$urls.pages.addresses}">Address Book</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="{$urls.pages.history}">My Orders</a>
+            <ul>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Cancellations</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Reviews</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}module/blockwishlist/lists">Wishlist</a>
+          </li>
+          {if $configuration.voucher_enabled && !$configuration.is_catalog}
+            <li>
+              <a href="{$urls.pages.discount}">Vouchers</a>
+            </li>
+          {/if}
+        </ul>
+        <br />
+        <a href="{$urls.actions.logout}" class="btn-logout">
+          {l s='Sign out' d='Shop.Theme.Actions'}
+        </a>
+      </div>
+      <div class="my-account-page-container">
+        {block name='may_account_title'}
+          <header class="page-header">
+            <h1>{$smarty.block.child}</h1>
+          </header>
+        {/block}
+        {block name='page_content'}
+          <!-- Page content -->
+        {/block}
+      </div>
+    </div>
   </section>
-{/block}
-
-{block name='page_footer'}
-  {block name='my_account_links'}
-    {include file='customer/_partials/my-account-links.tpl'}
-  {/block}
 {/block}

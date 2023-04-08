@@ -26,15 +26,6 @@
   <div class="user-info">
     {if $logged}
       <a
-        class="logout hidden-sm-down h-icon"
-        href="{$urls.actions.logout}"
-        rel="nofollow"
-        title="logout"
-      >
-        <i class="fi-br-sign-out-alt"></i>
-        {* {l s='Sign out' d='Shop.Theme.Actions'} *}
-      </a>
-      <a
         class="account account-link"
         href="{$urls.pages.my_account}"
         title="{l s='View my customer account' d='Shop.Theme.Customeraccount'}"

@@ -2408,6 +2408,139 @@ a {
 }
 /* ========================== End of Added to Cart Modal ========================== */
 
+/* ========================== My Account Page ========================== */
+.my-account-container {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+}
+.my-account-container .my-account-nav-containner {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.my-account-container .my-account-nav-containner h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 15px 0px;
+}
+.my-account-container .my-account-nav-containner ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.1rem;
+}
+.my-account-container .my-account-nav-containner ul li {
+  margin-bottom: 20px;
+}
+.my-account-container .my-account-nav-containner ul li a.current {
+  color: var(--accent_color);
+}
+.my-account-container .my-account-nav-containner ul li>ul {
+  padding-left: 20px;
+  font-size: 0.8em;
+  margin: 20px 0;
+}
+.my-account-container .my-account-nav-containner ul li>ul>li {
+  margin-bottom: 10px;
+}
+.my-account-container .my-account-nav-containner ul li>ul>li a {
+  color: grey;
+}
+.my-account-container .my-account-page-container {
+  flex: 1;
+}
+.my-account-container .my-account-page-container h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 15px 0px;
+}
+.btn-logout {
+  width: 100%;
+  display: flex;
+  border: none;
+  background-color: var(--accent_color);
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+/* -------------------------- My Account -------------------------- */
+.personal-info-block {
+  display: flex;
+  gap: 30px;
+  align-items: start;
+  margin-bottom: 30px;
+}
+.personal-info-block .personal-info {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+}
+.personal-info-block .address-info {
+  flex: 1;
+}
+.personal-info-block .box .title, .order-info.box .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8em;
+  height: 30px;
+  margin-top: -20px;
+  border-bottom: 1px solid var(--stroke_color);
+  margin-bottom: 15px;
+}
+.personal-info-block .box a {
+  height: 100%;
+  display: flex;
+  font-size: 0.9em;
+  color: grey;
+  align-items: center;
+}
+.personal-info-block .personal-info .avatar {
+  width: 100px;
+  height: 100px;
+}
+.personal-info-block .personal-info h4 {
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.personal-info-block .personal-info p {
+  color: var(--grey);
+  margin: 0px;
+}
+.personal-info-block .address-info .address-block {
+  border-bottom: 1px solid var(--stroke_color);
+  margin-bottom: 15px;
+}
+.personal-info-block .address-info .address-block:last-child {
+  border: none;
+  margin-bottom: 0px;
+}
+.personal-info-block .address-info .address-block .address-title {
+  color: var(--accent_color);
+  font-size: 0.8em;
+}
+.personal-info-block .address-info .address-block .address-content {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.personal-info-block .address-info .address-block .address-content .addr-cname {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+.personal-info-block .address-info .address-block .address-content .addr-address,
+.personal-info-block .address-info .address-block .address-content .addr-phone {
+  font-size: 0.8em;
+}
+/* ========================== End of My Account Page ========================== */
+
 .form-container {
   display: flex;
   flex-wrap: wrap;

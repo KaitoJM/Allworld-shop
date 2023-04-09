@@ -3190,3 +3190,14 @@ input[type=checkbox]:checked:after{
   border-radius: 5px !important;
   font-size: 0.9em;
 }
+.wishlist-container-header {
+  justify-content: end !important;
+}
+.wishlist-container-header h1 {
+  display: none;
+}
+.wishlist-container-header .wishlist-add-to-new {
+}
+.wishlist-container-header .wishlist-add-to-new i {
+  display: none;
+}

@@ -2675,7 +2675,7 @@ a {
   width: 300px;
   flex: none !important;
 }
-.order-history-container .title, .address-container .title {
+.order-history-container .title, .address-container .title, .messages .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2716,6 +2716,93 @@ a {
 }
 .address-container .address-block .address-content .addr-address,
 .address-container .address-block .address-content .addr-phone {
+  font-size: 0.8em;
+}
+table#order-products {
+  width: 100%;
+  border-spacing: 0;
+}
+table#order-products thead th, table#order-products thead td {
+  text-align: left;
+  font-weight: 500;
+  border-bottom: 1px solid var(--stroke_color);
+  height: 40px;
+  padding: 0 10px;
+}
+table#order-products tbody th, table#order-products tbody td {
+  text-align: left;
+  font-weight: 400;
+  height: 40px;
+  padding: 10px;
+}
+table#order-products tbody tr:last-child th, table#order-products tbody tr:last-child td {
+  border-bottom: 1px dashed var(--stroke_color);
+}
+table#order-products tfoot th, table#order-products tfoot td {
+  text-align: left;
+  font-weight: 400;
+  padding: 0 10px;
+  height: 40px;
+}
+table#order-products tfoot td:first-child {
+  color: var(--grey);
+  font-size: 0.8em;
+}
+table#order-products tfoot tr:last-child td:first-child {
+  color: #000;
+}
+table#order-products tbody td:last-child, table#order-products tfoot td:last-child {
+  text-align: right;
+}
+table#order-products tbody .product-detail-flex {
+  width: 400px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+table#order-products tbody .product-detail-flex .product-photo {
+  width: 80px;
+}
+table#order-products tbody .product-detail-flex .product-photo img {
+  width: 100%;
+}
+table#order-products tbody .product-detail-flex .product-detail {
+  font-size: 0.9em;
+  flex: 1;
+}
+.order-message-form p {
+  font-size: 0.8em;
+}
+.order-message-form textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+}
+.messages .form-control-submit {
+  margin-top: 30px;
+  background-color: var(--accent_color);
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+.messages .message {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 10px 0;
+}
+.messages .message:last-child {
+  border: none;
+}
+.messages .message .from {
+  width: 200px;
+}
+.messages .message .from small {
+  color: var(--grey);
+  font-size: 0.8em;
+}
+.messages .message .content {
   font-size: 0.8em;
 }
 /* ========================== End of My Account Page ========================== */

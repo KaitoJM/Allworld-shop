@@ -33,7 +33,7 @@
   </div>
   <div class="footer-body-content">
     {block name='hook_footer'}
-      {hook h='displayFooter'}
+      {hook h='displayFooterLinks'}
     {/block}
   </div>
 </div>
@@ -46,4 +46,9 @@
       {l s='%copyright% %year%, All rights reserved Allworld Comunications' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
     </a>
   {/block}
+</div>
+<div>
+{block name='hook_footer'}
+  {hook h='displayFooter'}
+{/block}
 </div>

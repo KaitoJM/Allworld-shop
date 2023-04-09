@@ -92,9 +92,10 @@ global_settings:
       displayFooterBefore:
         - ps_mainmenu
         - ps_socialfollow
-      displayFooter:
+      displayFooterLinks:
         - ps_linklist
         - ps_contactinfo
+      displayFooter:
         - blockwishlist
       displayFooterAfter:
         - ps_linklist

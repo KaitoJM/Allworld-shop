@@ -99,13 +99,34 @@ jQuery(function() {
 
   $(document).on('click', '.product-details-container .wish-list-trigger', function(e) {
     $(this).closest('.product-details-container').find('.wishlist-button-add').trigger('click');
+    prestashop.emit('updatedWishlist');
     e.preventDefault()
   });
 
   $(document).on('click', '.add-to-whish-list', function(e) {
     $(this).closest('.product').find('.wishlist-button-add').trigger('click');
+    prestashop.emit('updatedWishlist');
     e.preventDefault()
   });
+
+  updateWishlistCount();
+
+  function updateWishlistCount() {
+    $.get(prestashop.urls.base_url + 'module/blockwishlist/action?action=getAllWishlist', null, function(data) {
+      let count = 0;
+      if (data) {
+        const favorite = JSON.parse(data);
+    
+        favorite.wishlists.forEach((item, k) => {
+          count += parseInt(item.nbProducts) || 0
+        });
+      }
+    
+      if (count) {
+        $('.link-fav').append('<span class="count">' + count + '</span>')
+      }
+    })
+  }
 })
 
 
@@ -120,6 +141,8 @@ $(document).on('click', '.product-buy-now', function(e) {
   localStorage.setItem('directToCheckOut', true);
   e.preventDefault();
 })
+
+
 
 // $(document).on('click', '.add-to-whish-list', function() {
 //   // Get the product ID and customer ID

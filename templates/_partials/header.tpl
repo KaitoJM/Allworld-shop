@@ -41,7 +41,7 @@
   {block name='header_nav2'}
     <nav class="header-nav2">
       {if $customer.is_logged}
-        <a class="link-fav" href="#"><i class="fi-br-heart"></i></a>
+        <a class="link-fav" href="{$urls.base_url}module/blockwishlist/lists"><i class="fi-br-heart"></i></a>
       {/if}
       {hook h='displayNav2'}
     </nav>

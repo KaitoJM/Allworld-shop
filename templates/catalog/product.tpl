@@ -72,7 +72,7 @@
             {/block}
           {/block}
           <div class="header-actions">
-            <a href="#"><i class="fi-br-heart"></i></a>
+            <a href="#" class="wish-list-trigger"><i class="fi-br-heart"></i></a>
             {hook h='displayProductIconsAction' product=$product}
           </div>
         </div>

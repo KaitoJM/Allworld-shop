@@ -89,6 +89,16 @@ jQuery(function() {
 
     e.preventDefault();
   });
+
+  $(document).on('click', '.product-details-container .wish-list-trigger', function(e) {
+    $(this).closest('.product-details-container').find('.wishlist-button-add').trigger('click');
+    e.preventDefault()
+  });
+
+  $(document).on('click', '.add-to-whish-list', function(e) {
+    $(this).closest('.product').find('.wishlist-button-add').trigger('click');
+    e.preventDefault()
+  });
 })
 
 

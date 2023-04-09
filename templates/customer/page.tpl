@@ -60,7 +60,7 @@
             <a href="#">Reviews</a>
           </li>
           <li>
-            <a href="{$urls.base_url}module/blockwishlist/lists">Wishlist</a>
+            <a href="{$urls.base_url}module/blockwishlist/lists" class="{if $current == 'wishlist'}current{/if}">Wishlist</a>
           </li>
           {if $configuration.voucher_enabled && !$configuration.is_catalog}
             <li>

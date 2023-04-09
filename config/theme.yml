@@ -95,6 +95,7 @@ global_settings:
       displayFooter:
         - ps_linklist
         - ps_contactinfo
+        - blockwishlist
       displayFooterAfter:
         - ps_linklist
         - blockreassurance
@@ -111,6 +112,8 @@ global_settings:
         - ps_specials
       displayProductIconsAction:
         - ps_sharebuttons
+      displayProductActions:
+        - blockwishlist
 
   image_types:
     cart_default:

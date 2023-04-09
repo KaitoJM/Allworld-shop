@@ -25,7 +25,7 @@
 {block name='product_miniature_item'}
 <div class="js-product product">
   <article class="product-miniature js-product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
-    <div class="prod-thumbnail"> <!--to add wish list icon, add class "thumbnail-container"-->
+    <div class="prod-thumbnail thumbnail-container"> <!--to add wish list icon, add class "thumbnail-container"-->
       <div class="thumbnail-top">
         {block name='product_thumbnail'}
           {if $product.cover}

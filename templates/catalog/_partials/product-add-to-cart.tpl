@@ -52,8 +52,7 @@
         <div class="add">
           <button
               class="btn btn-primary buy-now"
-              data-button-action="add-to-cart"
-              type="submit"
+              type="button"
               {if !$product.add_to_cart_url}
                 disabled
               {/if}

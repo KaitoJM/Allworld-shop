@@ -55,6 +55,13 @@ jQuery(function() {
     initProductCoverCarousel();
   })
 
+  prestashop.on('updateCart', function() {
+    if (localStorage.getItem('directToCheckOut')) {
+      localStorage.removeItem('directToCheckOut');
+      location.href = prestashop.urls.pages.order;
+    }
+  })
+
   $(document).on('change', '.payment-method-chck', function() {
     $('.payment-option-item').removeClass('selected');
     if ($(this).prop('checked')) {
@@ -102,32 +109,39 @@ jQuery(function() {
 })
 
 
+$(document).on('click', '.buy-now', function(e) {
+  $(this).closest('.add').find('.add-to-cart').trigger('click');
+  localStorage.setItem('directToCheckOut', true);
+  e.preventDefault();
+})
+
 $(document).on('click', '.product-buy-now', function(e) {
   $(this).closest('.display-hover').find('.product-add-to-cart').trigger('click');
-  location.href = prestashop.urls.pages.order;
+  localStorage.setItem('directToCheckOut', true);
+  e.preventDefault();
 })
 
-$(document).on('click', '.add-to-whish-list', function() {
-  // Get the product ID and customer ID
-  var productId = $(this).data('product_id');
+// $(document).on('click', '.add-to-whish-list', function() {
+//   // Get the product ID and customer ID
+//   var productId = $(this).data('product_id');
 
-  // Send an AJAX request to add the product to the wishlist
-  $.ajax({
-      type: 'POST',
-      url: 'index.php?controller=module&module=blockwishlist&action=cart',
-      async: true,
-      cache: false,
-      dataType : "json",
-      data: {
-          id_product: productId,
-          token: prestashop.customer.static_token,
-      },
-      success: function(data) {
-          if (data.success) {
-              // Product added to wishlist successfully
-          } else {
-              // Error adding product to wishlist
-          }
-      }
-  });
-})
+//   // Send an AJAX request to add the product to the wishlist
+//   $.ajax({
+//       type: 'POST',
+//       url: 'index.php?controller=module&module=blockwishlist&action=cart',
+//       async: true,
+//       cache: false,
+//       dataType : "json",
+//       data: {
+//           id_product: productId,
+//           token: prestashop.customer.static_token,
+//       },
+//       success: function(data) {
+//           if (data.success) {
+//               // Product added to wishlist successfully
+//           } else {
+//               // Error adding product to wishlist
+//           }
+//       }
+//   });
+// })

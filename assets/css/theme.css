@@ -247,38 +247,52 @@ a {
   transition: 0.5s;
   transition-delay: 0.3s;
 }
-.custom-main-menu ul li .sub-menu {
+.custom-main-menu>ul>li>a.no-sub:after {
+  content: none;
+}
+.custom-main-menu>ul>li .sub-menu {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 80px;
   left: 0px;
   background-color: #fff;
-  color: #333;
   width: 100%;
+  color: #333;
   box-sizing: border-box;
-  overflow: hidden;
-  min-height: 300px;
-  height: fit-content;
-  align-items: start;
-  padding: 50px 100px;
   box-sizing: border-box;
   border-radius: 0 0 12px 12px;
+  height: fit-content;
+  align-items: start;
+  overflow: hidden;
   visibility: hidden;
   opacity: 0;
+  box-shadow: none;
   transition: 0.3s ease-in-out;
   transition-delay: 0.3s;
-  box-shadow: none;
+}
+.custom-main-menu>ul>li:hover .sub-menu{
+  visibility: visible;
+  opacity: 1;
+  top: 60px;
+  box-shadow: 0 20px  80px -20px #000;
+}
+.custom-main-menu ul li .sub-menu>ul {
   flex-wrap: wrap;
+  padding: 50px 100px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 300px;
+  justify-content: start;
 }
 .custom-main-menu>ul>li:hover>a:after {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
 }
-.custom-main-menu>ul>li:hover .sub-menu {
-  visibility: visible;
-  opacity: 1;
-  top: 60px;
-  box-shadow: 0 20px  80px -20px #000;
+.custom-main-menu ul li .sub-menu .justify {
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .custom-main-menu ul li .sub-menu a {
   color: #333;
@@ -287,12 +301,17 @@ a {
   flex: 1;
   padding: 0 50px;
   box-sizing: border-box;
+  max-width: 190px;
 }
-.custom-main-menu ul li .sub-menu li.brand-list {
+.custom-main-menu ul li .sub-menu .justify li {
+  max-width: 100%;
+  flex: 1;
+  padding: 0 0px;
+}
+.custom-main-menu ul li .sub-menu .brand-list {
   width: 100vw;
   box-sizing: border-box;
   flex: none;
-  margin-bottom: -50px;
   height: 100px;
   align-items: center;
   display: flex;
@@ -301,34 +320,35 @@ a {
   font-weight: 500;
   font-size: 0.9em;
 }
-.custom-main-menu ul li .sub-menu li.brand-list ul {
+.custom-main-menu ul li .sub-menu .brand-list ul {
   width: 100%;
   justify-content: space-between;
 }
-.custom-main-menu ul li .sub-menu li.brand-list li {
+.custom-main-menu ul li .sub-menu .brand-list li {
   padding: 0px;
 }
-.custom-main-menu ul li .sub-menu li.brand-list li:first-child {
-  padding-left: 50px;
+.custom-main-menu ul li .sub-menu .brand-list li:first-child {
   width: 200px;
   flex: none;
 }
-.custom-main-menu ul li .sub-menu li.brand-list li:last-child {
+.custom-main-menu ul li .sub-menu .brand-list li:last-child {
   width: 200px;
   flex: none;
 }
-.custom-main-menu ul li .sub-menu li.brand-list a {
+.custom-main-menu ul li .sub-menu .brand-list a {
   font-size: 1em;
 }
-.custom-main-menu ul li .sub-menu li.brand-list a i {
+.custom-main-menu ul li .sub-menu .brand-list a i {
   margin-left: 10px;
   padding-top: 5px;
 }
-.custom-main-menu ul li .sub-menu li.brand-list a .brand-img{
+.custom-main-menu ul li .sub-menu .brand-list a .brand-img{
   height: 30px;
 }
-.custom-main-menu ul li .sub-menu li.brand-list a.shop-all {
+.custom-main-menu ul li .sub-menu .brand-list a.shop-all {
   color: var(--accent_color);
+  text-align: right;
+  display: block;
 }
 .custom-main-menu ul li .sub-menu li .sub-menu-img {
   height: 100px;
@@ -341,6 +361,11 @@ a {
 .custom-main-menu ul li .sub-menu li>a {
   font-size: 1.3em;
   font-weight: 500;
+  width: 100%;
+}
+.custom-main-menu ul li .sub-menu li>a .link-img {
+  height: 50px;
+  margin: 10px 0;
 }
 .custom-main-menu ul li .sub-menu li>a i {
   padding-top: 5px;
@@ -2859,6 +2884,9 @@ table#order-products tbody .product-detail-flex .product-detail {
   margin: auto;
   color: #000 !important;
 }
+.ets-ttn-list-reviews-slide {
+  padding: 0px !important;
+}
 .review-item.slick-slide {
   transform: scale(1) !important;
 }
@@ -2921,6 +2949,9 @@ table#order-products tbody .product-detail-flex .product-detail {
   border-radius: 5px;
 }
 .slick-arrow {
+  display: none !important;
+}
+.slick-dots {
   display: none !important;
 }
 /* ========================== End of Testimonial ========================== */

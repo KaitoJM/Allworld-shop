@@ -85,10 +85,11 @@ global_settings:
       displayTop:
         - ps_searchbar
       displayHome:
-        - ps_imageslider
-        - ps_bestsellers
-        - ps_brandlist
-        - ps_featuredproducts
+        - ets_testimonial
+      #   - ps_imageslider
+      #   - ps_bestsellers
+      #   - ps_brandlist
+      #   - ps_featuredproducts
       displayFooterBefore:
         - ps_mainmenu
         - ps_socialfollow

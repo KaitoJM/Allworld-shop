@@ -36,6 +36,7 @@
         {widget name="ps_specials"}
         <br />
         {widget name="ps_featuredproducts"}
+        {hook h="displayHome"}
         {include file='_partials/site-features.tpl' cart=$cart}
       {/block}
     {/block}

@@ -495,6 +495,7 @@ a {
   font-weight: 500;
   line-height: 1em;
   text-align: center;
+  margin-top: 0px;
 }
 .main-layout .main-content #search_filters_brands p {
   text-align: center;
@@ -2842,6 +2843,86 @@ table#order-products tbody .product-detail-flex .product-detail {
   font-size: 0.8em;
 }
 /* ========================== End of My Account Page ========================== */
+
+/* ========================== Testimonial ========================== */
+.testimonial-head {
+  width: 100%;
+  text-align: center;
+  color: #000 !important;
+  margin-bottom: 30px;
+}
+.testimonial-head h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+  color: #000 !important;
+}
+.review-item.slick-slide {
+  transform: scale(1) !important;
+}
+.review-item-info {
+  padding: 15px 20px !important;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.review-item.slick-slide:before {
+  content: none !important;
+}
+.review-item .review-item-head {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 10px;
+}
+.review-item .review-item-head .review-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.review-item .review-item-head .license {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  height: auto;
+  min-height: auto;
+}
+.review-item .review-item-head .product-name {
+  color: var(--grey);
+  font-size: 0.8em;
+  text-align: left;
+  width: 100%;
+}
+.review-item .review-item-head .rate-review {
+  justify-content: left;
+  margin-left: -2px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.review-item .review-item-head .product-name a {
+  color: var(--grey);
+}
+.review-item .testimonial_des {
+  text-align: left !important;
+  line-height: 1.8;
+  padding-bottom: 10px !important;
+  margin-bottom: 15px;
+}
+.review-item .product-image {
+  padding: 0 20px;
+}
+.review-item .product-image img{
+  width: 80px;
+  border-radius: 5px;
+}
+.slick-arrow {
+  display: none !important;
+}
+/* ========================== End of Testimonial ========================== */
 
 .form-container {
   display: flex;

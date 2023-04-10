@@ -2881,6 +2881,7 @@ table#order-products tbody .product-detail-flex .product-detail {
   height: 80px;
   border-radius: 50%;
   background-size: cover;
+  min-width: 80px;
 }
 .review-item .review-item-head .license {
   width: 100%;

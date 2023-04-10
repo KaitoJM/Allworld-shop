@@ -29,7 +29,7 @@
       <li class="facet-label">
         <a href="{$brand['link']}" title="{$brand['name']}" class="brand-name">
           <img src="{$urls.img_manu_url}/{$brand['id_manufacturer']}.jpg" />
-          {$brand['name']}
+          {* {$brand['name']} *}
         </a>
       </li>
     {/if}

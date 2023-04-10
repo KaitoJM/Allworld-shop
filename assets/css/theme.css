@@ -482,6 +482,13 @@ a {
 }
 .main-layout .main-content #search_filters_brands {
   margin-bottom: 80px;
+  width: 100vw;
+  margin-left: calc((var(--full_gutter) + 30px) * -1);
+  margin-right: calc((var(--full_gutter) + 30px) * -1);
+  background-color: var(--accent_color);
+  padding: 50px 30px;
+  box-sizing: border-box;
+  color: #fff;
 }
 .main-layout .main-content #search_filters_brands h2 {
   font-size: 1.5em;
@@ -512,14 +519,23 @@ a {
   /* width: calc(16.66666666% - 17px);
   margin-right: 20px;
   margin-bottom: 20px; */
+  transition: 0.3s ease-in-out;
+}
+.main-layout .main-content #search_filters_brands ul li:hover {
+  transform: scale(1.03);
 }
 .main-layout .main-content #search_filters_brands ul li:nth-child(6n) {
   margin-right: 0px;
 }
 .main-layout .main-content #search_filters_brands ul li img {
-  width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  object-fit: contain;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 .main-layout .main-content #search_filters_brands ul li .brand-name {
   font-weight: 500;

@@ -643,8 +643,11 @@ a {
 .product-list-container .product:hover .prod-thumbnail {
   border-radius: 12px 12px 0 0 !important;
 }
-.product-list-container .product:hover .prod-thumbnail img {
-  transform: scale(1.1);
+.product.double-pic:hover .prod-thumbnail img:first-child {
+  display: none;
+}
+.product.double-pic:hover .prod-thumbnail img:last-child {
+  display: block !important;
 }
 .product-list-container .product:hover .display-hover {
   visibility: visible;

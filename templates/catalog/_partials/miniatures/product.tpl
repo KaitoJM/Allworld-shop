@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {block name='product_miniature_item'}
-<div class="js-product product">
+<div class="js-product product {if $product.images && $product.images|count > 1}double-pic{/if}">
   <article class="product-miniature js-product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
     <div class="prod-thumbnail thumbnail-container"> <!--to add wish list icon, add class "thumbnail-container"-->
       <div class="thumbnail-top">
@@ -31,11 +31,20 @@
           {if $product.cover}
             <a href="{$product.url}" class="thumbnail product-thumbnail">
               <img
-                src="{$product.cover.bySize.home_default.url}"
+              src="{$product.cover.bySize.home_default.url}"
+              alt="{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
+              loading="lazy"
+              data-full-size-image-url="{$product.cover.large.url}"
+              />
+              {if $product.images && $product.images|count > 1}
+                <img
+                style="display:none"
+                src="{$product.images[1].bySize.home_default.url}"
                 alt="{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
                 loading="lazy"
-                data-full-size-image-url="{$product.cover.large.url}"
-              />
+                data-full-size-image-url="{$product.images[1].large.url}"
+                />
+              {/if}
             </a>
           {else}
             <a href="{$product.url}" class="thumbnail product-thumbnail">

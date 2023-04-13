@@ -39,7 +39,7 @@
 
         <div class="form-group row">
           <div class="col-md-9 col-md-offset-3">
-            <h3>{l s='Contact us' d='Shop.Theme.Global'}</h3>
+            <h3 class="page-title">{l s='Contact us' d='Shop.Theme.Global'}</h3>
           </div>
         </div>
 
@@ -53,37 +53,39 @@
             </select>
           </div>
         </div>
-
-        <div class="form-group row">
-          <label class="col-md-3 form-control-label" for="email">{l s='Email address' d='Shop.Forms.Labels'}</label>
-          <div class="col-md-6">
-            <input
-              id="email"
-              class="form-control"
-              name="from"
-              type="email"
-              value="{$contact.email}"
-              placeholder="{l s='your@email.com' d='Shop.Forms.Help'}"
-            >
-          </div>
-        </div>
-
-        {if $contact.orders}
+        
+        <div class="flex">
           <div class="form-group row">
-            <label class="col-md-3 form-control-label" for="id-order">{l s='Order reference' d='Shop.Forms.Labels'}</label>
+            <label class="col-md-3 form-control-label" for="email">{l s='Email address' d='Shop.Forms.Labels'}</label>
             <div class="col-md-6">
-              <select id="id-order" name="id_order" class="form-control form-control-select">
-                <option value="">{l s='Select reference' d='Shop.Forms.Help'}</option>
-                {foreach from=$contact.orders item=order}
-                  <option value="{$order.id_order}">{$order.reference}</option>
-                {/foreach}
-              </select>
+              <input
+                id="email"
+                class="form-control"
+                name="from"
+                type="email"
+                value="{$contact.email}"
+                placeholder="{l s='your@email.com' d='Shop.Forms.Help'}"
+              >
             </div>
-            <span class="col-md-3 form-control-comment">
-              {l s='optional' d='Shop.Forms.Help'}
-            </span>
           </div>
-        {/if}
+
+          {if $contact.orders}
+            <div class="form-group row">
+              <label class="col-md-3 form-control-label" for="id-order">{l s='Order reference' d='Shop.Forms.Labels'}</label>
+              <div class="col-md-6">
+                <select id="id-order" name="id_order" class="form-control form-control-select">
+                  <option value="">{l s='Select reference' d='Shop.Forms.Help'}</option>
+                  {foreach from=$contact.orders item=order}
+                    <option value="{$order.id_order}">{$order.reference}</option>
+                  {/foreach}
+                </select>
+              </div>
+              <span class="col-md-3 form-control-comment">
+                {l s='optional' d='Shop.Forms.Help'}
+              </span>
+            </div>
+          {/if}
+        </div>
 
         {if $contact.allow_file_upload}
           <div class="form-group row">
@@ -128,7 +130,7 @@
         </style>
         <input type="text" name="url" value=""/>
         <input type="hidden" name="token" value="{$token}" />
-        <input class="btn btn-primary" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
+        <input class="btn btn-primary aw-btn" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
       </footer>
     {/if}
 

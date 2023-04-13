@@ -2880,6 +2880,14 @@ table#order-products tbody .product-detail-flex .product-detail {
 }
 /* ========================== End of My Account Page ========================== */
 
+/* ========================== Contact Us Page ========================== */
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+/* ========================== End of Contact Us Page ========================== */
+
 /* ========================== Testimonial ========================== */
 .testimonial-head {
   width: 100%;

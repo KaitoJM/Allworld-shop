@@ -60,7 +60,7 @@
           </li>
           {if $configuration.voucher_enabled && !$configuration.is_catalog}
             <li>
-              <a href="{$urls.pages.discount}">Vouchers</a>
+              <a href="{$urls.pages.discount}" class="{if $current == 'vouchers'}current{/if}">Vouchers</a>
             </li>
           {/if}
         </ul>

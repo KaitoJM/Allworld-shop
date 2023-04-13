@@ -3445,16 +3445,24 @@ input[type=checkbox]:checked:after{
 .aw-table p {
   margin: 0px;
 }
-.aw-table td, .aw-table th {
-  padding: 20px 10px;
+.aw-table thead th {
+  text-align: left;
+  font-weight: 500;
 }
 .aw-table .action a {
   color: var(--grey);
 }
-.aw-table tbody tr td {
+.aw-table thead tr td, .aw-table thead tr th {
   border-bottom: 1px solid var(--stroke_color);
+  padding: 8px 10px;
+  font-size: 0.9em;
+  background-color: var(--stroke_color);
 }
-.aw-table tbody tr:last-child td {
+.aw-table tbody tr td, .aw-table tbody tr th {
+  border-bottom: 1px solid var(--stroke_color);
+  padding: 20px 10px;
+}
+.aw-table tbody tr:last-child td, .aw-table tbody tr:last-child th {
   border: none;
 }
 .pill {

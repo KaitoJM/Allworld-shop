@@ -2871,6 +2871,13 @@ table#order-products tbody .product-detail-flex .product-detail {
 .messages .message .content {
   font-size: 0.8em;
 }
+.addresses-footer {
+  display: flex;
+  justify-content: end;
+}
+.address-build {
+  margin-bottom: 5px !important;
+}
 /* ========================== End of My Account Page ========================== */
 
 /* ========================== Testimonial ========================== */
@@ -3407,8 +3414,8 @@ input[type=checkbox]:checked:after{
 .form-footer {
   margin-top: 30px;
 }
-.form-control-submit {
-  height: 50px;
+.form-control-submit, .aw-btn {
+  height: 40px;
   min-width: 230px;
   background-color: var(--accent_color);
   color: #fff;
@@ -3416,4 +3423,38 @@ input[type=checkbox]:checked:after{
   border-radius: 5px;
   font-size: 0.9em;
   outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40px;
+}
+
+.aw-table {
+  width: 100%;
+  border-spacing: 0px;
+  font-size: 0.9em;
+}
+.aw-table p {
+  margin: 0px;
+}
+.aw-table td, .aw-table th {
+  padding: 20px 10px;
+}
+.aw-table .action a {
+  color: var(--grey);
+}
+.aw-table tbody tr td {
+  border-bottom: 1px solid var(--stroke_color);
+}
+.aw-table tbody tr:last-child td {
+  border: none;
+}
+.pill {
+  color: #fff;
+  background-color: var(--accent_color);
+  padding: 3px 10px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 30px;
+  font-size: 0.9em;
 }

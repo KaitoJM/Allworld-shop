@@ -24,7 +24,7 @@
  *}
 {extends file='customer/page.tpl'}
 
-{block name='page_title'}
+{block name='may_account_title'}
   {if $editing}
     {l s='Update your address' d='Shop.Theme.Customeraccount'}
   {else}
@@ -32,8 +32,11 @@
   {/if}
 {/block}
 
+{assign var="current" value="my-account"}
+{assign var="current_sub" value="address-book"}
+
 {block name='page_content'}
-  <div class="address-form">
+  <div class="address-form box">
     {render template="customer/_partials/address-form.tpl" ui=$address_form}
   </div>
 {/block}

@@ -45,8 +45,7 @@
             <a href="{$urls.pages.my_account}" class="{if $current == 'my-account'}current{/if}">Manage My Account</a>
             <ul>
               <li><a href="{$urls.pages.identity}" class="{if $current_sub == 'my-profile'}active{/if}">My Profile</a></li>
-              <li><a href="{$urls.pages.addresses}">Address Book</a></li>
-              <li><a href="#">Payment Options</a></li>
+              <li><a href="{$urls.pages.addresses}" class="{if $current_sub == 'address-book'}active{/if}">Address Book</a></li>
             </ul>
           </li>
           <li>
@@ -55,9 +54,6 @@
               <li><a href="#">Returns</a></li>
               <li><a href="#">Cancellations</a></li>
             </ul>
-          </li>
-          <li>
-            <a href="#">Reviews</a>
           </li>
           <li>
             <a href="{$urls.base_url}module/blockwishlist/lists" class="{if $current == 'wishlist'}current{/if}">Wishlist</a>

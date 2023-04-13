@@ -24,23 +24,46 @@
  *}
 {extends file='customer/page.tpl'}
 
-{block name='page_title'}
-  {l s='Your addresses' d='Shop.Theme.Customeraccount'}
+{block name='may_account_title'}
+  {l s='Address Book' d='Shop.Theme.Customeraccount'}
 {/block}
 
+{assign var="current" value="my-account"}
+{assign var="current_sub" value="address-book"}
+
 {block name='page_content'}
-  {foreach $customer.addresses as $address}
-    <div class="col-lg-4 col-md-6 col-sm-6">
-    {block name='customer_address'}
-      {include file='customer/_partials/block-address.tpl' address=$address}
-    {/block}
+  <div class="box">
+    <table class="aw-table">
+      <tbody>
+        {foreach $customer.addresses as $address}
+          <tr>
+            <td>
+              <strong>{$address.firstname} {$address.lastname}</strong>
+              <p>{$address.company}</p>
+            </td>
+            <td>
+              <p class="address-build">{$address.address1} {$address.address2}, {$address.city}</p>
+              <span class="pill">{$address.alias}</span>
+            </td>
+            <td>{$address.phone}</td>
+            <td>{$address.postcode}</td>
+            <td class="action">
+              <a href="{url entity=address id=$address.id}" data-link-action="edit-address">
+                <i class="fi-br-pencil-ruler"></i>
+              </a>
+              <a href="{url entity=address id=$address.id params=['delete' => 1, 'token' => $token]}" data-link-action="delete-address">
+                <i class="fi-br-trash"></i>
+              </a>
+            </td>
+          </tr>
+        {/foreach}
+      </tbody>
+    </table>
+    <div class="addresses-footer">
+      <a href="{$urls.pages.address}" data-link-action="add-address" class="aw-btn">
+        <i class="fi-br-plus"></i>
+        <span>{l s='Add new address' d='Shop.Theme.Actions'}</span>
+      </a>
     </div>
-  {/foreach}
-  <div class="clearfix"></div>
-  <div class="addresses-footer">
-    <a href="{$urls.pages.address}" data-link-action="add-address">
-      <i class="fi-br-map-marker-plus"></i>
-      <span>{l s='Create new address' d='Shop.Theme.Actions'}</span>
-    </a>
   </div>
 {/block}

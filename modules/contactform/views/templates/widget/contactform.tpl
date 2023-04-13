@@ -22,7 +22,7 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-<section class="contact-form">
+<section class="contact-form box">
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
@@ -113,6 +113,7 @@
         </div>
 
         {if isset($id_module)}
+          <br />
           <div class="form-group row">
             <div class="offset-md-3">
               {hook h='displayGDPRConsent' id_module=$id_module}

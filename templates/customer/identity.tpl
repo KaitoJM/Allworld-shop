@@ -24,10 +24,15 @@
  *}
 {extends 'customer/page.tpl'}
 
-{block name='page_title'}
-  {l s='Your personal information' d='Shop.Theme.Customeraccount'}
+{block name='may_account_title'}
+  {l s='My personal information' d='Shop.Theme.Customeraccount'}
 {/block}
 
+{assign var="current" value="my-account"}
+{assign var="current_sub" value="my-profile"}
+
 {block name='page_content'}
-  {render file='customer/_partials/customer-form.tpl' ui=$customer_form}
+  <div class="box">
+    {render file='customer/_partials/customer-form.tpl' ui=$customer_form}
+  </div> 
 {/block}

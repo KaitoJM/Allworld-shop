@@ -44,7 +44,7 @@
           <li>
             <a href="{$urls.pages.my_account}" class="{if $current == 'my-account'}current{/if}">Manage My Account</a>
             <ul>
-              <li><a href="{$urls.pages.identity}">My Profile</a></li>
+              <li><a href="{$urls.pages.identity}" class="{if $current_sub == 'my-profile'}active{/if}">My Profile</a></li>
               <li><a href="{$urls.pages.addresses}">Address Book</a></li>
               <li><a href="#">Payment Options</a></li>
             </ul>

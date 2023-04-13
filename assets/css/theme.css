@@ -2509,6 +2509,10 @@ a {
 .my-account-container .my-account-nav-containner ul li>ul>li a {
   color: grey;
 }
+.my-account-container .my-account-nav-containner ul li>ul>li a.active {
+  font-weight: 500;
+  color: #000;
+}
 .my-account-container .my-account-page-container {
   flex: 1;
 }
@@ -3398,4 +3402,18 @@ input[type=checkbox]:checked:after{
 }
 .ets_cookie_banner_footer .close_cookie:before, .ets_cookie_banner_footer .close_cookie:after {
   content: none !important;
+}
+
+.form-footer {
+  margin-top: 30px;
+}
+.form-control-submit {
+  height: 50px;
+  min-width: 230px;
+  background-color: var(--accent_color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  outline: none;
 }

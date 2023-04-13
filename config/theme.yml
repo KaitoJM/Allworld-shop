@@ -116,6 +116,8 @@ global_settings:
         - ps_sharebuttons
       displayProductActions:
         - blockwishlist
+      displayBeforeBodyClosingTag:
+        - ets_cookie_banner
 
   image_types:
     cart_default:

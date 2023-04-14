@@ -51,8 +51,11 @@
           <li>
             <a href="{$urls.pages.history}" class="{if $current == 'history'}current{/if}">My Orders</a>
             <ul>
-              <li><a href="#">Returns</a></li>
+              {if $configuration.return_enabled && !$configuration.is_catalog}
+                <li><a href="{$urls.pages.order_follow}" class="{if $current_sub == 'returns'}active{/if}">Returns</a></li>
+              {/if}
               <li><a href="#">Cancellations</a></li>
+              <li><a href="{$urls.pages.order_slip}">Credit slips</a></li>
             </ul>
           </li>
           <li>

@@ -55,7 +55,7 @@
                 <li><a href="{$urls.pages.order_follow}" class="{if $current_sub == 'returns'}active{/if}">Returns</a></li>
               {/if}
               <li><a href="#">Cancellations</a></li>
-              <li><a href="{$urls.pages.order_slip}">Credit slips</a></li>
+              <li><a href="{$urls.pages.order_slip}" class="{if $current_sub == 'credit-slips'}active{/if}">Credit slips</a></li>
             </ul>
           </li>
           <li>

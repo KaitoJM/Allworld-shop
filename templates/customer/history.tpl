@@ -24,56 +24,97 @@
  *}
 {extends file='customer/page.tpl'}
 
+{assign var="cancellation" value=$smarty.get.cancellation}
+
 {block name='may_account_title'}
-  {l s='My Orders' d='Shop.Theme.Customeraccount'}
+  {if $cancellation}
+    {l s='My Cancellations' d='Shop.Theme.Customeraccount'}
+  {else}
+    {l s='My Orders' d='Shop.Theme.Customeraccount'}
+  {/if}
 {/block}
 
 {assign var="current" value="history"}
+{if $cancellation}
+  {assign var="current_sub" value="cancellations"}
+{/if}
 
 {block name='page_content'}
   <div class="box">
-  <ul class="orders-tab">
-    <li class="active"><a href="#" class="tab-filter-status tab-all">All</a></li>
-    <li><a href="#" class="tab-filter-status tab-to-pay">To Pay</a></li>
-    <li><a href="#" class="tab-filter-status tab-to-ship">To Ship</a></li>
-    <li><a href="#" class="tab-filter-status tab-to-receive">To Receive</a></li>
-    <li><a href="#" class="tab-filter-status tab-completed">Completed</a></li>
-  </ul>
-  <p class="semi-title">Recent Orders</p>
-  {if $orders}
-      <table class="order-table table table-striped table-bordered table-labeled hidden-sm-down">
-        <thead class="thead-default">
-          <tr>
-            <th>{l s='Order #' d='Shop.Theme.Checkout'}</th>
-            <th>{l s='Placed On' d='Shop.Theme.Checkout'}</th>
-            <th>{l s='Payment' d='Shop.Theme.Checkout'}</th>
-            <th>{l s='Total' d='Shop.Theme.Checkout'}</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {foreach from=$orders item=order}
-            <tr data-id_order_state="{$order.history.current.id_order_state}" data-shipped="{$order.history.current.shipped}" data-paid="{$order.history.current.paid}">
-              <td style="width:120px">
-                <a href="{$order.details.details_url}">
-                  {$order.details.reference}
-                </a>
-              </td>
-              <td>{$order.details.order_date}</td>
-              <th>{$order.details.payment}</th>
-              <td class="text-xs-right">{$order.totals.total.value}</td>
-              <td>
-                <span
-                  class="label label-pill {$order.history.current.contrast}"
-                  style="background-color:{$order.history.current.color}"
-                >
-                  {$order.history.current.ostate_name}
-                </span>
-              </td>
+    {if !$cancellation}
+      <ul class="orders-tab">
+        <li class="active"><a href="#" class="tab-filter-status tab-all">All</a></li>
+        <li><a href="#" class="tab-filter-status tab-to-pay">To Pay</a></li>
+        <li><a href="#" class="tab-filter-status tab-to-ship">To Ship</a></li>
+        <li><a href="#" class="tab-filter-status tab-to-receive">To Receive</a></li>
+        <li><a href="#" class="tab-filter-status tab-completed">Completed</a></li>
+      </ul>
+      <p class="semi-title">Recent Orders</p>
+      {if $orders}
+        <table class="order-table table table-striped table-bordered table-labeled hidden-sm-down">
+          <thead class="thead-default">
+            <tr>
+              <th>{l s='Order #' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Placed On' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Payment' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Total' d='Shop.Theme.Checkout'}</th>
+              <th></th>
             </tr>
-          {/foreach}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {foreach from=$orders item=order}
+              <tr data-id_order_state="{$order.history.current.id_order_state}" data-shipped="{$order.history.current.shipped}" data-paid="{$order.history.current.paid}">
+                <td style="width:120px">
+                  <a href="{$order.details.details_url}">
+                    {$order.details.reference}
+                  </a>
+                </td>
+                <td>{$order.details.order_date}</td>
+                <th>{$order.details.payment}</th>
+                <td class="text-xs-right">{$order.totals.total.value}</td>
+                <td>
+                  <span
+                    class="label label-pill {$order.history.current.contrast}"
+                    style="background-color:{$order.history.current.color}"
+                  >
+                    {$order.history.current.ostate_name}
+                  </span>
+                </td>
+              </tr>
+            {/foreach}
+          </tbody>
+        </table>
+      {/if}
+    {else}
+      {if $orders}
+        <table class="order-table table table-striped table-bordered table-labeled hidden-sm-down">
+          <thead class="thead-default">
+            <tr>
+              <th>{l s='Order #' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Placed On' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Payment' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Total' d='Shop.Theme.Checkout'}</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {foreach from=$orders item=order}
+              {if $order.history.current.id_order_state == 6}
+                <tr data-id_order_state="{$order.history.current.id_order_state}" data-shipped="{$order.history.current.shipped}" data-paid="{$order.history.current.paid}">
+                  <td style="width:120px">
+                    <a href="{$order.details.details_url}">
+                      {$order.details.reference}
+                    </a>
+                  </td>
+                  <td>{$order.details.order_date}</td>
+                  <th>{$order.details.payment}</th>
+                  <td class="text-xs-right">{$order.totals.total.value}</td>
+                </tr>
+              {/if}
+            {/foreach}
+          </tbody>
+        </table>
+      {/if}
     {/if}
   </div>
 {/block}

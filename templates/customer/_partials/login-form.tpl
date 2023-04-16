@@ -28,8 +28,7 @@
     {include file='_partials/form-errors.tpl' errors=$errors['']}
   {/block}
 
-  <form id="login-form" action="{block name='login_form_actionurl'}{$action}{/block}" method="post">
-
+  <form id="login-form" action="{block name='login_form_actionurl'}{$action}{/block}" method="post" class="box">
     <div>
       {block name='login_form_fields'}
         {foreach from=$formFields item="field"}
@@ -49,7 +48,7 @@
       <footer class="form-footer text-sm-center clearfix">
         <input type="hidden" name="submitLogin" value="1">
         {block name='form_buttons'}
-          <button id="submit-login" class="btn btn-primary" data-link-action="sign-in" type="submit" class="form-control-submit">
+          <button id="submit-login" class="aw-btn btn btn-primary" data-link-action="sign-in" type="submit" class="form-control-submit">
             {l s='Sign in' d='Shop.Theme.Actions'}
           </button>
         {/block}

@@ -2975,6 +2975,20 @@ table#order-products tbody .product-detail-flex .product-detail {
 }
 /* ========================== End of Testimonial ========================== */
 
+/* ========================== Gate Pages ========================== */
+#authentication #login-form {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+#authentication #login-form .aw-btn {
+  width: 100%;
+}
+#authentication .link {
+  color: #3858FB;
+}
+/* ========================== End of Gate Pages ========================== */
+
 .form-container {
   display: flex;
   flex-wrap: wrap;

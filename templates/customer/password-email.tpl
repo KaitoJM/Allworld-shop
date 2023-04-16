@@ -25,11 +25,11 @@
 {extends file='page.tpl'}
 
 {block name='page_title'}
-  {l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
+  {* {l s='Forgot your password?' d='Shop.Theme.Customeraccount'} *}
 {/block}
 
 {block name='page_content'}
-  <form action="{$urls.pages.password}" class="forgotten-password" method="post">
+  <form action="{$urls.pages.password}" class="forgotten-password box" method="post">
 
     <ul class="ps-alert-error">
       {foreach $errors as $error}
@@ -54,6 +54,7 @@
         <div class="col-md-5 email">
           <input type="email" name="email" id="email" value="{if isset($smarty.post.email)}{$smarty.post.email|stripslashes}{/if}" class="form-control" required>
         </div>
+        <br />
         <button id="send-reset-link" class="form-control-submit btn btn-primary hidden-xs-down" name="submit" type="submit">
           {l s='Send reset link' d='Shop.Theme.Actions'}
         </button>
@@ -67,8 +68,11 @@
 {/block}
 
 {block name='page_footer'}
-  <a id="back-to-login" href="{$urls.pages.my_account}" class="account-link">
-    <i class="material-icons">&#xE5CB;</i>
-    <span>{l s='Back to login' d='Shop.Theme.Actions'}</span>
-  </a>
+  <center>
+    <br />
+    <a id="back-to-login link" href="{$urls.pages.my_account}" class="account-link">
+      <i class="fi-br-arrow-small-left"></i>
+      <span>{l s='Back to login' d='Shop.Theme.Actions'}</span>
+    </a>
+  </center>
 {/block}

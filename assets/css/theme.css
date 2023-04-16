@@ -2976,21 +2976,40 @@ table#order-products tbody .product-detail-flex .product-detail {
 /* ========================== End of Testimonial ========================== */
 
 /* ========================== Gate Pages ========================== */
-#authentication #login-form {
+#authentication #login-form, #password .forgotten-password {
   max-width: 400px;
   display: block;
   margin: auto;
 }
-#authentication .btn-primary {
+#authentication .btn-primary, #password .btn-primary {
   width: 100%;
+  margin-bottom: 10px;
 }
-#authentication .link {
-  color: #3858FB;
+#authentication .link, #password .link {
+  color: #3858FB !important;
 }
 .register-form {
   max-width: 600px;
   display: block;
   margin: auto;
+}
+#password .ps-alert-success {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+#password .ps-alert-success li {
+  display: flex;
+  gap: 20px;
+}
+#password .ps-alert-success svg {
+  width: 30px;
+}
+#password .ps-alert-success p {
+  margin: 0px;
 }
 /* ========================== End of Gate Pages ========================== */
 

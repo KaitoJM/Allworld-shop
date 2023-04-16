@@ -2981,11 +2981,16 @@ table#order-products tbody .product-detail-flex .product-detail {
   display: block;
   margin: auto;
 }
-#authentication #login-form .aw-btn {
+#authentication .btn-primary {
   width: 100%;
 }
 #authentication .link {
   color: #3858FB;
+}
+.register-form {
+  max-width: 600px;
+  display: block;
+  margin: auto;
 }
 /* ========================== End of Gate Pages ========================== */
 

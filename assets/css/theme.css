@@ -513,7 +513,7 @@ a {
 }
 @media(max-width:1040px) {
   .main-layout {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .main-layout.full {
     margin-left: 0px;
@@ -596,8 +596,9 @@ a {
   .main-layout.full .main-content .site-features, .main-layout .main-content .site-features {
     margin-left: -30px;
     margin-right: -30px;
-    padding: 50px;
+    padding: 50px 30px;
     gap: 20px;
+    width: calc(100% + 60px);
   }
   .main-layout .main-content .site-features .feature-item img {
     width: 60px;
@@ -1003,8 +1004,11 @@ a {
 }
 @media(max-width: 1040px) {
   #footer .footer-body, #footer.full .footer-body {
-    padding: 30px 50px;
+    padding: 30px;
     margin-left: 0px;
+  }
+  #footer .footer-body {
+    margin-left: -30px;
   }
   #footer .footer-body .footer-body-content .link-list-container .h3, #footer .footer-body .footer-body-content .block-contact .h3 {
     font-size: 1em;

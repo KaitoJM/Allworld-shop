@@ -44,6 +44,7 @@
         <a class="link-fav" href="{$urls.base_url}module/blockwishlist/lists"><i class="fi-br-heart"></i></a>
       {/if}
       {hook h='displayNav2'}
+      <a class="link-categories" href="#"><i class="fi-br-menu-burger"></i></a>
     </nav>
   {/block}
 </div>

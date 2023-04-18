@@ -127,6 +127,21 @@ jQuery(function() {
       }
     })
   }
+
+  $(document).on('click', '.link-categories', function(e) {
+    $('.custom-main-menu').show();
+    setTimeout(function() {
+      $('.custom-main-menu').addClass('open');
+    }, 100);
+    e.preventDefault();
+  })
+  $(document).on('click', '.category-close', function(e) {
+    $('.custom-main-menu').removeClass('open');
+    setTimeout(function() {
+      $('.custom-main-menu').hide();
+    }, 300);
+    e.preventDefault();
+  })
 })
 
 

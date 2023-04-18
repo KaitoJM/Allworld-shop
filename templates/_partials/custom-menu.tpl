@@ -1,4 +1,5 @@
 <div class="custom-main-menu">
+  <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
   <ul>
     <li>
       <a href="#">Smartphones</a>

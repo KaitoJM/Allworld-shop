@@ -7,7 +7,10 @@
         <ul class="justify">
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/apple-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <span class="brand-title">Apple</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -19,7 +22,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/samsung-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png">
+              <span class="brand-title">Samsung</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -31,7 +37,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <span class="brand-title">Huawei</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -43,7 +52,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/mi-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/mi.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/mi.png">
+              <span class="brand-title">Mi</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -55,7 +67,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/oppo-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/oppo.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/oppo.png">
+              <span class="brand-title">Oppo</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -67,7 +82,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/vivo-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/vivo.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/vivo.png">
+              <span class="brand-title">Vivo</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -79,7 +97,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/realme-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/realme.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/realme.png">
+              <span class="brand-title">Realme</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -91,7 +112,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/nokia-phone.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/nokia.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/nokia.png">
+              <span class="brand-title">Nokia</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -124,7 +148,10 @@
         <ul class="justify">
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/acer.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/acer.png">
+              <span class="brand-title">Acer</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -136,7 +163,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/asus.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/asus.png">
+              <span class="brand-title">Asus</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -148,7 +178,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/lenovo-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/lenovo.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/lenovo.png">
+              <span class="brand-title">Lenovo</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -160,7 +193,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <span class="brand-title">Huawei</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -172,7 +208,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/dell-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/dell.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/dell.png">
+              <span class="brand-title">Dell</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -184,7 +223,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/hp-laptop.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/hp.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/hp.png">
+              <span class="brand-title">HP</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -214,7 +256,10 @@
         <ul>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/apple-tablet.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <span class="brand-title">Apple</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -226,7 +271,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/samsung-tablet.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png">
+              <span class="brand-title">Samsung</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>
@@ -238,7 +286,10 @@
           </li>
           <li>
             <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-tablet.png">
-            <a href="#"><img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png"></a>
+            <a href="#">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <span class="brand-title">Huawei</span>
+            </a>
             <ul class="sub-sub-menu">
               <li>
                 <a>New Arrivals</a>

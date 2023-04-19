@@ -2539,10 +2539,28 @@ a {
   font-size: 1.1em;
 }
 .product-spec-desc .specification {
-  max-width: 500px;
+  max-width: 400px;
+  width: 400px;
 }
 .product-spec-desc .description {
   flex: 1;
+  max-width: calc(100% - 400px);
+}
+.product-spec-desc .description img {
+  max-width: 100%;
+}
+@media(max-width:1400px) {
+  .product-spec-desc {
+    flex-wrap: wrap;
+  }
+  .product-spec-desc .specification {
+    max-width: 100%;
+    width: 100%;
+  }
+  .product-spec-desc .description {
+    flex: 1;
+    max-width: 100%;
+  }
 }
 .product-spec-desc .specification .specification-flex {
   display: flex;

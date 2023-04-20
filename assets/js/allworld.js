@@ -29,7 +29,24 @@ jQuery(function() {
     slideSpeed: 1000,
     fluidSpeed: true,
     smartSpeed: 1000,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
+    responsive : {
+      0 : {
+        items: 1,
+      },
+      480 : {
+        items: 2,
+      },
+      600 : {
+        items: 3,
+      },
+      768 : {
+        items: 4,
+      },
+      1040 : {
+        items: 6,
+      }
+    }
   });
 
   function initProductCoverCarousel() {

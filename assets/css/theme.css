@@ -1354,6 +1354,38 @@ a {
   font-size: 0.8em;
   color: var(--accent_color);
 }
+@media(max-width: 1400px) {
+  .cart-grid .cart-grid-body .cart-items .cart-item .product-line-grid .product-quantity {
+    width: 100px;
+  }
+  .cart-grid .cart-grid-body .cart-items .cart-item .product-line-grid .product-total {
+    width: 100px;
+  }
+  .cart-grid .cart-grid-right {
+    min-width: 250px;
+    max-width: 250px;
+  }
+  .promo-code form .promo-input {
+    width: 100%;
+  }
+}
+@media(max-width: 1040px) {
+  .cart-grid {
+    flex-direction: column;
+  }
+  .cart-grid .cart-grid-right {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .cart-grid .cart-grid-body .cart-items .cart-item {
+    font-size: 0.8em;
+  }
+  .cart-grid .cart-grid-body .cart-items .cart-item .product-line-grid .product-img-container {
+    display: none;
+  }
+}
 /* ========================== End of Cart Page ========================== */
 
 /* ========================== Checkout Page ========================== */
@@ -2003,6 +2035,43 @@ a {
 }
 .order-confirmation-table .order-line.row>div.qty .row>div:last-child {
   text-align: right;
+}
+@media(max-width: 1110px) {
+  .order-confirmation-table .order-line.row {
+    font-size: 0.8em;
+  }
+  .order-confirmation-table .order-line.row>div:last-child {
+    width: 150px;
+  }
+  .order-confirmation-table .order-line.row>div:last-child .row {
+    flex-direction: column;
+  }
+  .order-confirmation-table .order-line.row>div.qty .row>div {
+    text-align: right;
+    width: 100%;
+  }
+  .order-confirmation-table .order-line.row>div.qty .row>div:last-child {
+    text-align: right;
+  }
+  ._desktop-title {
+    display: none !important;
+  }
+}
+@media(max-width: 767px) {
+  .box-order-confirm .box-head h3 {
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+  .box-order-confirm .msg-head {
+    flex-direction: column;
+  }
+  .box-order-confirm .box-head {
+    background-image: none;
+    height: 80px;
+    padding: 20px 30px;
+  }
 }
 .order-confirmation-table table {
   width: 100%;
@@ -2794,6 +2863,29 @@ a {
   font-size: 0.9em;
   border: none;
 }
+@media(max-width:767px) {
+  .modal .modal-dialog .modal-header {
+    height: 80px;
+  }
+  .modal .modal-dialog .modal-header h4 {
+    font-size: 1.2em;
+  }
+  .modal .modal-dialog .modal-body table thead {
+    display: none;
+  }
+  .modal .modal-dialog .modal-body table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal .modal-dialog .modal-body table td {
+    padding: 0px !important;
+  }
+}
+@media(max-width:448px) {
+  .modal .modal-dialog .modal-body .cart-content-btn {
+    flex-direction: column;
+  }
+}
 /* ========================== End of Added to Cart Modal ========================== */
 
 /* ========================== My Account Page ========================== */
@@ -3554,6 +3646,11 @@ ul.nav.nav-inline {
   padding: 20px;
   box-shadow: 0 10px 20px -10px #333;
   border-radius: 12px;
+}
+@media(max-width: 767px) {
+  .modal {
+    width: calc(100% - 20px);
+  }
 }
 
 .nav-back-link {

@@ -2967,6 +2967,50 @@ a {
   align-items: center;
   justify-content: center;
 }
+@media(max-width: 1200px) {
+  .my-account-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .my-account-container .my-account-nav-containner {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  .my-account-container .my-account-nav-containner>ul {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  .my-account-container .my-account-nav-containner>ul>li {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+  }
+  .my-account-container .my-account-nav-containner>ul>li a{
+    display: block;
+  }
+  .my-account-container .my-account-nav-containner>ul>li ul{
+    position: absolute;
+    background-color: #fff;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    right: 0px;
+    display: none;
+  }
+  .btn-logout {
+    width: 130px;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+  }
+  .my-account-container .my-account-page-container {
+    width: 100%;
+  }
+}
 /* -------------------------- My Account -------------------------- */
 .personal-info-block {
   display: flex;

@@ -46,7 +46,9 @@
               aria-label="{l s='Quantity' d='Shop.Theme.Actions'}"
             >
           </div>
-          <span class="stock">{$product.quantity} Stocks left</span>
+          {if $product.quantity <= 2}
+           <span class="stock">Limited Stock</span>
+          {/if}
         </div>
 
         <div class="add">

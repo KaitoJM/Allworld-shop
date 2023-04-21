@@ -3011,6 +3011,15 @@ a {
     width: 100%;
   }
 }
+@media(max-width: 555px) {
+  .my-account-container .my-account-nav-containner ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .my-account-container .my-account-nav-containner ul>li{
+    margin-bottom: 0px;
+  }
+}
 /* -------------------------- My Account -------------------------- */
 .personal-info-block {
   display: flex;
@@ -3025,6 +3034,23 @@ a {
 }
 .personal-info-block .address-info {
   flex: 1;
+}
+@media(max-width: 767px) {
+  .personal-info-block {
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+  }
+  .personal-info-block .personal-info {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .personal-info-block .address-info {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 .personal-info-block .box .title, .order-info.box .title {
   display: flex;

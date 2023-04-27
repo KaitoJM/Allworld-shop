@@ -32,7 +32,8 @@
       {block name='hook_home'}
         {widget name="ps_imageslider"}
         {widget name="ps_bestsellers"}
-        {widget name="ps_brandlist"}
+        {* {widget name="ps_brandlist"} *}
+        {include file='_partials/brands-list.tpl' cart=$cart}
         {widget name="ps_specials"}
         <br />
         {widget name="ps_featuredproducts"}

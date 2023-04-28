@@ -16,7 +16,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Apple&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -31,7 +31,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Samsung&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -46,7 +46,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Huawei&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -61,7 +61,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Mi&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -76,7 +76,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Oppo&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -91,7 +91,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Vivo&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -106,7 +106,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Realme&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -121,7 +121,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}18-smartphones?q=Brand-Nokia&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -157,7 +157,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Acer&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -172,7 +172,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Asus&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -187,7 +187,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Lenovo&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -202,7 +202,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Huawei&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -217,7 +217,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Dell&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -232,7 +232,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}20-laptops?q=Brand-Hp&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -265,7 +265,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Apple&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -280,7 +280,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Samsung&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>
@@ -295,7 +295,7 @@
                 <a>New Arrivals</a>
               </li>
               <li>
-                <a>Best Sellers</a>
+                <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Huawei&order=product.sales.desc">Best Sellers</a>
               </li>
             </ul>
           </li>

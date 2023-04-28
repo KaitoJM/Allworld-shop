@@ -2,7 +2,7 @@
   <section>
     <h2>Our Brands</h2>
     <p>
-    T his is just a placeholder text. Don't be alarmed.
+    This is just a placeholder text. Don't be alarmed.
     </p>
     <div>
       <ul class="brand-carousel owl-carousel owl-loaded owl-drag">

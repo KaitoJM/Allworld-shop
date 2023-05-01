@@ -49,6 +49,8 @@ jQuery(function() {
     }
   });
 
+  $('.cover-item').zoom();
+
   function initProductCoverCarousel() {
     const product_image_cover_carousel = $('.product-cover-carousel').owlCarousel({
       loop:false,

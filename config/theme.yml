@@ -52,6 +52,8 @@ assets:
     all:
      - id: owl-carousel-lib
        path: assets/js/owl.carousel.min.js
+     - id: zoom
+       path: assets/js/jquery.zoom.min.js
      - id: allworld-lib
        path: assets/js/allworld.js
 

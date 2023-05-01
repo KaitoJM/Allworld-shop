@@ -27,17 +27,19 @@
     <div class="product-cover-carousel owl-carousel">
       {foreach from=$product.images item=image}
           {if $product.default_image}
-            <img
-              class="item"
-              src="{$image.bySize.large_default.url}"
-              {if !empty($image.legend)}
-                alt="{$image.legend}"
-                title="{$image.legend}"
-              {else}
-                alt="{$product.name}"
-              {/if}
-              loading="lazy"
-            >
+            <div class="cover-item">
+              <img
+                class="item"
+                src="{$image.bySize.large_default.url}"
+                {if !empty($image.legend)}
+                  alt="{$image.legend}"
+                  title="{$image.legend}"
+                {else}
+                  alt="{$product.name}"
+                {/if}
+                loading="lazy"
+              >
+            </div>
             {* <div class="layer hidden-sm-down" data-toggle="modal" data-target="#product-modal">
               <i class="material-icons zoom-in">search</i>
             </div> *}

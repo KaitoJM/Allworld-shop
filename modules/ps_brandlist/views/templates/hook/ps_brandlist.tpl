@@ -35,9 +35,9 @@
       </p>
     {/if} *}
     <h2>{l s='Our Brands' d='Shop.Theme.Catalog'}</h2>
-    <p>
+    {* <p>
     This is just a placeholder text. Don't be alarmed.
-    </p>
+    </p> *}
     <div>
       {if $brands}
         {include file="module:ps_brandlist/views/templates/_partials/$brand_display_type.tpl" brands=$brands}

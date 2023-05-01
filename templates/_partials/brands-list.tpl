@@ -1,9 +1,9 @@
 <div id="search_filters_brands">
   <section>
     <h2>Our Brands</h2>
-    <p>
+    {* <p>
     This is just a placeholder text. Don't be alarmed.
-    </p>
+    </p> *}
     <div>
       <ul class="brand-carousel owl-carousel owl-loaded owl-drag">
         <li>

@@ -26,7 +26,7 @@
   <h2 class="h2 products-section-title text-uppercase">
     {l s='Top picks for you' d='Shop.Theme.Catalog'}
   </h2>
-  <p>This is just a placeholder text. Don't be alarmed.</p>
+  {* <p>This is just a placeholder text. Don't be alarmed.</p> *}
   {include file="catalog/_partials/productlist.tpl" products=$products productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link" href="{$allBestSellers}">
     {l s='All best sellers' d='Shop.Theme.Catalog'}<i class="fi-br-arrow-small-right"></i>

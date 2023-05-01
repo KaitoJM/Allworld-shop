@@ -24,5 +24,8 @@
  *}
 
 <section class="special-offers-section-container">
+  <h2 class="h2 products-section-title text-uppercase">
+    {l s='Tech for Less' d='Shop.Theme.Catalog'}
+  </h2>
   {include file="catalog/_partials/productlist-special.tpl" products=$products}
 </section>

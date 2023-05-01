@@ -27,7 +27,7 @@
   <h2 class="h2 products-section-title text-uppercase">
     {l s='New Arrivals' d='Shop.Theme.Catalog'}
   </h2>
-  {* <p>This is just a placeholder text. Don't be alarmed.</p> *}
+  <p>Get Ahead with Our Latest Electronics</p>
   {include file="catalog/_partials/productlist.tpl" products=$products productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allNewProductsLink}">
     {l s='All new products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>

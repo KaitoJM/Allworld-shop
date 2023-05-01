@@ -24,7 +24,7 @@
  *}
 <section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Popular products in Computers & Accessories' d='Shop.Theme.Catalog'}
+    {l s='Top Picks for you' d='Shop.Theme.Catalog'}
   </h2>
   <p>This is just a placeholder text. Don't be alarmed.</p>
   {include file="catalog/_partials/productlist.tpl" products=$products cssClass="quads"}

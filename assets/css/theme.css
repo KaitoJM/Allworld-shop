@@ -2665,19 +2665,19 @@ a {
   margin-bottom: 20px;
   flex-wrap: wrap;
 }
-.special-offers-section .js-product {
+.special-offers-section>* {
   width: calc(50% - 15px);
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.special-offers-section .js-product:nth-child(2n) {
+.special-offers-section>*:nth-child(2n) {
   margin-right: 0px;
 }
 @media(max-width: 767px) {
   .special-offers-section {
     flex-wrap: wrap;
   }
-  .special-offers-section .js-product {
+  .special-offers-section>* {
     width: 100%;
     margin-right: 0px;
   }

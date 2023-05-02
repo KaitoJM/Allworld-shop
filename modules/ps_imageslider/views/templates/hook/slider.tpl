@@ -27,8 +27,11 @@
   <div id="image-slider" class="owl-carousel owl-theme">
     {foreach from=$homeslider.slides item=slide name='homeslider'}
       <div class="item">
+        {if $slide.url}
+          <a href="{$slide.url}">
+        {/if}
         <img src="{$slide.image_url}" alt="{$slide.legend|escape}" class="img-background">
-        {if $slide.title || $slide.description}
+        {* {if $slide.title || $slide.description}
           <div class="caption">
             <h2 class="title">{$slide.title}</h2>
             <div class="description">{$slide.description nofilter}</div>
@@ -36,6 +39,9 @@
               <a href="{$slide.url}" class="slide-url">Shop Now</a>
             {/if}
           </div>
+        {/if} *}
+        {if $slide.url}
+          </a>
         {/if}
       </div>
     {/foreach}

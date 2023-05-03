@@ -4202,3 +4202,8 @@ input[type=checkbox]:checked:after{
     margin-left: -30px;
   }
 }
+
+.zoomImg {
+  transform: scale(1.2);
+  background-color: #fff;
+}

@@ -26,7 +26,7 @@
                     {$ETS_TTN_TITLE|escape:'html':'UTF-8'}<br />
                 {/if}
             </h2>
-            <p>Experience the Thrill of Shopping With Us: Discounts, Free Delivery, and Freebies Included! </p>
+            {* <p>Experience the Thrill of Shopping With Us: Discounts, Free Delivery, and Freebies Included! </p> *}
         </div>
     	<div id="ets-ttn-page_home_reviews" class="ets-ttn-list-reviews-slide total_items{$reviews|count}">
             {assign var="count" value=0}

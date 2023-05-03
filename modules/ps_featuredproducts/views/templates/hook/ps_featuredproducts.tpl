@@ -26,7 +26,7 @@
   <h2 class="h2 products-section-title text-uppercase">
     {l s='Top picks for you' d='Shop.Theme.Catalog'}
   </h2>
-  <p>Our favorites, now yours</p>
+  {* <p>Our favorites, now yours</p> *}
   {include file="catalog/_partials/productlist.tpl" products=$products cssClass="quads"}
   <a class="all-product-link" href="{$allProductsLink}">
     {l s='All products' d='Shop.Theme.Catalog'}<i class="fi-br-arrow-small-right"></i>

@@ -22,6 +22,39 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
+{if $urls.current_url == $urls.pages.index}
+<div class="footer-body footer-body-home">
+  <div class="footer-body-head">
+    <div class="logo-container">
+      {renderLogo}
+    </div>
+    {block name='hook_footer_before'}
+      {hook h='displayFooterBefore'}
+    {/block}
+  </div>
+  <div class="footer-body-content">
+    <div class="welcome">
+      Welcome to <a href="{$urls.base_url}content/4-about-us"><b>Allworld Communications</b></a>, your reliable source for a diverse range of high-quality IT products. Our product range includes laptops, mobile phones, printers, projectors, and other low-cost technology, all available at competitive prices. We are dedicated to providing excellent value for our customers and frequently offer discounts and promotions to help you save money. Additionally, we offer free delivery on all orders, making it easier and more affordable to get the technology you need. At Allworld Communications, we prioritize exceptional customer service and strive to meet all your IT needs. Explore our website today to discover our range of products and services.
+    </div>
+    {block name='hook_footer'}
+      {hook h='displayFooterLinks'}
+    {/block}
+    <div class="footer-extra">
+      {block name='hook_footer_after'}
+        {hook h='displayFooterAfter'}
+      {/block}
+    </div>
+  </div>
+</div>
+<div class="footer-footer footer-footer-home">
+  {block name='copyright_link'}
+    <a href="https://www.prestashop.com" target="_blank" rel="noopener noreferrer nofollow">
+      {l s='%copyright% %year%, All rights reserved Allworld Comunications' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
+    </a>
+  {/block}
+</div>
+<div>
+{else}
 <div class="footer-body">
   <div class="footer-body-head">
     <div class="logo-container">
@@ -35,12 +68,14 @@
     {block name='hook_footer'}
       {hook h='displayFooterLinks'}
     {/block}
+    <div class="footer-extra">
+      {block name='hook_footer_after'}
+        {hook h='displayFooterAfter'}
+      {/block}
+    </div>
   </div>
 </div>
 <div class="footer-footer">
-  {block name='hook_footer_after'}
-    {hook h='displayFooterAfter'}
-  {/block}
   {block name='copyright_link'}
     <a href="https://www.prestashop.com" target="_blank" rel="noopener noreferrer nofollow">
       {l s='%copyright% %year%, All rights reserved Allworld Comunications' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
@@ -51,6 +86,8 @@
 {block name='hook_footer'}
   {hook h='displayFooter'}
 {/block}
+{/if}
+
 <!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
 

@@ -97,12 +97,11 @@ global_settings:
         - ps_socialfollow
       displayFooterLinks:
         - ps_linklist
-        - ps_contactinfo
       displayFooter:
         - blockwishlist
       displayFooterAfter:
-        - ps_linklist
-        - blockreassurance
+        - ps_emailsubscription
+        - ps_contactinfo
       displayLeftColumn:
         # - ps_categorytree
         - ps_facetedsearch

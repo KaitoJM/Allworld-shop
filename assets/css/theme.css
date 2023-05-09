@@ -1104,6 +1104,27 @@ a {
   font-weight: 500;
   margin-bottom: 20px;
 }
+#footer .footer-body .footer-body-content .block_newsletter .input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+#footer .footer-body .footer-body-content .block_newsletter .input-wrapper input[type=email] {
+  flex: 1;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  outline: none;
+}
+#footer .footer-body .footer-body-content .block_newsletter .input-wrapper .btn {
+  width: 100px;
+  flex: none;
+  background-color: var(--accent_color);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
 @media(max-width: 767px) {
   #footer .footer-body {
     padding: 10px !important;

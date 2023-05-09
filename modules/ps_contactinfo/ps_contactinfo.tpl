@@ -27,7 +27,7 @@
   <p class="h3">{l s='Contact us' d='Shop.Theme.Global'}</p>
   <div id="contact-infos">
     <ul>
-      <li>{$contact_infos.address.formatted nofilter}</li>
+      {* <li>{$contact_infos.address.formatted nofilter}</li> *}
       {if $contact_infos.phone}
         <li>
         {l s='Call us: [1]%phone%[/1]'
@@ -40,7 +40,7 @@
         }
         </li>
       {/if}
-      {if $contact_infos.fax}
+      {* {if $contact_infos.fax}
         <li>
         {l
           s='Fax: [1]%fax%[/1]'
@@ -52,11 +52,12 @@
           d='Shop.Theme.Global'
         }
         </li>
-      {/if}
+      {/if} *}
       {if $contact_infos.email && $display_email}
         <li>
-          {l s='Email us:' d='Shop.Theme.Global'}
-          {mailto address=$contact_infos.email encode="javascript"}
+          {* {l s='Email us:' d='Shop.Theme.Global'} *}
+          {* {mailto address=$contact_infos.email encode="javascript"} *}
+          sales@allworld.info
         </li>
       {/if}
     </ul>

@@ -326,7 +326,7 @@
       <a href="{$urls.base_url}25-home-entertainment" class="no-sub">Home Entertainment</a>
     </li>
     <li>
-      <a href="#">Discounts & Promos</a>
+      <a href="#" class="no-sub">Promos</a>
     </li>
   </ul>
 </div>

@@ -103,7 +103,7 @@ global_settings:
         - ps_emailsubscription
         - ps_contactinfo
       displayLeftColumn:
-        # - ps_categorytree
+        - ps_categorytree
         - ps_facetedsearch
       displaySearch:
         - ps_searchbar

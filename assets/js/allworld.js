@@ -8,7 +8,8 @@ jQuery(function() {
     slideSpeed: 1000,
     fluidSpeed: true,
     smartSpeed: 1000,
-    autoplayHoverPause: true
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut'
   })
   $('.product-images-carousel').owlCarousel({
     loop:true,
@@ -30,23 +31,17 @@ jQuery(function() {
     fluidSpeed: true,
     smartSpeed: 1000,
     autoplayHoverPause: true,
-    responsive : {
-      0 : {
-        items: 1,
-      },
-      480 : {
-        items: 2,
-      },
-      600 : {
-        items: 3,
-      },
-      768 : {
-        items: 4,
-      },
-      1040 : {
-        items: 6,
-      }
-    }
+    // responsive : {
+    //   0 : {
+    //     items: 4,
+    //   },
+    //   768 : {
+    //     items: 5,
+    //   },
+    //   1040 : {
+    //     items: 6,
+    //   }
+    // }
   });
 
   $('.cover-item').zoom();

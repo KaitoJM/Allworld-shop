@@ -175,10 +175,6 @@
               <span class="value">{$product.condition}</span>
             </div>
           {/if}
-          <div class="specification-flex">
-            <span class="feature">Stock</span>
-            <span class="value">{$product.quantity}</span>
-          </div>
         </div>
         {if $product.description}
           <div class="description">

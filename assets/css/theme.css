@@ -2581,6 +2581,9 @@ a {
   color: #fff;
   border-radius: 5px;
 }
+.product-details-container .buy-now:disabled {
+  background-color: var(--grey);
+}
 .product-details-container .add-to-cart {
   width: 260px;
   height: 40px;
@@ -2588,6 +2591,10 @@ a {
   border: 1px solid var(--accent_color);
   color: var(--accent_color);
   border-radius: 5px;
+}
+.product-details-container .add-to-cart:disabled {
+  color: var(--grey);
+  border-color: var(--grey);
 }
 .product-details-container .add-to-cart i {
   font-size: 1.2em;

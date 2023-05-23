@@ -4414,3 +4414,45 @@ input[type=checkbox]:checked:after{
 .newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg small {
   font-size: 0.8em;
 }
+
+@media(max-width:967px) {
+  .newsletter-dialog-wrapper .newsletter-dialog {
+    width: 95%;
+  }
+}
+
+@media(max-width:767px) {
+  .newsletter-dialog-wrapper .newsletter-dialog {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .img-msg {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px 12px 0 0;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .img-msg img {
+    width: 200px !important;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .img-msg img:first-child {
+    top: -50px !important
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .img-msg img:last-child {
+    bottom: -20px !important
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .form-container {
+    width: 100%;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .form-container h3 {
+    font-size: 1.5rem !important;
+    margin: 10px 0 !important;
+  }
+  .newsletter-dialog-wrapper .newsletter-dialog .form-container p {
+    font-size: 1rem;
+  }
+}

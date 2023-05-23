@@ -25,9 +25,9 @@
 <div id="blockcart-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header add-to-cart-success-header">
         <h4 class="modal-title h6 text-sm-center" id="myModalLabel">
-          <i class="fi-br-badge-check"></i>
+          <i class="fi-br-check"></i>
           {l s='Added to cart successfully!' d='Shop.Theme.Checkout'}
         </h4>
         <button type="button" class="close" data-dismiss="modal">

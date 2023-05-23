@@ -38,6 +38,7 @@
         {widget name="ps_specials"}
         <br />
         {widget name="ps_newproducts"}
+        {include file='_partials/apple-section.tpl'}
         {hook h="displayHome"}
         {include file='_partials/site-features.tpl' cart=$cart}
       {/block}

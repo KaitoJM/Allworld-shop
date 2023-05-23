@@ -4161,6 +4161,9 @@ input[type=checkbox]:checked:after{
   border-radius: 12px !important;
   padding: 0px !important;
   overflow: hidden !important;
+  max-width: 886px !important;
+  width: 98% !important;
+  right: calc(50% - 443px) !important;
 }
 .ets_cookie_banber_block .cookie-head {
   padding: 20px;
@@ -4184,6 +4187,8 @@ input[type=checkbox]:checked:after{
 .ets_cookie_banner_footer {
   background-color: #fff;
   padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 .ets_cookie_banner_footer .ets-cb-btn-ok {
   background-color: var(--accent_color) !important;
@@ -4194,9 +4199,10 @@ input[type=checkbox]:checked:after{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  width: 130px !important;
 }
 .ets_cookie_banner_footer .close_cookie {
-  width: 100% !important;
+  width: 130px !important;
   height: 50px !important;
   position: static !important;
   cursor: pointer;
@@ -4207,6 +4213,15 @@ input[type=checkbox]:checked:after{
 }
 .ets_cookie_banner_footer .close_cookie:before, .ets_cookie_banner_footer .close_cookie:after {
   content: none !important;
+}
+@media(max-width:924px) {
+  .ets_cookie_banber_block {
+    right: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    bottom: 0px !important;
+    border-radius: 0px !important;
+  }
 }
 
 .form-footer {

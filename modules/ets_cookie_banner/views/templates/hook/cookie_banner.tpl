@@ -36,7 +36,7 @@
         </div>
         <div class="ets_cookie_banner_footer">
             <a class="btn btn-primary ets-cb-btn-ok" href="{$link_submit|escape:'html':'UTF-8'}" >{if $ETS_CB_COOKIE_BUTTON_LABEL}{$ETS_CB_COOKIE_BUTTON_LABEL|escape:'html':'UTF-8'}{else}{l s='Ok' mod='ets_cookie_banner'}{/if}</a>
-            <span class="close_cookie">Nope!</span>
+            <span class="close_cookie">Cancel</span>
         </div>
     </div>
 {/if}

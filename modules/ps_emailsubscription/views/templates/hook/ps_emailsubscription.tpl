@@ -70,3 +70,41 @@
   </div>
   <br />
 </div>
+<div class="newsletter-dialog-wrapper" style="display:none">
+  <div class="newsletter-dialog">
+    <div class="img-msg">
+      <div class="main-msg">
+        SUBSCRIBE
+        <div>SALE</div>
+        <small>UP TO 5% OFF</small>
+      </div>
+    </div>
+    <div class="form-container" id="blockEmailSubscription_{$hookName}2">
+      <a href="#" class="close close-newsletter"><i class="fi-br-cross"></i></a>
+      <h3>
+        Subscribe to our<br />
+        Newsletter
+      </h3>
+      <p>Great offers awaits you!</p>
+      <form action="{$urls.current_url}#blockEmailSubscription_{$hookName}2" method="post">
+        <label>Email <span style="color:#ED5500">*</span></label>
+        <input type="email" name="email" class="form-control" required>
+        <input class="btn" name="submitNewsletter" type="submit" value="Subscribe">
+        <input type="hidden" name="blockHookName" value="displayFooterAfter">
+        <input type="hidden" name="action" value="0">
+      </form>
+      {if $msg}
+        <div class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
+          {$msg}
+        </div>
+      {else}
+        * Don’t worry we don’t spam
+      {/if}
+    {if $msg && !$nw_error}
+      <script>
+        localStorage.setItem("show_email_newsletter_dialog", 'hidden');
+      </script>
+    {/if}
+    </div>
+  </div>
+</div>

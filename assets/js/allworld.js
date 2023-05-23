@@ -156,8 +156,25 @@ jQuery(function() {
     }, 300);
     e.preventDefault();
   })
+
 })
 
+// newsletter dialog
+let dialog_flg = localStorage.getItem("show_email_newsletter_dialog");
+if (dialog_flg != 'hidden') {
+  setTimeout(function() {
+    console.log('triggered shown')
+    $('.newsletter-dialog-wrapper').fadeIn();
+  }, 5000)
+} else {
+  console.log('triggered hidden', dialog_flg)
+}
+
+$(document).on('click', '.close-newsletter', function(e) {
+  localStorage.setItem("show_email_newsletter_dialog", 'hidden');
+  $('.newsletter-dialog-wrapper').fadeOut();
+  e.preventDefault()
+})
 
 $(document).on('click', '.buy-now', function(e) {
   $(this).closest('.add').find('.add-to-cart').trigger('click');

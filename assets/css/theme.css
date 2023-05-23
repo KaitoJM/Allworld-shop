@@ -4330,3 +4330,86 @@ input[type=checkbox]:checked:after{
   width: 100%;
   height: auto;
 }
+
+.newsletter-dialog-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #00000070;
+}
+.newsletter-dialog-wrapper .newsletter-dialog {
+  position: absolute;
+  width: 923px;
+  height: 441px;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.newsletter-dialog-wrapper .newsletter-dialog .img-msg {
+  width: 50%;
+  height: 100%;
+  background-color: var(--accent_color);
+  border-radius: 12px 0 0 12px;
+  position: relative;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .form-container {
+  display: block;
+  padding: 50px;
+  box-sizing: border-box;
+  width: 50%;
+  color: #333;
+  position: relative;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .form-container h3 {
+  font-size: 2rem !important;
+  margin: 10px 0 !important;
+  font-weight: 600 !important;
+  margin-top: 0px !important;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .form-container p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .form-container form {
+  margin: 15px 0;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .form-container form .btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: var(--accent_color);
+  color: #fff;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #B1B1B1 !important;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  text-align: center;
+  transform: skew(360deg, 345deg) translate(-50%, -66%);
+  color: #FFF50B;
+  text-shadow: -1px 5px #00000040;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg div {
+  font-size: 2.4em;
+}
+.newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg small {
+  font-size: 0.8em;
+}

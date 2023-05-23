@@ -34,7 +34,8 @@
   </div>
   <div class="footer-body-content">
     <div class="welcome">
-      Welcome to <a href="{$urls.base_url}content/4-about-us"><b>Allworld Communications</b></a>, your reliable source for a diverse range of high-quality IT products. Our product range includes laptops, mobile phones, printers, projectors, and other low-cost technology, all available at competitive prices. We are dedicated to providing excellent value for our customers and frequently offer discounts and promotions to help you save money. Additionally, we offer free delivery on all orders, making it easier and more affordable to get the technology you need. At Allworld Communications, we prioritize exceptional customer service and strive to meet all your IT needs. Explore our website today to discover our range of products and services.
+      Welcome to <a href="{$urls.base_url}content/4-about-us"><b>Allworld Communications</b></a>,
+      your reliable source for a diverse range of high-quality IT products. Our product range includes laptops, mobile phones, printers, projectors, and other low-cost technology, all available at competitive prices. We are dedicated to providing excellent value for our customers and frequently offer discounts and promotions to help you save money. We offer free delivery on all orders, making it easier and more affordable to get the technology you need. We prioritize exceptional customer service and strive to meet all your IT needs. Explore our website today to discover our range of products and services.
     </div>
     {block name='hook_footer'}
       {hook h='displayFooterLinks'}

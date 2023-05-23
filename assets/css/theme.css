@@ -4406,6 +4406,7 @@ input[type=checkbox]:checked:after{
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 9;
 }
 .newsletter-dialog-wrapper .newsletter-dialog .img-msg .main-msg div {
   font-size: 2.4em;

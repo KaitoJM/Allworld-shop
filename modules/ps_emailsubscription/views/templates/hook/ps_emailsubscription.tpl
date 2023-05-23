@@ -73,11 +73,13 @@
 <div class="newsletter-dialog-wrapper" style="display:none">
   <div class="newsletter-dialog">
     <div class="img-msg">
+      <img src="{$urls.theme_assets}images/gift-top.png" style="position: absolute;top: -118px;left: 50%;transform: translateX(-50%);">
       <div class="main-msg">
         SUBSCRIBE
         <div>SALE</div>
         <small>UP TO 5% OFF</small>
       </div>
+      <img src="{$urls.theme_assets}images/gift-bottom.png" style="position: absolute;bottom: -45px;left: 50%;width: 105%;transform: translateX(-50%);">
     </div>
     <div class="form-container" id="blockEmailSubscription_{$hookName}2">
       <a href="#" class="close close-newsletter"><i class="fi-br-cross"></i></a>

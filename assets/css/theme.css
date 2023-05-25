@@ -931,6 +931,8 @@ a {
   height: auto;
   object-fit: cover;
   transition: 0.3s ease-in-out;
+  padding: 30px;
+  box-sizing: border-box;
 }
 .product-list-container .product .product-description {
   padding: 15px;
@@ -4166,7 +4168,7 @@ input[type=checkbox]:checked:after{
   right: calc(50% - 443px) !important;
 }
 .ets_cookie_banber_block .cookie-head {
-  padding: 20px;
+  padding: 10px 20px;
   color: #fff;
   background-color: var(--accent_color);
   display: flex;
@@ -4180,20 +4182,20 @@ input[type=checkbox]:checked:after{
   filter: invert(1);
 }
 .ets_cookie_banber_block .cookie-body {
-  padding: 20px;
+  padding: 10px 20px;
   font-size: 0.9em;
   background-color: #fff;
 }
 .ets_cookie_banner_footer {
   background-color: #fff;
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 10px 20px;
   display: flex;
   justify-content: flex-end;
 }
 .ets_cookie_banner_footer .ets-cb-btn-ok {
   background-color: var(--accent_color) !important;
   color: #fff !important;
-  height: 50px !important;
+  height: 40px !important;
   border-radius: 5px !important;
   border: none !important;
   display: flex !important;
@@ -4203,7 +4205,7 @@ input[type=checkbox]:checked:after{
 }
 .ets_cookie_banner_footer .close_cookie {
   width: 130px !important;
-  height: 50px !important;
+  height: 40px !important;
   position: static !important;
   cursor: pointer;
   color: var(--grey);
@@ -4500,6 +4502,7 @@ input[type=checkbox]:checked:after{
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
+  background-color: #fff;
 }
 .full-section.apple-section h3 {
   font-size: 3em;

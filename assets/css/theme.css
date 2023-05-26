@@ -793,6 +793,13 @@ a {
     padding: 30px;
   }
 }
+@media(max-width: 550px) {
+  .main-layout .main-content #search_filters_brands {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+}
 .main-layout .main-content #search_filters_brands h2 {
   font-size: 1.5em;
   font-weight: 500;
@@ -4495,6 +4502,13 @@ input[type=checkbox]:checked:after{
     padding: 30px;
   }
 }
+@media(max-width: 550px) {
+  .full-section {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+}
 
 .full-section.apple-section {
   min-height: 500px;
@@ -4519,4 +4533,28 @@ input[type=checkbox]:checked:after{
   align-items: center;
   font-size: 0.9em;
   margin-top: 30px;
+}
+@media(max-width: 1200px) {
+  .full-section.apple-section {
+    min-height: 300px;
+  }
+  .full-section.apple-section h3 {
+    font-size: 2em;
+  }
+}
+@media(max-width: 720px) {
+  .full-section.apple-section {
+    min-height: 200px;
+  }
+  .full-section.apple-section h3 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width: 550px) {
+  .full-section.apple-section {
+    min-height: 150px;
+  }
+  .full-section.apple-section h3 {
+    font-size: 1.1em;
+  }
 }

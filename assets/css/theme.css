@@ -3627,10 +3627,29 @@ table#order-products tbody .product-detail-flex .product-detail {
 .slick-dots {
   display: none !important;
 }
+.testimonials-carousel .item {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  background-color: transparent !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .testimonials-carousel .item img {
+  width: 33.33% !important;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+}
+@media(max-width:550px) {
+  .testimonials-carousel .item {
+    gap: 10px;
+    border-radius: 5px;
+  }
+  .testimonials-carousel .item img {
+    height: 150px;
+    border-radius: 5px;
+  }
 }
 /* ========================== End of Testimonial ========================== */
 

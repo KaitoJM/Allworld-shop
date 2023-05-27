@@ -45,23 +45,15 @@ jQuery(function() {
   });
   $('.testimonials-carousel').owlCarousel({
     loop:true,
-    margin:20,
-    items: 3,
+    margin:0,
+    items: 1,
     dots: true,
     autoplay: true,
     slideSpeed: 1000,
     fluidSpeed: true,
     smartSpeed: 1000,
     autoplayHoverPause: true,
-    animateOut: 'fadeOut',
-    responsive : {
-      0 : {
-        items: 1,
-      },
-      768 : {
-        items: 3,
-      },
-    }
+    animateOut: 'fadeOut'
   })
 
   $('.cover-item').zoom();

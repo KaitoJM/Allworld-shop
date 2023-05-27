@@ -1038,7 +1038,7 @@ a {
   color: var(--accent_color);
 }
 .featured-products {
-  overflow: auto;
+  overflow: visible;
 }
 .featured-products .all-product-link {
   font-size: 0.9em;
@@ -4541,6 +4541,7 @@ input[type=checkbox]:checked:after{
   background-position: right center;
   background-repeat: no-repeat;
   background-color: #fff;
+  margin-bottom: 0px;
 }
 .full-section.apple-section h3 {
   font-size: 3em;
@@ -4580,5 +4581,40 @@ input[type=checkbox]:checked:after{
   }
   .full-section.apple-section h3 {
     font-size: 1.1em;
+  }
+}
+.apple-product-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+.apple-product-section .featured-products {
+  margin-bottom: 0px;
+  padding: 0 15px;
+}
+.apple-product-section .product-list-container .product {
+  width: calc(20% - 12px) !important;
+  margin-right: 15px;
+}
+.apple-product-section  .product-list-container .product:nth-child(4n) {
+  margin-right: 15px;
+}
+.apple-product-section  .product-list-container .product:nth-child(5n) {
+  margin-right: 0px;
+}
+@media(max-width: 767px) {
+  .apple-product-section .product-list-container .product {
+    width: calc(50% - 5px) !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .apple-product-section  .product-list-container .product:nth-child(4n) {
+    margin-right: 0px;
+  }
+  .apple-product-section  .product-list-container .product:nth-child(5n) {
+    margin-right: 10px;
+  }
+  .product-list-container .product:nth-child(2n) {
+    margin-right: 0px;
   }
 }

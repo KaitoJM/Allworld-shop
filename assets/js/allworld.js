@@ -43,6 +43,26 @@ jQuery(function() {
       }
     }
   });
+  $('.testimonials-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    items: 3,
+    dots: true,
+    autoplay: true,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut',
+    responsive : {
+      0 : {
+        items: 1,
+      },
+      768 : {
+        items: 3,
+      },
+    }
+  })
 
   $('.cover-item').zoom();
 

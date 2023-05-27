@@ -3627,6 +3627,11 @@ table#order-products tbody .product-detail-flex .product-detail {
 .slick-dots {
   display: none !important;
 }
+.testimonials-carousel .item img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 /* ========================== End of Testimonial ========================== */
 
 /* ========================== Gate Pages ========================== */

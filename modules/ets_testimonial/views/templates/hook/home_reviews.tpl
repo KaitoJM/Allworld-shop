@@ -28,14 +28,17 @@
             </h2>
             {* <p>Experience the Thrill of Shopping With Us: Discounts, Free Delivery, and Freebies Included! </p> *}
         </div>
-    	<div id="ets-ttn-page_home_reviews" class="ets-ttn-list-reviews-slide total_items{$reviews|count}">
+    	<div class="owl-carousel testimonials-carousel">
             {assign var="count" value=0}
             {foreach from=$reviews item='review'}
                 {if $review.avatar}
-                    <div class="review-item">
+                    <div class="item">
+                        <img src="{$link->getMediaLink("`$smarty.const._PS_TESTIMONIAL_IMG_`avatars/`$review.avatar|escape:'htmlall':'UTF-8'`")}" />
+                    </div>
+                    {* <div class="review-item item">
                         <div class="ets-ttn-review-item">
                             <img class="testimonial-img" src="{$link->getMediaLink("`$smarty.const._PS_TESTIMONIAL_IMG_`avatars/`$review.avatar|escape:'htmlall':'UTF-8'`")}" />
-                            {* <div class="review-item-info">
+                            <div class="review-item-info">
                                 <div class="review-item-head">
                                     <div class="review-avatar"
                                         style="{if $review.avatar}
@@ -90,9 +93,9 @@
                                         {/if}
                                     </div>
                                 {/if}
-                            </div> *}
+                            </div>
                         </div>
-                    </div>
+                    </div> *}
                 {/if}
             {/foreach}
         </div>

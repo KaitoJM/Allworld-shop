@@ -4361,6 +4361,12 @@ input[type=checkbox]:checked:after{
     margin-left: -30px;
   }
 }
+@media(max-width: 550px) {
+  #image-slider {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
 
 .zoomImg {
   transform: scale(1.2);

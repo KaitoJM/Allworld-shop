@@ -1,5 +1,43 @@
+html, body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
 #body{background-color:#f7f7f7}#layout-error{padding:50px 15px;margin:50px auto 0;text-align:center;background-color:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.3)}#layout-error .logo{margin:0 0 31px;text-align:center}#layout-error h1{padding:0 0 14px;margin:0 0 19px;font:24px sans-serif;color:#333}#layout-error h2{padding:0 0 14px;margin:0 0 19px;font:20px sans-serif;color:#333}#layout-error .page-content{font:16px sans-serif;color:#555454;text-align:center}@media (min-width: 1200px){#layout-error{width:500px;padding:50px;margin:126px auto 0}}@media (min-width: 768px){#layout-error{width:500px}}@media (min-width: 992px){#layout-error{width:500px}}@media only screen and (min-width: 1200px){#layout-error{padding-right:0;padding-left:0}}
 
+#layout-error {
+    box-shadow: none;
+}
+#layout-error h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+}
 #layout-error .logo img {
     width: 100%;
+}
+.smedia {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+.smedia a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    height: 40px;
+    font-size: 0.9rem;
 }

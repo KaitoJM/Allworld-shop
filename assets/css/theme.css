@@ -72,9 +72,12 @@ a {
     height: 80px !important;
   }
   #header .logo-container {
-    width: 200px;
-    min-width: 200px;
+    width: 170px;
+    min-width: 170px;
     padding: 20px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #fff;
   }
   #header .logo-container a img {
@@ -87,16 +90,22 @@ a {
     justify-content: end !important;
   }
 }
-@media(max-width: 410px) {
+@media(max-width: 376px) {
   #header .logo-container {
     width: 150px;
     min-width: 150px;
   }
 }
-@media(max-width: 410px) {
+@media(max-width: 356px) {
   #header .logo-container {
-    width: 130px;
-    min-width: 130px;
+    width: 145px;
+    min-width: 145px;
+  }
+}
+@media(max-width: 351px) {
+  #header .logo-container {
+    width: 110px;
+    min-width: 110px;
   }
 }
 /* -------------------------- Header Search & Navigation -------------------------- */
@@ -798,6 +807,7 @@ a {
     margin-right: -15px;
     margin-left: -15px;
     padding: 15px;
+    background-attachment: unset;
   }
 }
 .main-layout .main-content #search_filters_brands h2 {
@@ -1104,6 +1114,14 @@ a {
   gap: 20px;
   align-items: center;
   font-size: 0.9em;
+}
+@media(max-width:550px) {
+  #footer .footer-body .footer-body-head .menu ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 #footer .footer-body .footer-body-head .menu ul .current a {
   color: var(--accent_color);
@@ -4266,7 +4284,7 @@ input[type=checkbox]:checked:after{
     right: 0px !important;
     width: 100% !important;
     max-width: 100% !important;
-    bottom: 0px !important;
+    bottom: 105px !important;
     border-radius: 0px !important;
   }
 }
@@ -4651,4 +4669,27 @@ input[type=checkbox]:checked:after{
 }
 .page-content.page-not-found p {
   max-width: 500px;
+}
+
+@media(max-width: 767px) {
+  .page-cms .has-tbl-responsive table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .page-cms .has-tbl-responsive table td {
+    min-width: auto !important;
+    max-width: auto !important;
+    width: auto !important;
+  }
+}
+
+@media(max-width:550px) {
+  .owl-carousel .owl-dots {
+    bottom: 25px !important
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 5px !important;
+    height: 5px !important;
+    margin: 5px 3px !important;
+  }
 }

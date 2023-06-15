@@ -140,7 +140,50 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}19-desktop-pc" class="no-sub">Desktop PC</a>
+      <a href="{$urls.base_url}19-desktop-pc">Desktop PC</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <a href="{$urls.base_url}28-all-in-one-pc">
+              All-In-One PC
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}28-all-in-one-pc?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}29-built-in-pc">
+              Built-in PC
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}29-built-in-pc?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
       <a href="{$urls.base_url}20-laptops">Laptops</a>
@@ -314,16 +357,303 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}22-essential" class="no-sub">Essential</a>
+      <a href="{$urls.base_url}22-essential">Essential</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <a href="{$urls.base_url}30-mouse">
+              Mouse
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}30-mouse?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}31-keyboard">
+              Keyboard
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}31-keyboard?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}32-data-storage">
+              Data Storage
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}32-data-storage?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
-      <a href="{$urls.base_url}23-sound-and-vision" class="no-sub">Sound and Vision</a>
+      <a href="{$urls.base_url}23-sound-and-vision">Sound and Vision</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <a href="{$urls.base_url}33-speaker">
+              Speaker
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}33-speaker?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}34-headsets">
+              Headsets
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}34-headsets?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}35-monitor">
+              Monitor
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}35-monitor?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}36-cctv">
+              CCTV
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}36-cctv?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
-      <a href="{$urls.base_url}24-printing" class="no-sub">Printing</a>
+      <a href="{$urls.base_url}24-printing">Printing</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <a href="{$urls.base_url}24-printing?q=Brand-Epson">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <span class="brand-title">Epson</span>
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}24-printing?q=Brand-Epson&order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}24-printing?q=Brand-Brother">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <span class="brand-title">Brother</span>
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}24-printing?q=Brand-Brother&order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}24-printing?q=Brand-Hp">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/hp.png">
+              <span class="brand-title">Hp</span>
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}24-printing?q=Brand-Hp&order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
-      <a href="{$urls.base_url}25-home-entertainment" class="no-sub">Home Entertainment</a>
+      <a href="{$urls.base_url}25-home-entertainment">Home Entertainment</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <a href="{$urls.base_url}37-smart-wifi">
+              Smart Wifi
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}37-smart-wifi?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}38-globe-wifi">
+              Globe Wifi
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}38-globe-wifi?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}39-cignal">
+              CIGNAL
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}39-cignal?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}40-g-sat">
+              G-Sat
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}40-g-sat?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}41-router">
+              Router
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}41-router?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <a href="{$urls.base_url}42-gma-tv-box">
+              GMA TV Box
+            </a>
+            <ul class="sub-sub-menu">
+              <li>
+                <a>New Arrivals</a>
+              </li>
+              <li>
+                <a href="{$urls.base_url}42-gma-tv-box?order=product.sales.desc">Best Sellers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="brand-list">
+          <ul>
+            <li>BRANDS WE TRUST</li>
+            <li>
+              <a href="#" class="shop-all">
+                SHOP ALL
+                <i class="fi-br-angle-small-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
       <a href="{$urls.base_url}27-promo" class="no-sub">Promos</a>

@@ -381,6 +381,9 @@ a {
   box-sizing: border-box;
   max-width: 190px;
 }
+.custom-main-menu ul li .sub-menu>ul>li {
+  padding: 0px;
+}
 .custom-main-menu ul li .sub-menu .justify li {
   max-width: 100%;
   flex: 1;
@@ -572,7 +575,9 @@ a {
     height: auto;
     left: 0px;
     top: -30px;
-    display: none;
+    display: block;
+    opacity: 1;
+    visibility: visible;
   }
   .custom-main-menu>ul>li:hover .sub-menu {
     box-shadow: none;
@@ -584,6 +589,11 @@ a {
     height: auto;
   }
   .custom-main-menu ul li a {
+    height: 30px;
+    color: #fff !important;
+  }
+  .custom-main-menu>ul>li>a {
+    font-size: 1rem;
     height: 40px;
   }
   .custom-main-menu ul li .sub-menu li .sub-menu-img {
@@ -597,6 +607,11 @@ a {
     flex-direction: column;
     min-height: auto;
     gap: 0px;
+    padding: 0px;
+    padding-left: 30px;
+  }
+  .custom-main-menu ul li .sub-menu ul li, .custom-main-menu ul li .sub-menu .justify li {
+    width: 100%;
   }
   .custom-main-menu ul li .sub-menu li>a .brand-title {
     display: block;

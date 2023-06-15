@@ -4681,6 +4681,9 @@ input[type=checkbox]:checked:after{
     max-width: auto !important;
     width: auto !important;
   }
+  .page-cms iframe {
+    height: 250px;
+  }
 }
 
 @media(max-width:550px) {

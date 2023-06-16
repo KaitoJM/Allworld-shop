@@ -6,9 +6,9 @@
       <div class="sub-menu">
         <ul class="justify">
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/apple-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/apple-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Apple">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/apple-logo.webp">
               <span class="brand-title">Apple</span>
             </a>
             <ul class="sub-sub-menu">
@@ -21,9 +21,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/samsung-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/samsung-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Samsung">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/samsung-logo.webp">
               <span class="brand-title">Samsung</span>
             </a>
             <ul class="sub-sub-menu">
@@ -36,9 +36,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/huawei-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Huawei">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/huawei-logo.webp">
               <span class="brand-title">Huawei</span>
             </a>
             <ul class="sub-sub-menu">
@@ -51,9 +51,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/mi-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/mi-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Mi">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/mi.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/mi-logo.webp">
               <span class="brand-title">Mi</span>
             </a>
             <ul class="sub-sub-menu">
@@ -66,9 +66,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/oppo-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/oppo-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Oppo">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/oppo.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/oppo-logo.webp">
               <span class="brand-title">Oppo</span>
             </a>
             <ul class="sub-sub-menu">
@@ -81,9 +81,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/vivo-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/vivo-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Vivo">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/vivo.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/vivo-logo.webp">
               <span class="brand-title">Vivo</span>
             </a>
             <ul class="sub-sub-menu">
@@ -96,9 +96,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/realme-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/realme-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Realme">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/realme.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/realme-logo.webp">
               <span class="brand-title">Realme</span>
             </a>
             <ul class="sub-sub-menu">
@@ -111,9 +111,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/nokia-phone.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/smartphones/nokia-img.webp">
             <a href="{$urls.base_url}18-smartphones?q=Brand-Nokia">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/nokia.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/nokia-logo.webp">
               <span class="brand-title">Nokia</span>
             </a>
             <ul class="sub-sub-menu">
@@ -144,7 +144,7 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/desktoppc/aio-pc.webp">
             <a href="{$urls.base_url}28-all-in-one-pc">
               All-In-One PC
             </a>
@@ -158,7 +158,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/desktoppc/built-in-pc.webp">
             <a href="{$urls.base_url}29-built-in-pc">
               Built-in PC
             </a>
@@ -190,9 +190,9 @@
       <div class="sub-menu">
         <ul class="justify">
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/acer-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Acer">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/acer.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/acer-logo.webp">
               <span class="brand-title">Acer</span>
             </a>
             <ul class="sub-sub-menu">
@@ -205,9 +205,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/asus-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Asus">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/asus.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/asus-logo.webp">
               <span class="brand-title">Asus</span>
             </a>
             <ul class="sub-sub-menu">
@@ -220,9 +220,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/lenovo-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/lenovo-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Lenovo">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/lenovo.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/lenovo-logo.webp">
               <span class="brand-title">Lenovo</span>
             </a>
             <ul class="sub-sub-menu">
@@ -235,9 +235,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/huawei-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Huawei">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/huawei-logo.webp">
               <span class="brand-title">Huawei</span>
             </a>
             <ul class="sub-sub-menu">
@@ -250,9 +250,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/dell-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/dell-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Dell">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/dell.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/dell-logo.webp">
               <span class="brand-title">Dell</span>
             </a>
             <ul class="sub-sub-menu">
@@ -265,9 +265,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/hp-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/laptops/hp-img.webp">
             <a href="{$urls.base_url}20-laptops?q=Brand-Hp">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/hp.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/hp-logo.webp">
               <span class="brand-title">HP</span>
             </a>
             <ul class="sub-sub-menu">
@@ -298,9 +298,9 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/apple-tablet.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/tablets/apple-tablet-img.webp">
             <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Apple">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/apple-logo.webp">
               <span class="brand-title">Apple</span>
             </a>
             <ul class="sub-sub-menu">
@@ -313,9 +313,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/samsung-tablet.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/tablets/samsung-tablet-img.webp">
             <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Samsung">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/samsung.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/samsung-logo.webp">
               <span class="brand-title">Samsung</span>
             </a>
             <ul class="sub-sub-menu">
@@ -328,9 +328,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/huawei-tablet.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/tablets/huawei-tablet-img.webp">
             <a href="{$urls.base_url}21-tablet-ipad?q=Brand-Huawei">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/huawei.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/huawei-logo.webp">
               <span class="brand-title">Huawei</span>
             </a>
             <ul class="sub-sub-menu">
@@ -361,7 +361,7 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/essentials/mouse.webp">
             <a href="{$urls.base_url}30-mouse">
               Mouse
             </a>
@@ -375,7 +375,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/essentials/keyboard.webp">
             <a href="{$urls.base_url}31-keyboard">
               Keyboard
             </a>
@@ -389,7 +389,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/essentials/hdd.webp">
             <a href="{$urls.base_url}32-data-storage">
               Data Storage
             </a>
@@ -421,7 +421,7 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/soundvision/Speaker-img.webp">
             <a href="{$urls.base_url}33-speaker">
               Speaker
             </a>
@@ -435,7 +435,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/soundvision/Headsets-img.webp">
             <a href="{$urls.base_url}34-headsets">
               Headsets
             </a>
@@ -449,7 +449,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/soundvision/Monitor-img.webp">
             <a href="{$urls.base_url}35-monitor">
               Monitor
             </a>
@@ -463,7 +463,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/soundvision/CCTV-img.webp">
             <a href="{$urls.base_url}36-cctv">
               CCTV
             </a>
@@ -495,9 +495,9 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/printing/Epson-img.webp">
             <a href="{$urls.base_url}24-printing?q=Brand-Epson">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/Epson-logo.webp">
               <span class="brand-title">Epson</span>
             </a>
             <ul class="sub-sub-menu">
@@ -510,9 +510,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/printing/Brother-img.webp">
             <a href="{$urls.base_url}24-printing?q=Brand-Brother">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/apple.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/Brother-logo.webp">
               <span class="brand-title">Brother</span>
             </a>
             <ul class="sub-sub-menu">
@@ -525,9 +525,9 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/printing/hp-img.webp">
             <a href="{$urls.base_url}24-printing?q=Brand-Hp">
-              <img class="link-img" src="{$urls.theme_assets}/images/brands/hp.png">
+              <img class="link-img" src="{$urls.theme_assets}/images/brands/webp/hp-logo.webp">
               <span class="brand-title">Hp</span>
             </a>
             <ul class="sub-sub-menu">
@@ -558,7 +558,7 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/acer-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/smart-wifi-img.webp">
             <a href="{$urls.base_url}37-smart-wifi">
               Smart Wifi
             </a>
@@ -572,7 +572,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/globe-wifi-img.webp">
             <a href="{$urls.base_url}38-globe-wifi">
               Globe Wifi
             </a>
@@ -586,7 +586,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/cignal-img.webp">
             <a href="{$urls.base_url}39-cignal">
               CIGNAL
             </a>
@@ -600,7 +600,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/gsat-img.webp">
             <a href="{$urls.base_url}40-g-sat">
               G-Sat
             </a>
@@ -614,7 +614,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/router-img.webp">
             <a href="{$urls.base_url}41-router">
               Router
             </a>
@@ -628,7 +628,7 @@
             </ul>
           </li>
           <li>
-            <img class="sub-menu-img" src="{$urls.theme_assets}/images/asus-laptop.png">
+            <img class="sub-menu-img" src="{$urls.theme_assets}/images/home/gma-tvbox-img.webp">
             <a href="{$urls.base_url}42-gma-tv-box">
               GMA TV Box
             </a>

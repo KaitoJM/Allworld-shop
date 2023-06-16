@@ -376,18 +376,20 @@ a {
   color: #333;
 }
 .custom-main-menu ul li .sub-menu li {
-  flex: 1;
+  /* flex: 1; */
   padding: 0 50px;
   box-sizing: border-box;
-  max-width: 190px;
+  /* max-width: 190px; */
 }
 .custom-main-menu ul li .sub-menu>ul>li {
   padding: 0px;
+  margin-right: 40px;
 }
 .custom-main-menu ul li .sub-menu .justify li {
   max-width: 100%;
   flex: 1;
   padding: 0 0px;
+  margin-right: 0px;
 }
 .custom-main-menu ul li .sub-menu .brand-list {
   width: 100vw;
@@ -445,7 +447,7 @@ a {
   width: 100%;
 }
 .custom-main-menu ul li .sub-menu li>a .link-img {
-  height: 50px;
+  height: 30px;
   margin: 10px 0;
 }
 .custom-main-menu ul li .sub-menu li>a i {

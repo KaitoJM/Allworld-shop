@@ -21,9 +21,9 @@
         <h4 class="title_blog title_block">{l s='Latest posts' mod='ets_blog'}</h4>
         {assign var='product_row' value=4}
         <div class="block_content row">
-            <ul>
+            <div class="side-posts">
                 {foreach from=$posts item='post'}
-                    <li {if $page=='home'}class="col-xs-12 col-sm-4 col-lg-{12/$product_row|intval}"{/if}> 
+                    <div class="item"> 
                         {if $post.thumb}
                             <a class="ets_item_img" href="{$post.link|escape:'html':'UTF-8'}">
                                 <img src="{$post.thumb|escape:'html':'UTF-8'}" alt="{$post.title|escape:'html':'UTF-8'}" title="{$post.title|escape:'html':'UTF-8'}" />
@@ -80,9 +80,9 @@
                             {/if}
                             <a class="read_more" href="{$post.link|escape:'html':'UTF-8'}">{if $ets_blog_text_Readmore}{$ets_blog_text_Readmore|escape:'html':'UTF-8'}{else}{l s='Read More' mod='ets_blog'}{/if}</a>
                         </div>
-                    </li>
+                    </div>
                 {/foreach}
-            </ul>
+            </div>
             {if $page!='home'}
                 <div class="blog_view_all_button">
                     <a href="{$latest_link|escape:'html':'UTF-8'}" class="view_all_link">{l s='View all latest posts' mod='ets_blog'}</a>

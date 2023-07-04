@@ -42,7 +42,6 @@
             <form action="{$action|escape:'html':'UTF-8'}" method="post">
                 <input class="form-control" type="text" name="ets_blog_search" placeholder="{l s='Search blogs, topics and more' mod='ets_blog'}" value="{$search|escape:'html':'UTF-8'}" />
                 <input class="button" type="submit" value="{l s='Search' mod='ets_blog'}" style="display: none;"/>
-                <span class="icon_search"></span>
             </form>
         </div>
     {elseif $blog_search}

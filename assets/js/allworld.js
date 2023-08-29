@@ -200,6 +200,9 @@ $(document).on('click', '.product-buy-now', function(e) {
   e.preventDefault();
 })
 
+$(document).on('click', '.sub-menu-img', function(e) {
+  location.href = $(this).next().attr('href')
+})
 
 
 // $(document).on('click', '.add-to-whish-list', function() {

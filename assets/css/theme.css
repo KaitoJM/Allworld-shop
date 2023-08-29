@@ -437,6 +437,7 @@ a {
   height: 100px;
   width: auto;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .custom-main-menu ul li .sub-menu li.bordered {
   border-right: 1px solid var(--stroke_color);

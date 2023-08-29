@@ -2,7 +2,7 @@
   <div class="feature-item">
     <img src="{$urls.theme_assets}icons/home-original.png" />
     <div class="item-details">
-      <div class="item-title">Authorized<br />Reseller</div>
+      <div class="item-title">Authorized<br />Dealer</div>
       <p>Guaranteed authentic or your money back</p>
     </div>
   </div>

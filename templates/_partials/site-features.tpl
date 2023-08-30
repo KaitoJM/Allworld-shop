@@ -1,23 +1,40 @@
-<div class="site-features">
-  <div class="feature-item">
-    <img src="{$urls.theme_assets}icons/home-original.png" />
-    <div class="item-details">
-      <div class="item-title">Authorized<br />Dealer</div>
-      <p>Guaranteed authentic or your money back</p>
+<div class="site-feature-component">
+  <h2 class="section-title">Why Shop With Us</h2>
+  <div class="site-features">
+    <div class="feature-item">
+      <img src="{$urls.theme_assets}icons/original.svg" />
+      <div class="item-details">
+        <div class="item-title">Authorized<br />Dealer</div>
+        <p>Guaranteed authentic or your money back</p>
+      </div>
     </div>
-  </div>
-  <div class="feature-item">
-    <img src="{$urls.theme_assets}icons/home-return.png" />
-    <div class="item-details">
-      <div class="item-title">7-Day<br />Returns</div>
-      <p>Hassle-free returns for all products</p>
+    <div class="feature-item">
+      <img src="{$urls.theme_assets}icons/delivery.svg" />
+      <div class="item-details">
+        <div class="item-title">Free Delivery<br />within Samar</div>
+        <p>We offer free delivery within Samar</p>
+      </div>
     </div>
-  </div>
-  <div class="feature-item">
-    <img src="{$urls.theme_assets}icons/home-shipping.png" />
-    <div class="item-details">
-      <div class="item-title">Shipping<br />Discounts</div>
-      <p>Shipping Discounts Nationwide</p>
+    <div class="feature-item">
+      <img src="{$urls.theme_assets}icons/store-pickup.svg" />
+      <div class="item-details">
+        <div class="item-title">Same Day Delivery</div>
+        <p>Within Calbayog • Catarman • Catbalogan</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="{$urls.theme_assets}icons/payment-security.svg" />
+      <div class="item-details">
+        <div class="item-title">Payment Security</div>
+        <p>Vast selection of payment methods available</p>
+      </div>
+    </div>
+    <div class="feature-item">
+      <img src="{$urls.theme_assets}icons/store-pickup.svg" />
+      <div class="item-details">
+        <div class="item-title">Store Pickup</div>
+        <p>Orders can be picked up at our partner stores</p>
+      </div>
     </div>
   </div>
 </div>

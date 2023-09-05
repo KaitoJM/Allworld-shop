@@ -5018,3 +5018,31 @@ input[type=checkbox]:checked:after{
   border: none;
   color: var(--accent_color);
 }
+
+.new-arrival-product-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+.new-arrival-product-section .featured-products {
+  margin-bottom: 0px;
+  padding: 0 20px;
+}
+.new-arrival-product-section .product-list-container .product {
+  width: calc(25% - 30px) !important;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.new-arrival-product-section  .product-list-container .product:nth-child(4n) {
+  margin-right: 0px;
+}
+@media(max-width: 767px) {
+  .new-arrival-product-section .product-list-container .product {
+    width: calc(50% - 5px) !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .new-arrival-product-section  .product-list-container .product:nth-child(2n) {
+    margin-right: 0px;
+  }
+}

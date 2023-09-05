@@ -35,7 +35,7 @@
         {widget name="ps_featuredproducts"}
         {* {widget name="ps_brandlist"} *}
         {include file='_partials/brands-list.tpl' cart=$cart}
-        {widget name="ps_specials"}
+        {* {widget name="ps_specials"} *}
         {* {include file='_partials/apple-section.tpl'} *}
         {include file='_partials/new_arrival.tpl'}
         {hook h="displayHome"}

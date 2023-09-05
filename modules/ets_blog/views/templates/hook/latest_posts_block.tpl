@@ -18,7 +18,14 @@
 *}
 {if $posts}
     <div class="block ets_block_latest {$ETS_BLOG_RTL_CLASS|escape:'html':'UTF-8'} {if isset($page) && $page}page_{$page|escape:'html':'UTF-8'}{else}page_blog{/if} ets_block_slider">
-        <h4 class="title_blog title_block">{l s='Latest posts' mod='ets_blog'}</h4>
+        {if $page == 'home'}
+            <h2 class="products-section-title">{l s='Blogs & Articles' mod='ets_blog'}</h2>
+            <p style="text-align: center;font-size: 0.8em;margin-bottom: 30px;">
+            Get the latest updates on tech and other related stuff
+            </p>
+        {else}
+            <h4 class="title_blog title_block">{l s='Latest posts' mod='ets_blog'}</h4>
+        {/if}
         {assign var='product_row' value=4}
         <div class="block_content row">
             <div class="side-posts">

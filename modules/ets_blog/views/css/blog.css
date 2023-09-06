@@ -2457,6 +2457,7 @@ ul.ets-blog-related-posts-list {
   float: left;
   margin-bottom: 30px;
   width: 100%;
+  display: none;
 }
 .ets-navigation-blog-content {
   position: relative;

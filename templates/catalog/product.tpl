@@ -212,8 +212,8 @@
     {block name='product_accessories'}
       {if $accessories}
         <section class="featured-products similar-products clearfix">
-          <h2>{l s='Similar items' d='Shop.Theme.Catalog'}</h2>
-          <p>This is just placeholder text. Don’t be alarmed.</p>
+          <h2>{l s='Enhance Your Experience' d='Shop.Theme.Catalog'}</h2>
+          <p>Complimentary products</p>
           <div class="product-list-container products row">
             {foreach from=$accessories item="product_accessory" key="position"}
               {block name='product_miniature'}

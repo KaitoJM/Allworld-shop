@@ -1,4 +1,4 @@
-<div class="custom-main-menu">
+<div class="custom-main-menu {if $page.page_name == 'category'}category-menu{/if}">
   <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
   <ul>
     <li>

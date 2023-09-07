@@ -56,9 +56,7 @@
             {/block}
           </div>
         </header>
-        {if $page.page_name != 'category'}
         {include file='_partials/custom-menu.tpl'}
-        {/if}
         <div class="main-layout">
           <div class="left-navigation">
             {block name='left_nav'}

@@ -21,7 +21,7 @@
         {if $page == 'home'}
             <h2 class="products-section-title">{l s='Blogs & Articles' mod='ets_blog'}</h2>
             <p style="text-align: center;font-size: 0.8em;margin-bottom: 30px;">
-            Get the latest updates on tech and other related stuff
+            Get the latest updates on tech and related developments
             </p>
         {else}
             <h4 class="title_blog title_block">{l s='Latest posts' mod='ets_blog'}</h4>

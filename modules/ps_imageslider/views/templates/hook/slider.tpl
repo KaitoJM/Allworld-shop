@@ -23,7 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
-{if $homeslider.slides}
+{if $homeslider.slides_1}
   {* <div id="image-slider" class="owl-carousel owl-theme">
     {foreach from=$homeslider.slides item=slide name='homeslider'}
       <div class="item">
@@ -38,16 +38,48 @@
     {/foreach}
   </div> *}
   <div id="image-grid">
-    {foreach from=$homeslider.slides item=slide name='homegriditem'}
-      <div class="item">
-        {if $slide.url}
-          <a href="{$slide.url}">
-        {/if}
-        <img src="{$slide.image_url}" alt="{$slide.legend|escape}" class="img-background">
-        {if $slide.url}
-          </a>
-        {/if}
+    <div class="g-item slide-1-carousel">
+      <div class="owl-carousel" id="image-slider1">
+        {foreach from=$homeslider.slides_1 item=slide name='homegriditem1'}
+          <div class="item">
+            {if $slide.url}
+              <a href="{$slide.url}">
+            {/if}
+            <img src="{$slide.image_url}" alt="{$slide.legend|escape}" class="img-background">
+            {if $slide.url}
+              </a>
+            {/if}
+          </div>
+        {/foreach}
       </div>
-    {/foreach}
+      <div class="fix-tiles">
+        {foreach from=$homeslider.slides_normal item=slide name='homegriditem'}
+          <div class="g-item">
+            {if $slide.url}
+              <a href="{$slide.url}">
+            {/if}
+            <img src="{$slide.image_url}" alt="{$slide.legend|escape}" class="img-background">
+            {if $slide.url}
+              </a>
+            {/if}
+          </div>
+        {/foreach}
+      </div>
+    </div>
+    <div class="g-item slide-2-carousel">
+      <div class="owl-carousel" id="image-slider2">
+      {foreach from=$homeslider.slides_2 item=slide name='homegriditem2'}
+        <div class="item">
+          {if $slide.url}
+            <a href="{$slide.url}">
+          {/if}
+          <img src="{$slide.image_url}" alt="{$slide.legend|escape}" class="img-background">
+          {if $slide.url}
+            </a>
+          {/if}
+        </div>
+      {/foreach}
+      </div>
+    </div>
   </div>
 {/if}

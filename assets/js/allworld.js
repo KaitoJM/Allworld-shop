@@ -11,6 +11,36 @@ jQuery(function() {
     autoplayHoverPause: true,
     animateOut: 'fadeOut'
   })
+  $('#image-slider1').owlCarousel({
+    loop:true,
+    margin:10,
+    items: 1,
+    dots: false,
+    autoplay: true,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut'
+  })
+  $('#image-slider2').owlCarousel({
+    loop:true,
+    margin:10,
+    items: 1,
+    dots: false,
+    autoplay: true,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut'
+  })
+  $(window).on('load', function() {
+    setTimeout(() => {
+      $('#image-slider1').trigger('refresh.owl.carousel')
+      $('#image-slider2').trigger('refresh.owl.carousel')
+    }, 50);
+  });
   $('.product-images-carousel').owlCarousel({
     loop:true,
     margin:10,

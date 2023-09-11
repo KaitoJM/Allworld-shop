@@ -2965,6 +2965,14 @@ a {
   left: 0px;
   border-radius: 50%;
 }
+@media(max-width: 767px) {
+  .special-offers-section article::before {
+    background-color: #fff;
+  }
+  .special-offers-section article .prod-thumbnail .thumbnail-img a:after {
+    display: none;
+  }
+}
 .special-offers-section article .prod-thumbnail .product-title {
   font-size: 1.3em;
   font-weight: 500;

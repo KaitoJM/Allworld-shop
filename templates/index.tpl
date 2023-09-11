@@ -39,7 +39,7 @@
         {* {include file='_partials/apple-section.tpl'} *}
         {include file='_partials/new_arrival.tpl'}
         {hook h="displayHome"}
-        {widget name="ps_newproducts"}
+        {* {widget name="ps_newproducts"} *}
         {include file='_partials/site-features.tpl' cart=$cart}
       {/block}
     {/block}

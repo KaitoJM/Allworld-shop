@@ -2843,6 +2843,7 @@ a {
 }
 .product-spec-desc {
   display: flex;
+  flex-direction: column;
   gap: 30px;
   align-items: start;
 }
@@ -2851,12 +2852,13 @@ a {
   font-size: 1.1em;
 }
 .product-spec-desc .specification {
-  max-width: 400px;
-  width: 400px;
+  max-width: 100%;
+  width: 100%;
 }
 .product-spec-desc .description {
   flex: 1;
-  max-width: calc(100% - 400px);
+  /* max-width: calc(100% - 400px); */
+  max-width: 100%;
 }
 .product-spec-desc .description img {
   max-width: 100%;

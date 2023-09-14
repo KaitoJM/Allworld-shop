@@ -153,6 +153,12 @@
     <div class="box">
       <h3>About this item</h3>
       <div class="product-spec-desc">
+        {if $product.description}
+          <div class="description">
+            <h4>Description</h4>
+            {$product.description nofilter}
+          </div>
+        {/if}
         <div class="specification">
           <h4>Specifications</h4>
           {if isset($product_manufacturer->id)}
@@ -176,12 +182,6 @@
             </div>
           {/if}
         </div>
-        {if $product.description}
-          <div class="description">
-            <h4>Description</h4>
-            {$product.description nofilter}
-          </div>
-        {/if}
       </div>
     </div>
 

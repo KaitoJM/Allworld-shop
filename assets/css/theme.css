@@ -2882,9 +2882,10 @@ a {
   margin-bottom: 15px;
 }
 .product-spec-desc .specification .specification-flex .feature {
-  min-width: 200px;
-  max-width: 200px;
+  min-width: 250px;
+  max-width: 250px;
   color: grey;
+  margin-right: 20px;
 }
 /* ========================== End of Product Page ========================== */
 

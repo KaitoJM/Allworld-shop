@@ -41,6 +41,11 @@
             <img src="{$urls.theme_assets}/images/brands/carousel/samsung.png">
           </a>
         </li>
+        <li>
+          <a href="{$urls.base_url}brand/8-apple" title="Apple" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands/carousel/apple.png">
+          </a>
+        </li>
       </ul>
     </div>
   </section>

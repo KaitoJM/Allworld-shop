@@ -5111,9 +5111,11 @@ input[type=checkbox]:checked:after{
 
 .category-menu {
   display: none;
+  z-index: 0;
 }
 @media(max-width: 767px) {
   .category-menu {
     display: block;
+    z-index: -9;
   }
 }

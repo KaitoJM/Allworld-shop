@@ -185,7 +185,7 @@ jQuery(function() {
   }
 
   $(document).on('click', '.link-categories', function(e) {
-    $('.custom-main-menu').show();
+    $('.custom-main-menu').css({zIndex: '999'}).show();
     setTimeout(function() {
       $('.custom-main-menu').addClass('open');
     }, 100);
@@ -194,7 +194,7 @@ jQuery(function() {
   $(document).on('click', '.category-close', function(e) {
     $('.custom-main-menu').removeClass('open');
     setTimeout(function() {
-      $('.custom-main-menu').hide();
+      $('.custom-main-menu').hide().css({zIndex: '-9'});
     }, 300);
     e.preventDefault();
   })

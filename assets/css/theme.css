@@ -4639,7 +4639,7 @@ input[type=checkbox]:checked:after{
     top: -50px !important
   }
   .newsletter-dialog-wrapper .newsletter-dialog .img-msg img:last-child {
-    bottom: -30px !important;
+    bottom: 0px !important;
     top: auto !important;
     width: 65% !important;
     left: 50% !important;

@@ -73,7 +73,7 @@
 <div class="newsletter-dialog-wrapper" style="display:none">
   <div class="newsletter-dialog">
     <div class="img-msg">
-      <img src="{$urls.theme_assets}images/gifts.webp" style="position: absolute;bottom: -30px;left: -10%;width:115%">
+      <img src="{$urls.theme_assets}images/new_newsletter.svg" style="position: absolute;bottom: 0px;left: -6%;width:110%">
       {* <img src="{$urls.theme_assets}images/gift-top.png" style="position: absolute;top: -118px;left: 50%;transform: translateX(-50%);">
       <div class="main-msg">
         SUBSCRIBE

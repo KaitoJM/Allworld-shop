@@ -11,8 +11,8 @@
     <div class="feature-item">
       <img src="{$urls.theme_assets}icons/delivery.svg" />
       <div class="item-details">
-        <div class="item-title">Free Delivery<br />within Samar</div>
-        <p>We offer free delivery within Samar</p>
+        <div class="item-title">Free Delivery<br />Nationwide</div>
+        <p>We offer free delivery nationwide</p>
       </div>
     </div>
     <div class="feature-item">

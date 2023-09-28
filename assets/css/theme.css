@@ -2743,6 +2743,15 @@ a {
   height: auto;
   display: flex;
 }
+@media(max-width: 550px) {
+  .product-details-container .blockreassurance_product {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .product-details-container .blockreassurance_product .item-product {
+    width: 25px;
+  }
+}
 .product-details-container .blockreassurance_product .item-product>* {
   width: 100% !important;
 }
@@ -2875,6 +2884,14 @@ a {
   .product-spec-desc .description {
     flex: 1;
     max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  .product-spec-desc iframe, .product-spec-desc video{
+    width: 100%;
+    height: 250px;
   }
 }
 .product-spec-desc .specification .specification-flex {
@@ -2886,6 +2903,15 @@ a {
   max-width: 250px;
   color: grey;
   margin-right: 20px;
+}
+@media(max-width:550px) {
+  .product-spec-desc .specification .specification-flex {
+    flex-direction: column;
+  }
+  .product-spec-desc .specification .specification-flex .feature {
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 /* ========================== End of Product Page ========================== */
 

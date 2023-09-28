@@ -12,7 +12,7 @@
       <img src="{$urls.theme_assets}icons/delivery.svg" />
       <div class="item-details">
         <div class="item-title">Free Delivery<br />Nationwide</div>
-        <p>We offer free delivery nationwide</p>
+        <p>Enjoy Free Nationwide Delivery!</p>
       </div>
     </div>
     <div class="feature-item">

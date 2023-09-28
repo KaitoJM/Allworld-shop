@@ -697,6 +697,10 @@ a {
   padding: 0px;
   margin-bottom: 10px;
 }
+.main-layout .left-navigation ul .sub {
+  margin-left: 20px;
+  margin-top: 8px;
+}
 /* -------------------------- Main Content -------------------------- */
 .main-layout .main-content {
   padding: 30px;

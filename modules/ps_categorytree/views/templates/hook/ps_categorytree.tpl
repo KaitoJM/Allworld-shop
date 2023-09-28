@@ -36,7 +36,7 @@
                   <i class="material-icons add">&#xE145;</i>
                   <i class="material-icons remove">&#xE15B;</i>
                 </div> *}
-                <div class="collapse" id="exCollapsingNavbar{$node.id}" style="display:none">
+                <div class="sub">
                   {categories nodes=$node.children depth=$depth+1}
                 </div>
               {/if}
@@ -47,7 +47,7 @@
                   <i class="material-icons arrow-right">&#xE315;</i>
                   <i class="material-icons arrow-down">&#xE313;</i>
                 </span> *}
-                <div class="collapse" id="exCollapsingNavbar{$node.id}" style="display:none">
+                <div class="sub">
                   {categories nodes=$node.children depth=$depth+1}
                 </div>
               {/if}

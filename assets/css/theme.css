@@ -5119,3 +5119,8 @@ input[type=checkbox]:checked:after{
     z-index: -9;
   }
 }
+
+.toggle-expand {
+  float: right;
+  display: block;
+}

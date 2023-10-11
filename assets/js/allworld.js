@@ -234,6 +234,22 @@ $(document).on('click', '.sub-menu-img', function(e) {
   location.href = $(this).next().attr('href')
 })
 
+$(document).on('click', '.toggle-expand', function(e) {
+  if ($(this).closest('li').find(".sub")[0]) {
+    let sub = $(this).closest('li').find(".sub")[0];
+    
+    if (sub && $(sub).is(':visible')) {
+      $(sub).hide();
+      $(this).find('.fi').removeClass('fi-br-minus').addClass('fi-br-plus');
+    } else {
+      $(sub).show();
+      $(this).find('.fi').removeClass('fi-br-plus').addClass('fi-br-minus');
+    }
+  }
+  
+  e.preventDefault();
+})
+
 
 // $(document).on('click', '.add-to-whish-list', function() {
 //   // Get the product ID and customer ID

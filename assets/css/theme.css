@@ -290,8 +290,7 @@ a {
 }
 .custom-main-menu>ul>li {
   height: 100%;
-  display: flex;
-  align-items: center;
+  position: relative;
 }
 .custom-main-menu ul li a {
   color: #fff;
@@ -329,19 +328,13 @@ a {
   content: none;
 }
 .custom-main-menu>ul>li .sub-menu {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   top: 80px;
-  left: 0px;
+  left: -20px;
   background-color: #fff;
-  width: 100%;
   color: #333;
   box-sizing: border-box;
-  box-sizing: border-box;
-  border-radius: 0 0 12px 12px;
-  height: fit-content;
-  align-items: start;
+  border-radius: 12px;
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
@@ -356,95 +349,33 @@ a {
   box-shadow: 0 20px  80px -20px #000;
 }
 .custom-main-menu ul li .sub-menu>ul {
-  flex-wrap: wrap;
-  padding: 50px 100px;
-  width: 100%;
+  display: block;
+  padding: 20px;
   box-sizing: border-box;
-  min-height: 300px;
-  justify-content: start;
+  width: 300px;
 }
 .custom-main-menu>ul>li:hover>a:after {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
 }
-.custom-main-menu ul li .sub-menu .justify {
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
 .custom-main-menu ul li .sub-menu a {
   color: #333;
 }
 .custom-main-menu ul li .sub-menu li {
-  /* flex: 1; */
-  padding: 0 50px;
   box-sizing: border-box;
-  /* max-width: 190px; */
 }
 .custom-main-menu ul li .sub-menu>ul>li {
   padding: 0px;
-  margin-right: 40px;
+  border-bottom: 1px dashed #c9c9c9;
 }
-.custom-main-menu ul li .sub-menu .justify li {
-  max-width: 100%;
-  flex: 1;
-  padding: 0 0px;
-  margin-right: 0px;
-}
-.custom-main-menu ul li .sub-menu .brand-list {
-  width: 100vw;
-  box-sizing: border-box;
-  flex: none;
-  height: 100px;
-  align-items: center;
-  display: flex;
-  padding: 0 100px;
-  background-color: #F4F4F4;
-  font-weight: 500;
-  font-size: 0.9em;
-}
-.custom-main-menu ul li .sub-menu .brand-list ul {
-  width: 100%;
-  justify-content: space-between;
-}
-.custom-main-menu ul li .sub-menu .brand-list li {
-  padding: 0px;
-}
-.custom-main-menu ul li .sub-menu .brand-list li:first-child {
-  width: 200px;
-  flex: none;
-}
-.custom-main-menu ul li .sub-menu .brand-list li:last-child {
-  width: 200px;
-  flex: none;
-}
-.custom-main-menu ul li .sub-menu .brand-list a {
-  font-size: 1em;
-}
-.custom-main-menu ul li .sub-menu .brand-list a i {
-  margin-left: 10px;
-  padding-top: 5px;
-}
-.custom-main-menu ul li .sub-menu .brand-list a .brand-img{
-  height: 30px;
-}
-.custom-main-menu ul li .sub-menu .brand-list a.shop-all {
-  color: var(--accent_color);
-  text-align: right;
-  display: block;
-}
-.custom-main-menu ul li .sub-menu li .sub-menu-img {
-  height: 100px;
-  width: auto;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-.custom-main-menu ul li .sub-menu li.bordered {
-  border-right: 1px solid var(--stroke_color);
+.custom-main-menu ul li .sub-menu>ul>li:last-child {
+  border-bottom: none;
 }
 .custom-main-menu ul li .sub-menu li>a {
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 500;
+  height: 40px;
   width: 100%;
 }
 .custom-main-menu ul li .sub-menu li>a .link-img {
@@ -520,50 +451,6 @@ a {
     display: block;
     width: 100%;
   }
-  .custom-main-menu>ul>li .sub-menu {
-    top: 0px;
-    left: 360px;
-    width: calc(100vw - 300px);
-    height: 100vh;
-    overflow-y: auto;
-  }
-  .custom-main-menu>ul>li:hover .sub-menu{
-    top: 0px;
-    left: 300px;
-  }
-  .custom-main-menu ul li .sub-menu ul, .custom-main-menu ul li .sub-menu .justify {
-    padding: 30px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: start;
-  }
-  .custom-main-menu ul li .sub-menu ul li, .custom-main-menu ul li .sub-menu .justify li {
-    width: 30%;
-    flex: none;
-    padding: 0px;
-  }
-  .custom-main-menu ul li .sub-menu li .sub-sub-menu {
-    margin-top: 0px;
-  }
-  .custom-main-menu ul li .sub-menu li .sub-sub-menu li {
-    width: 100%;
-  }
-  .custom-main-menu ul li .sub-menu .brand-list {
-    display: none;
-  }
-  .custom-main-menu>ul>li>a:after {
-    bottom: auto;
-    top: 50%;
-    right: -30px;
-    left: auto;
-    transform: translateY(-50%) rotate(270deg);
-  }
-  .custom-main-menu>ul>li:hover>a:after {
-    right: -20px;
-  }
-}
-@media(max-width: 767px) {
   .custom-main-menu {
     overflow-y: auto;
     overflow-x: hidden;
@@ -625,6 +512,9 @@ a {
   .custom-main-menu>ul>li:hover>a:after {
     display: none;
   }
+}
+@media(max-width: 767px) {
+  
 }
 
 /* ========================== End of Header ========================== */

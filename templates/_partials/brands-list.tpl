@@ -13,37 +13,92 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/2-asus" title="Asus" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/asus.png">
+            <img src="{$urls.theme_assets}/images/brands-new/asus-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/1-dell" title="Dell" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/dell.png">
+            <img src="{$urls.theme_assets}/images/brands-new/dell-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/5-hp" title="HP" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/hp.png">
+            <img src="{$urls.theme_assets}/images/brands-new/hp-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/6-lenovo" title="Lenovo" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/lenovo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/lenovo-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/4-oppo" title="Oppo" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/oppo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/oppo-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/7-samsung" title="Samsung" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/samsung.png">
+            <img src="{$urls.theme_assets}/images/brands-new/samsung-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/8-apple" title="Apple" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands/carousel/apple.png">
+            <img src="{$urls.theme_assets}/images/brands-new/apple-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/29-razer" title="Razer" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/razer-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/30-logitech" title="Logitech" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/logitech-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/28-jbl" title="JBL" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/jbl-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/36-redragon" title="Redragon" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/redragon-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/37-steelseries" title="SteelSeries" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/steelseries-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/14-epson" title="Epson" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/epson-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/15-brother" title="Brother" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/brother-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/16-canon" title="Canon" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/canon-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/38-hikvision" title="HIKVision" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/hik-vision-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/26-msi" title="MSI" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/msi-logo.png" style="filter: brightness(0) invert(1);">
+          </a>
+        </li>
+        <li>
+          <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/gigabyte-logo.png" style="filter: brightness(0) invert(1);">
           </a>
         </li>
       </ul>

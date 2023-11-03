@@ -791,6 +791,9 @@ a {
   align-items: top;
   margin-top: 50px;
 }
+.main-layout .main-content #search_filters_brands ul .owl-stage-outer {
+  padding: 10px 0;
+}
 .main-layout .main-content #search_filters_brands ul li {
   display: flex;
   flex-direction: column;
@@ -927,6 +930,8 @@ a {
   right: 10px;
   list-style: none;
   margin: 0px;
+  padding: 0px;
+  min-width: 70px;
 }
 .product-list-container .product .product-flags .product-flag {
   background-color: var(--accent_color);
@@ -936,6 +941,9 @@ a {
   font-size: 0.8em;
   border-radius: 5px;
   color: #fff;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
 }
 .product-list-container .product .product-flags .product-flag.discount {
   background-color: #009688;

@@ -29,6 +29,9 @@
           <li>
             <a href="{$urls.base_url}18-smartphones?q=Brand-Nokia">Nokia</a>
           </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Tecno</a>
+          </li>
         </ul>
       </div>
     </li>

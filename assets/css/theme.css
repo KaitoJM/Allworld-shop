@@ -720,6 +720,11 @@ a {
   flex-direction: column;
   justify-content: center;
 }
+@media(min-width: 930px) {
+  .main-layout .main-content .site-features .feature-item {
+    width: 20%;
+  }
+}
 .main-layout .main-content .site-features .feature-item img {
   width: 86px;
   height: auto;

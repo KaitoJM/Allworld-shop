@@ -39,11 +39,14 @@
 {block name='page_content'}
   <div class="box">
     <div class="order-details-head">
-      <div class="order-status">
+      <div class="order-status" style="width: 100%;position:relative">
         Order Status
         <span class="status" style="background-color:{$order.history.current.color}">
           {$order.history.current.ostate_name}
         </span>
+        {if $order.follow_up}
+          <a href="{$order.follow_up}" class="status" style="display:block;background-color: #000;position: absolute;right: 0px;">Track Package</a>
+        {/if}
       </div>
     </div>
     {block name='order_infos'}
@@ -80,12 +83,6 @@
           <div>{l s='You have requested gift wrapping for this order.' d='Shop.Theme.Customeraccount'}</div>
           <div>{l s='Message' d='Shop.Theme.Customeraccount'} {$order.details.gift_message nofilter}</div>
         {/if}
-        {if $order.follow_up}
-          <div>
-            <p>{l s='Click the following link to track the delivery of your order' d='Shop.Theme.Customeraccount'}</p>
-            <a href="{$order.follow_up}">{$order.follow_up}</a>
-          </div>
-        {/if}
       </div>
     {/block}
 
@@ -105,7 +102,7 @@
       {block name='order_history'}
         <section id="order-history">
           <h3 class="title">{l s='Follow your order\'s status step-by-step' d='Shop.Theme.Customeraccount'}</h3>
-          <table class="order-table table table-striped table-bordered table-labeled hidden-xs-down">
+          <table class="order-table table table-striped table-bordered table-labeled hidden-xs-down" style="min-width:100%">
             <thead class="thead-default">
               <tr>
                 <th>{l s='Date' d='Shop.Theme.Global'}</th>
@@ -155,6 +152,36 @@
       {/block}
     </div>
   </div>
+  <br />
+
+  {block name='order_carriers'}
+    {if $order.shipping}
+      <div class="box">
+        <table class="order-table table table-bordered hidden-sm-down">
+          <thead class="thead-default">
+            <tr>
+              <th>{l s='Date' d='Shop.Theme.Global'}</th>
+              <th>{l s='Carrier' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Weight' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Shipping cost' d='Shop.Theme.Checkout'}</th>
+              <th>{l s='Tracking number' d='Shop.Theme.Checkout'}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {foreach from=$order.shipping item=line}
+              <tr>
+                <td>{$line.shipping_date}</td>
+                <td>{$line.carrier_name}</td>
+                <td>{$line.shipping_weight}</td>
+                <td>{$line.shipping_cost}</td>
+                <td>{$line.tracking nofilter}</td>
+              </tr>
+            {/foreach}
+          </tbody>
+        </table>
+      </div>
+    {/if}
+  {/block}
   <br />
   <div class="box messages">
     {block name='order_messages'}

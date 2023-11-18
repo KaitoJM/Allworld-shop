@@ -2079,7 +2079,7 @@ a {
   height: 120px;
   padding: 30px 20px;
   box-sizing: border-box;
-  background-image: url('../images/shipping.png');
+  background-image: url('../images/order-success.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right 50px center;
@@ -2088,7 +2088,7 @@ a {
   margin: 0px;
   font-size: 2rem;
   font-weight: 500;
-  width: 300px;
+  width: 290px;
   line-height: 32px;
   margin-left: 30px;
   border-bottom: 0px;

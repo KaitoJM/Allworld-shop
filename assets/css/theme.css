@@ -4803,6 +4803,9 @@ input[type=checkbox]:checked:after{
   margin-left: 10px;
   color: #000;
 }
+.blog-main-page .blog-main-content .search-blck form {
+  flex: 1;
+}
 .blog-main-page .blog-main-content .search-blck .form-control {
   background-color: transparent;
   border: none;

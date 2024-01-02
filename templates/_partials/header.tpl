@@ -22,6 +22,17 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSM4EBWBW8"></script>
+{literal}
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MSM4EBWBW8');
+</script>
+{/literal}
+
 <div class="logo-container">
   {renderLogo}
 </div>

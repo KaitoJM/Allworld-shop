@@ -180,18 +180,18 @@
           <li>
             <a href="{$urls.base_url}38-globe-wifi">Globe Wifi</a>
           </li>
-          <li>
+          {* <li>
             <a href="{$urls.base_url}39-cignal">CIGNAL</a>
-          </li>
-          <li>
+          </li> *}
+          {* <li>
             <a href="{$urls.base_url}40-g-sat">G-Sat</a>
-          </li>
+          </li> *}
           <li>
             <a href="{$urls.base_url}41-router">Router</a>
           </li>
-          <li>
+          {* <li>
             <a href="{$urls.base_url}42-gma-tv-box">GMA TV Box</a>
-          </li>
+          </li> *}
         </ul>
       </div>
     </li>

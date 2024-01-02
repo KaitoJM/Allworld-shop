@@ -18,14 +18,23 @@
 *  @license    Valid for 1 website (or project) for each purchase of license
 *  International Registered Trademark & Property of ETS-Soft
 *}
-<div class="ph_pcms_block_product_list">
+{if $PH_PCMS__ID == 3}
+    <section class="special-offers-section-container">
     {if isset($products) && $products}
-         <div class="featured-products">
-        	<div id="" class="{$name_page|escape:'html':'UTF-8'} product_list product_list product-list-container grid products ph_pcms_product_list_wrapper layout-{$PH_PCMS_DISPLAY_TYPE|escape:'html':'utf-8'} ph_pcms_desktop_{$PH_PCMS__NUMBER_PRODUCT_DESKTOP|intval} ph_pcms_tablet_{$PH_PCMS__NUMBER_PRODUCT_TABLET|intval} ph_pcms_mobile_{$PH_PCMS__NUMBER_PRODUCT_MOBILE|intval}" data-desktop="{$PH_PCMS__NUMBER_PRODUCT_DESKTOP|intval}" data-tablet="{$PH_PCMS__NUMBER_PRODUCT_TABLET|intval}" data-mobile="{$PH_PCMS__NUMBER_PRODUCT_MOBILE|intval}">
-        	{foreach from=$products item="product"}
-                  {include file="catalog/_partials/miniatures/product.tpl" product=$product}
-            {/foreach}
+        {include file="catalog/_partials/productlist-special.tpl" products=$products}
+    {/if}
+    </section>
+{else}
+    {* asya ine an original *}
+    <div class="ph_pcms_block_product_list">
+        {if isset($products) && $products}
+            <div class="featured-products">
+                <div id="" class="{$name_page|escape:'html':'UTF-8'} product_list product_list product-list-container grid products ph_pcms_product_list_wrapper layout-{$PH_PCMS_DISPLAY_TYPE|escape:'html':'utf-8'} ph_pcms_desktop_{$PH_PCMS__NUMBER_PRODUCT_DESKTOP|intval} ph_pcms_tablet_{$PH_PCMS__NUMBER_PRODUCT_TABLET|intval} ph_pcms_mobile_{$PH_PCMS__NUMBER_PRODUCT_MOBILE|intval}" data-desktop="{$PH_PCMS__NUMBER_PRODUCT_DESKTOP|intval}" data-tablet="{$PH_PCMS__NUMBER_PRODUCT_TABLET|intval}" data-mobile="{$PH_PCMS__NUMBER_PRODUCT_MOBILE|intval}">
+                {foreach from=$products item="product"}
+                    {include file="catalog/_partials/miniatures/product.tpl" product=$product}
+                {/foreach}
+                </div>
             </div>
-        </div>
-    {/if}   
-</div>
+        {/if}   
+    </div>
+{/if}

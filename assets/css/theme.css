@@ -2948,6 +2948,14 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.home-discount-container .ph_pcms_block_product_list {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.home-discount-container .product-list-container {
+  display: flex;
+}
 /* ========================== End of Double Product Feautre ========================== */
 
 /* ========================== Added to Cart Modal ========================== */

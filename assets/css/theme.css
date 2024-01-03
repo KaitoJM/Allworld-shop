@@ -5038,3 +5038,52 @@ input[type=checkbox]:checked:after{
   float: right;
   display: block;
 }
+
+.ets-blog-related-posts-wrapper ul {
+  padding: 0px;
+  margin-left: 0px !important;
+}
+
+.related-posts-items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.related-posts-items .related-item {
+  width: calc(33.33% - 14px);
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.related-posts-items .related-item img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.related-posts-items .related-item .ets_title_block {
+  font-size: 0.8em;
+}
+
+.related-posts-items .read_more {
+  font-style: normal;
+  border: none;
+  color: var(--accent_color);
+}
+
+@media(max-width: 1000px) {
+  .related-posts-items .related-item  {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .related-posts-items .related-item img {
+    width: 150px;
+    height: 100%;
+  }
+}

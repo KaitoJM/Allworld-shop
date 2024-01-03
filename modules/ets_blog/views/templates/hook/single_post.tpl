@@ -20,7 +20,7 @@
     ets_blog_report_url = '{$report_url nofilter}';
     ets_blog_report_warning ="{l s='Do you want to report this comment?' mod='ets_blog'}";
     ets_blog_error = "{l s='There was a problem while submitting your report. Try again later' mod='ets_blog'}";
-    </script>
+</script>
 <div class="ets_blog_layout_{$blog_layout|escape:'html':'UTF-8'} ets-blog-wrapper-detail" itemscope itemType="http://schema.org/newsarticle">
     <div itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
         <meta itemprop="name" content="{Configuration::get('PS_SHOP_NAME')|escape:'html':'UTF-8'}" />
@@ -372,7 +372,34 @@
             <p class="warning">{l s='No posts found' mod='ets_blog'}</p>
         {/if}
         {if $blog_post.related_posts}
-            <div class="ets-blog-related-posts ets_blog_related_posts_type_{if $blog_related_posts_type}{$blog_related_posts_type|escape:'html':'UTF-8'}{else}default{/if}">
+            <div class="related-posts-container">
+                <h4 class="title_blog">{l s='Related posts' mod='ets_blog'}</h4>
+                <div class="related-posts-items">
+                    {foreach from=$blog_post.related_posts item='rpost'}
+                        <div class="related-item">
+                            <div class="img-container">
+                                {if $rpost.thumb}
+                                    <a class="img" href="{$rpost.link|escape:'html':'UTF-8'}">
+                                        <img src="{$rpost.thumb|escape:'html':'UTF-8'}" alt="{$rpost.title|escape:'html':'UTF-8'}" />
+                                    </a>
+                                {/if}
+                            </div>
+                            <div class="blog-details">
+                                <a class="ets_title_block" href="{$rpost.link|escape:'html':'UTF-8'}">{$rpost.title|escape:'html':'UTF-8'}</a> 
+                                {if $display_desc}
+                                    {if $rpost.short_description}
+                                        <div class="blog_description">{$rpost.short_description|strip_tags:'UTF-8'|truncate:80:'...'|escape:'html':'UTF-8'}</div>
+                                    {elseif $rpost.description}
+                                        <div class="blog_description">{$rpost.description|strip_tags:'UTF-8'|truncate:80:'...'|escape:'html':'UTF-8'}</div>
+                                    {/if}
+                                {/if}
+                                <a class="read_more" href="{$rpost.link|escape:'html':'UTF-8'}">{if $ets_blog_config.ETS_BLOG_TEXT_READMORE}{$ets_blog_config.ETS_BLOG_TEXT_READMORE|escape:'html':'UTF-8'}{else}{l s='Read More' mod='ets_blog'}{/if}</a>                                  
+                            </div>
+                        </div>
+                    {/foreach}
+                </div>
+            </div>
+            {* <div class="ets-blog-related-posts ets_blog_related_posts_type_{if $blog_related_posts_type}{$blog_related_posts_type|escape:'html':'UTF-8'}{else}default{/if}">
                 <h4 class="title_blog">{l s='Related posts' mod='ets_blog'}</h4>
                 <div class="ets-blog-related-posts-wrapper">
                     {assign var='post_row' value=3}
@@ -426,7 +453,7 @@
                         {/foreach}                        
                     </ul>
                 </div>
-            </div>
+            </div> *}
         {/if}
     </div>
 </div>

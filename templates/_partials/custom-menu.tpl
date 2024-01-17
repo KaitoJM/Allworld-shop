@@ -94,6 +94,9 @@
           <li>
             <a href="{$urls.base_url}20-laptops?q=Brand-Hp">HP</a>
           </li>
+          <li>
+            <a href="{$urls.base_url}20-laptops?q=Brand-Gigabyte">Gigabyte</a>
+          </li>
         </ul>
       </div>
     </li>
@@ -192,6 +195,22 @@
           {* <li>
             <a href="{$urls.base_url}42-gma-tv-box">GMA TV Box</a>
           </li> *}
+        </ul>
+      </div>
+    </li>
+    <li>
+      <a href="{$urls.base_url}60-power-solutions">Power Solutions</a>
+      <div class="sub-menu">
+        <ul>
+          <li>
+            <a href="{$urls.base_url}61-avr">AVR</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}62-ups">UPS</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}63-chargers">Chargers</a>
+          </li>
         </ul>
       </div>
     </li>

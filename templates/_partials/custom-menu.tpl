@@ -178,10 +178,10 @@
       <div class="sub-menu">
         <ul>
           <li>
-            <a href="{$urls.base_url}37-smart-wifi">Smart Wifi</a>
+            <a href="{$urls.base_url}37-smart">Smart</a>
           </li>
           <li>
-            <a href="{$urls.base_url}38-globe-wifi">Globe Wifi</a>
+            <a href="{$urls.base_url}38-globe">Globe</a>
           </li>
           {* <li>
             <a href="{$urls.base_url}39-cignal">CIGNAL</a>
@@ -191,6 +191,9 @@
           </li> *}
           <li>
             <a href="{$urls.base_url}41-router">Router</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}65-tv">TV</a>
           </li>
           {* <li>
             <a href="{$urls.base_url}42-gma-tv-box">GMA TV Box</a>

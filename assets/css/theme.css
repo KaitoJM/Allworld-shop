@@ -749,7 +749,7 @@ a {
   padding: 50px 30px;
   box-sizing: border-box;
   color: #fff;
-  background-image: url('../images/banner-brands.webp');
+  /* background-image: url('../images/banner-brands.webp'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

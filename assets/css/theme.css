@@ -330,7 +330,7 @@ a {
 .custom-main-menu>ul>li .sub-menu {
   position: absolute;
   top: 80px;
-  left: -20px;
+  left: 0px;
   background-color: #fff;
   color: #333;
   box-sizing: border-box;
@@ -341,6 +341,10 @@ a {
   box-shadow: none;
   transition: 0.3s ease-in-out;
   transition-delay: 0.3s;
+}
+.custom-main-menu>ul>li:last-child .sub-menu {
+  left: -100px;
+  width: 200px;
 }
 .custom-main-menu>ul>li:hover .sub-menu{
   visibility: visible;

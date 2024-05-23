@@ -219,6 +219,22 @@
     </li>
     <li>
       <a href="{$urls.base_url}27-promo" class="no-sub">Promos</a>
+      {* <div class="sub-menu">
+        <ul>
+          <li>
+            <a href="{$urls.base_url}43-weekly-deals">Weekly Deals</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}46-payday-sale">Payday Sale</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}66-summer-sale">Summer Sale</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}67-double-digit-sale">Double Digit Sale</a>
+          </li>
+        </ul>
+      </div> *}
     </li>
   </ul>
 </div>

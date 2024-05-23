@@ -20,7 +20,7 @@
     <div class="payment-options-container">
       {foreach from=$payment_options item="module_options"}
         {foreach from=$module_options item="option"}
-          {if ($option.module_name != 'ps_cashondelivery') || (($option.module_name == 'ps_cashondelivery') && ($cart.totals.total.amount <= 30000)) }
+          {* {if ($option.module_name != 'ps_cashondelivery') || (($option.module_name == 'ps_cashondelivery') && ($cart.totals.total.amount <= 30000)) } *}
             <label class="payment-option-item {if $option.id == $selected_payment_option}selected{/if}" for="{$option.id}">
               <div id="{$option.id}-container" class="payment-option clearfix">
                 {* This is the way an option should be selected when Javascript is enabled *}
@@ -56,7 +56,7 @@
 
               </div>
             </label>
-          {/if}
+          {* {/if} *}
         {/foreach}
       {foreachelse}
         <p class="alert alert-danger">{l s='Unfortunately, there are no payment method available.' d='Shop.Theme.Checkout'}</p>
@@ -66,7 +66,7 @@
     {* details *}
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
-        {if ($option.module_name != 'ps_cashondelivery') || (($option.module_name == 'ps_cashondelivery') && ($cart.totals.total.amount <= 30000)) }
+        {* {if ($option.module_name != 'ps_cashondelivery') || (($option.module_name == 'ps_cashondelivery') && ($cart.totals.total.amount <= 30000)) } *}
           {if $option.additionalInformation}
             <div
               id="{$option.id}-additional-information"
@@ -91,7 +91,7 @@
               </form>
             {/if}
           </div>
-        {/if}
+        {* {/if} *}
       {/foreach}
     {/foreach}
   </div>

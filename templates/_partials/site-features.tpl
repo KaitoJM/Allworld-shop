@@ -19,7 +19,7 @@
       <img src="{$urls.theme_assets}icons/store-pickup.svg" />
       <div class="item-details">
         <div class="item-title">Same Day Delivery</div>
-        <p>Within Calbayog • Catarman • Catbalogan</p>
+        <p>Within Metro Manila • Sorsogon • Samar</p>
       </div>
     </div>
     <div class="feature-item">

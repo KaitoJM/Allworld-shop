@@ -44,17 +44,17 @@
           <li>
             <a href="{$urls.pages.my_account}" class="{if $current == 'my-account'}current{/if}">Manage My Account</a>
             <ul>
-              <li><a href="{$urls.pages.identity}" class="{if $current_sub == 'my-profile'}active{/if}">My Profile</a></li>
-              <li><a href="{$urls.pages.addresses}" class="{if $current_sub == 'address-book'}active{/if}">Address Book</a></li>
+              <li><a href="{$urls.pages.identity}" class="{if isset($current_sub) && ($current_sub == 'my-profile')}active{/if}">My Profile</a></li>
+              <li><a href="{$urls.pages.addresses}" class="{if isset($current_sub) && ($current_sub == 'address-book')}active{/if}">Address Book</a></li>
             </ul>
           </li>
           <li>
             <a href="{$urls.pages.history}" class="{if $current == 'history'}current{/if}">My Orders</a>
             <ul>
               {if $configuration.return_enabled && !$configuration.is_catalog}
-                <li><a href="{$urls.pages.order_follow}" class="{if $current_sub == 'returns'}active{/if}">Returns</a></li>
+                <li><a href="{$urls.pages.order_follow}" class="{if isset($current_sub) && ($current_sub == 'returns')}active{/if}">Returns</a></li>
               {/if}
-              <li><a href="{$urls.pages.history}?cancellation=true" class="{if $current_sub == 'cancellations'}active{/if}">Cancellations</a></li>
+              <li><a href="{$urls.pages.history}?cancellation=true" class="{if isset($current_sub) && ($current_sub == 'cancellations')}active{/if}">Cancellations</a></li>
               {* <li><a href="{$urls.pages.order_slip}" class="{if $current_sub == 'credit-slips'}active{/if}">Credit slips</a></li> *}
             </ul>
           </li>

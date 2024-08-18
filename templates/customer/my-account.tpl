@@ -40,9 +40,6 @@
       <img src="{$urls.theme_assets}images/customer-avatar.png" class="avatar" />
       <h4>{$customer.firstname} {$customer.lastname}</h4>
       <p>{$customer.email}</p>
-      {if $customer.addresses}
-        <p>{$customer.address.phone}</p>
-      {/if}
     </div>
     <div class="address-info box">
       <div class="title">

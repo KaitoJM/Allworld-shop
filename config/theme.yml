@@ -8,8 +8,8 @@ author:
 
 meta:
   compatibility:
-      from: 1.7.0.0
-      to: ~
+    from: 1.7.0.0
+    to: ~
 
   available_layouts:
     layout-with-left-nav:
@@ -31,39 +31,38 @@ meta:
 assets:
   # If you're using this theme as child and you want to load
   # the parent theme assets, uncomment this line.
-#  use_parent_assets: true
+  #  use_parent_assets: true
 
   # The following lines are showing how to load assets in your page
   # Uncomment and change value to start loading css or js files
- css:
-   all:
-     - id: owl-carousel-style
-       path: assets/css/owl.carousel.min.css
-     - id: owl-carousel-theme-style
-       path: assets/css/owl.theme.default.min.css
-     - id: uicons-bold-rounded-style
-       path: assets/css/uicons-bold-rounded.css
-#    product:
-#      - id: product-style
-#        path: assets/css/product.css
-#        media: all
-#        priority: 200
- js:
+  css:
     all:
-     - id: owl-carousel-lib
-       path: assets/js/owl.carousel.min.js
-     - id: zoom
-       path: assets/js/jquery.zoom.min.js
-     - id: allworld-lib
-       path: assets/js/allworld.js
-
+      - id: owl-carousel-style
+        path: assets/css/owl.carousel.min.css
+      - id: owl-carousel-theme-style
+        path: assets/css/owl.theme.default.min.css
+      - id: uicons-bold-rounded-style
+        path: assets/css/uicons-bold-rounded.css
+  #    product:
+  #      - id: product-style
+  #        path: assets/css/product.css
+  #        media: all
+  #        priority: 200
+  js:
+    all:
+      - id: owl-carousel-lib
+        path: assets/js/owl.carousel.min.js
+      - id: zoom
+        path: assets/js/jquery.zoom.min.js
+      - id: allworld-lib
+        path: assets/js/allworld.js
 
 global_settings:
   configuration:
     PS_IMAGE_QUALITY: png
   modules:
-   to_enable:
-     - ps_linklist
+    to_enable:
+      - ps_linklist
   hooks:
     modules_to_hook:
       displayLeftNav:
@@ -87,7 +86,7 @@ global_settings:
       displayTop:
         - ps_searchbar
       displayHome:
-        - ets_testimonial
+      # - ets_testimonial
       #   - ps_imageslider
       #   - ps_bestsellers
       #   - ps_brandlist

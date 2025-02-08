@@ -26,7 +26,6 @@
     </section>
 {else}
     {* jane comment *}
-    {* moi's comment *}
     {* asya ine an original *}
     <div class="ph_pcms_block_product_list">
         {if isset($products) && $products}

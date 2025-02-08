@@ -29,11 +29,38 @@
   {block name='cart_summary_product_list'}
     <div class="collapse" id="cart-summary-product-list">
       <ul class="media-list">
+
+        {assign var=concatenatedString value=""}
+        {assign var='giftproducts_selected' value=Configuration::get('GIFTPRODUCT_PRODUCT_SELECTED')|json_decode}
+
         {foreach from=$cart.products item=product}
+          {assign var=skipProduct value=false}
+
+          {foreach from=$giftproducts_selected->id_product item=selected_p key=k}
+            {if $product.id == $selected_p && $giftproducts_selected->id_product_attribute[$k] == $product.id_product_attribute}
+              {assign var=concatenatedString value=$concatenatedString|cat:"<li class='media'>{include file='checkout/_partials/cart-summary-product-line.tpl' product=$product}</li>"}
+              {assign var=skipProduct value=true}
+              {continue}
+            {/if}
+          {/foreach}
+
+          {if $skipProduct}
+            {continue}
+          {/if}
+
           <li class="media">
             {include file='checkout/_partials/cart-summary-product-line.tpl' product=$product}
           </li>
         {/foreach}
+
+        {if $concatenatedString}
+          <hr>
+          <li class="media">
+            <div class="media-body">Freebies</div>
+          </li>
+          {$concatenatedString|cleanHtml nofilter}
+        {/if}
+
       </ul>
     </div>
   {/block}

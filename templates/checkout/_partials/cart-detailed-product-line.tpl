@@ -46,7 +46,7 @@
         </div>
       {/foreach}
 
-      {if is_array($product.customizations) && $product.customizations|count}
+      {* {if is_array($product.customizations) && $product.customizations|count}
         <br>
         {block name='cart_detailed_product_line_customization'}
           {foreach from=$product.customizations item="customization"}
@@ -85,7 +85,7 @@
             </div>
           {/foreach}
         {/block}
-      {/if}
+      {/if} *}
     </div>
   </div>
   

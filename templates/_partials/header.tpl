@@ -32,7 +32,6 @@
   gtag('config', 'G-MSM4EBWBW8');
 </script>
 {/literal}
-
 <div class="logo-container">
   {renderLogo}
 </div>

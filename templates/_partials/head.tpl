@@ -88,4 +88,5 @@
   {$HOOK_HEADER nofilter}
 {/block}
 
+
 {block name='hook_extra'}{/block}

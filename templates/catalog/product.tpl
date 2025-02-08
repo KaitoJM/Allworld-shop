@@ -230,6 +230,10 @@
     <br />
     {widget name="ps_specials"}
 
+    {block name='product_footer'}
+      {hook h='displayRelatedProducts' product=$product category=$category}
+    {/block}
+
     {* {block name='product_footer'}
       {hook h='displayFooterProduct' product=$product category=$category}
     {/block} *}

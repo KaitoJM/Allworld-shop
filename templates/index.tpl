@@ -41,6 +41,7 @@
         {include file='_partials/new_arrival.tpl'}
         {hook h="displayHome"}
         {* {widget name="ps_newproducts"} *}
+        hi
         {include file='_partials/site-features.tpl' cart=$cart}
       {/block}
     {/block}

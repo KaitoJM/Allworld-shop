@@ -55,9 +55,16 @@
       {/if} *}
       {if $contact_infos.email && $display_email}
         <li>
+        <i class="fa fa-envelope">
+        </i>
           {* {l s='Email us:' d='Shop.Theme.Global'} *}
           {* {mailto address=$contact_infos.email encode="javascript"} *}
           sales@allworld.info
+        </li>
+        <li>
+        <i class="fa fa-phone">
+        </i>
+        0966-891-1848
         </li>
       {/if}
     </ul>

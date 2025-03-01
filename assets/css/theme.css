@@ -2954,11 +2954,28 @@ a {
 }
 .special-offers-section article .prod-thumbnail .product-summary {
   font-size: 0.8em;
-  display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
 }
+
+.product-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  width: 400px
+}
+
+.product-title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  width: 400px
+}
+
+.product-price-and-shipping-special{
+  margin-top: 20px;
+}
+
 .special-offers-section article .prod-thumbnail .regular-price {
   color: var(--grey);
   text-decoration: line-through;

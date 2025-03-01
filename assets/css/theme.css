@@ -372,11 +372,11 @@ a {
   color:#333;
 }
 
-.custom-main-menu ul li .sub-menu a:hover {
+/* .custom-main-menu ul li .sub-menu a:hover {
   color:white;
-  /* background-color: #333; */
+  background-color: #333;
   transition: 0.3s ease-in-out;
-}
+} */
 .custom-main-menu ul li .sub-menu li {
   box-sizing: border-box;
 }

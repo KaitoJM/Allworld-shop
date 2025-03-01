@@ -86,6 +86,19 @@ jQuery(function () {
     animateOut: "fadeOut",
   });
 
+  $(".blog-slider").owlCarousel({
+    loop: true,
+    margin: 30,
+    items: 4,
+    dots: true,
+    autoplay: true,
+    slideSpeed: 1000,
+    fluidSpeed: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    animateOut: "fadeOut",
+  });
+
   $(".cover-item").zoom();
 
   function initProductCoverCarousel() {

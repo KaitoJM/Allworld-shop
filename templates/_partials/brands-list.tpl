@@ -1,6 +1,6 @@
 <div id="search_filters_brands">
   <section>
-    <h2>Shop By Brands</h2>
+    <h2 styler="text-align: center;">Shop By Brands</h2>
     {* <p>
     This is just a placeholder text. Don't be alarmed.
     </p> *}
@@ -18,12 +18,12 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/1-dell" title="Dell" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/dell-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/dell.png">
           </a>
         </li>
         <li>
           <a href="{$urls.base_url}brand/5-hp" title="HP" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/hp-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/hp.png">
           </a>
         </li>
         <li>
@@ -43,7 +43,7 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/8-apple" title="Apple" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/apple-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/apple.png">
           </a>
         </li>
         <li>
@@ -58,7 +58,7 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/28-jbl" title="JBL" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/jbl-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/jbl.png">
           </a>
         </li>
         <li>
@@ -93,7 +93,7 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/26-msi" title="MSI" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/msi-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/msi.png">
           </a>
         </li>
         <li>

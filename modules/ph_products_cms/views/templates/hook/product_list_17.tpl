@@ -25,7 +25,6 @@
     {/if}
     </section>
 {else}
-    
     {* asya ine an original *}
     <div class="ph_pcms_block_product_list">
         {if isset($products) && $products}

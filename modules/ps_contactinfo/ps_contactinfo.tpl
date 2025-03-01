@@ -24,7 +24,7 @@
  *}
 
 <div class="block-contact">
-  <p class="h3">{l s='Contact us' d='Shop.Theme.Global'}</p>
+  {* <p class="h3">{l s='Contact us' d='Shop.Theme.Global'}</p> *}
   <div id="contact-infos">
     <ul>
       {* <li>{$contact_infos.address.formatted nofilter}</li> *}
@@ -54,18 +54,18 @@
         </li>
       {/if} *}
       {if $contact_infos.email && $display_email}
-        <li>
-        <i class="fa fa-envelope">
-        </i>
+        {* <li> *}
+        {* <i class="fa fa-envelope">
+        </i> *}
           {* {l s='Email us:' d='Shop.Theme.Global'} *}
           {* {mailto address=$contact_infos.email encode="javascript"} *}
-          sales@allworld.info
+          {* sales@allworld.info
         </li>
         <li>
-        <i class="fa fa-phone">
-        </i>
-        0966-891-1848
-        </li>
+        <i class="fa fa-phone"> *}
+        {* </i>
+        0966-891-1848 *}
+        {* </li> *}
       {/if}
     </ul>
   </div>

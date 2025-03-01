@@ -218,7 +218,7 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}27-promo" class="no-sub">Promos</a>
+      <a href="{$urls.base_url}27-promo" class="no-sub">Promo</a>
       {* <div class="sub-menu">
         <ul>
           <li>

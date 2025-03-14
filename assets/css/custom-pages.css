@@ -58,6 +58,15 @@
   text-align: center;
   font-size: 2.3em;
   font-weight: 500;
+  margin: 10px;
+}
+
+.main-layout .main-content .page-header-section h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0px auto;
 }
 
 @media (max-width: 550px) {
@@ -92,7 +101,7 @@
   display: flex;
   gap: 30px;
   align-items: center;
-  max-width: 400px;
+  max-width: 700px;
   margin: auto;
   margin-top: 30px;
 }
@@ -111,6 +120,7 @@
   display: block;
   font-size: 0.9em;
   cursor: pointer;
+  width: fit-content;
 }
 
 .main-layout .main-content .page-header-section .left {
@@ -508,4 +518,52 @@
   svg {
   width: 10px;
   height: auto;
+}
+
+.work-with-us-section {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 776px) {
+  .work-with-us-section {
+    flex-direction: column;
+  }
+}
+
+.work-with-us-section .cover {
+  width: 33.333%;
+}
+
+@media (max-width: 776px) {
+  .work-with-us-section .cover {
+    width: 100%;
+  }
+}
+
+.work-with-us-section .cover img {
+  width: 100%;
+}
+
+.work-with-us-section .detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.work-with-us-section .detail h3 {
+  margin: 0;
+}
+
+.work-with-us-section .detail p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 600;
 }

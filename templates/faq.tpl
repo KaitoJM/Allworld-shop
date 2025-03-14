@@ -289,5 +289,6 @@
     </div>
     <div class="white-section">
         <div class="contact-form-container">{widget name="contactform"}</div>
+        {include file='_partials/branch-section.tpl'}
     </div>
 {/block}

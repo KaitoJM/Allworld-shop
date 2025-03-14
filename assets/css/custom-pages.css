@@ -312,6 +312,7 @@
   background-color: var(--background_color_main);
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-form {
@@ -418,4 +419,92 @@
 
 .contact-form form .form-footer {
   justify-content: start;
+}
+
+.branch-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.branch-section h3 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.branch-section .branch-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.branch-section .branch-container .branch-item-row {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 872px) {
+  .branch-section .branch-container .branch-item-row {
+    flex-direction: column;
+  }
+}
+
+.branch-section .branch-container .branch-item-row .branch-item {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+  gap: 15px;
+  align-items: center;
+}
+
+.branch-section .branch-container .branch-item-row .branch-item img {
+  width: auto;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.branch-section
+  .branch-container
+  .branch-item-row
+  .branch-item
+  .branch-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-section
+  .branch-container
+  .branch-item-row
+  .branch-item
+  .branch-details
+  h4 {
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.branch-section
+  .branch-container
+  .branch-item-row
+  .branch-item
+  .branch-details
+  p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.branch-section
+  .branch-container
+  .branch-item-row
+  .branch-item
+  .branch-details
+  p
+  svg {
+  width: 10px;
+  height: auto;
 }

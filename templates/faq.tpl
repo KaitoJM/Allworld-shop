@@ -287,4 +287,7 @@
             </div>
         </div>
     </div>
+    <div class="white-section">
+        <div class="contact-form-container">{widget name="contactform"}</div>
+    </div>
 {/block}

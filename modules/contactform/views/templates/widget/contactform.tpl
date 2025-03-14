@@ -23,6 +23,21 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <section class="contact-form box">
+  <div class="card">
+    <div class="card-body">
+      <h3>Got more questions?</h3>
+      <p>This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet.</p>
+    </div>
+    <div class="card-footer">
+      <div class="contact-footer">
+        <img src="{$urls.theme_assets}/icons/allworld-icon.png" />
+        <div class="contact-info">
+          <p>sales@allworld.info</p>
+          <p>+63 9451777351</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
@@ -37,11 +52,11 @@
     {if !$notifications || $notifications.nw_error}
       <section class="form-fields">
 
-        <div class="form-group row">
+        {* <div class="form-group row">
           <div class="col-md-9 col-md-offset-3">
             <h3 class="page-title">{l s='Contact us' d='Shop.Theme.Global'}</h3>
           </div>
-        </div>
+        </div> *}
 
         <div class="form-group row">
           <label class="col-md-3 form-control-label" for="id_contact">{l s='Subject' d='Shop.Forms.Labels'}</label>
@@ -131,7 +146,7 @@
         </style>
         <input type="text" name="url" value=""/>
         <input type="hidden" name="token" value="{$token}" />
-        <input class="btn btn-primary aw-btn" type="submit" name="submitMessage" value="{l s='Send' d='Shop.Theme.Actions'}">
+        <input class="btn btn-primary aw-btn" type="submit" name="submitMessage" value="{l s='Send Message' d='Shop.Theme.Actions'}">
       </footer>
     {/if}
 

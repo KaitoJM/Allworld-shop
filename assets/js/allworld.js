@@ -316,3 +316,32 @@ $("#field-address1").change(function (e) {
 $("#field-city").change(function (e) {
   $("#field-city").val($("#field-city").val().trim());
 });
+
+//custome page - jm
+$(document).on("click", ".accordion-list>li", function () {
+  if ($(this).find(".section-item-content").is(":hidden")) {
+    $(this).find(".section-item-content").show();
+    $(this).find(".arrow-indicator").addClass("open");
+  } else {
+    $(this).find(".section-item-content").hide();
+    $(this).find(".arrow-indicator").removeClass("open");
+  }
+});
+
+$("#btn-contact-scroll").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $(".contact-form-container").offset().top,
+    },
+    1000
+  );
+});
+
+$("#btn-oppurtunity-scroll").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $(".current-oppurtunities-section").offset().top,
+    },
+    1000
+  );
+});

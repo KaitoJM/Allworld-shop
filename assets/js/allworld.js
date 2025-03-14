@@ -327,3 +327,12 @@ $(document).on("click", ".accordion-list>li", function () {
     $(this).find(".arrow-indicator").removeClass("open");
   }
 });
+
+$("#btn-contact-scroll").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $(".contact-form-container").offset().top,
+    },
+    1000
+  );
+});

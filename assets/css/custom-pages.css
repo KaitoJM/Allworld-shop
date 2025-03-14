@@ -110,6 +110,7 @@
   padding: 10px 20px;
   display: block;
   font-size: 0.9em;
+  cursor: pointer;
 }
 
 .main-layout .main-content .page-header-section .left {

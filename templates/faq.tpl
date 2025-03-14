@@ -10,7 +10,7 @@
         <h1>Frequently Asked<br />Questions</h1>
         <div class="actions">
             <div class="left">
-                <a class="btn">Contact us</a>
+                <a class="btn" id="btn-contact-scroll">Contact us</a>
             </div>
             <div class="email-info">
                 <p class="email">Sales@allworld.com</p>

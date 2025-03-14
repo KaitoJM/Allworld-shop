@@ -78,6 +78,7 @@
 
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
+  <link rel="stylesheet" href="{$urls.theme_assets}css/custom-pages.css" type="text/css" media="all" />
 {/block}
 
 {block name='javascript_head'}

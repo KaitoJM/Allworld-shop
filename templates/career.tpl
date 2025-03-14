@@ -30,8 +30,166 @@
                 <p>Replenish be life them gathered. Second set fish. Was Earth won't and to. Thing. Gathering bring a made may it evening can't in. Face sea, let darkness. Days abundantly. Morning also. Abundantly. Signs over also light. Abundantly divided fourth evening void won't years dry them seed may they're.</p>
             </div>
         </div>
+        <div class="current-oppurtunities-section">
+            <h3>Current Opportunities</h3>
+            <div class="co-row">
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="co-row">
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Job Post Listing Here</h4>
+                        <p>
+                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li>
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications
+                                <br />- Calbayog</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="white-section">
+        <br />
         {include file='_partials/contact-interest-section.tpl'}
     </div>
     <div class="section">

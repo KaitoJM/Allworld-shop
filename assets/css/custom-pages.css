@@ -567,3 +567,75 @@
 .bold {
   font-weight: 600;
 }
+
+.current-oppurtunities-section {
+  margin: 30px 0;
+}
+
+.current-oppurtunities-section h3 {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-top: 50px;
+}
+
+.current-oppurtunities-section .co-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 776px) {
+  .current-oppurtunities-section .co-row {
+    flex-direction: column;
+  }
+}
+
+.current-oppurtunities-section .co-row .co-item {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 4px 0 15px -4px #c9c9c9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-top {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-top h4 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-top p {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-bottom {
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: var(--background_color_main);
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-bottom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-bottom ul li {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+
+.current-oppurtunities-section .co-row .co-item .co-item-bottom ul li p {
+  text-align: right;
+  margin: 5px;
+}

@@ -336,3 +336,12 @@ $("#btn-contact-scroll").click(function () {
     1000
   );
 });
+
+$("#btn-oppurtunity-scroll").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $(".current-oppurtunities-section").offset().top,
+    },
+    1000
+  );
+});

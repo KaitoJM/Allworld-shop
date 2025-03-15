@@ -39,7 +39,7 @@
       </ul>
     {/if}
   {/block}
-
+  
   {block name='cms_sub_pages'}
     {if $cms_pages}
       <p>{l s='List of pages in %category_name%:' d='Shop.Theme.Global' sprintf=['%category_name%' => $cms_category.name]}</p>

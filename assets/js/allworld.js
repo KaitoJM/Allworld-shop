@@ -242,6 +242,7 @@ if (dialog_flg != "hidden") {
 } else {
   console.log("triggered hidden", dialog_flg);
 }
+// ig copy ini para sa gift pero onclick
 
 $(document).on("click", ".close-newsletter", function (e) {
   localStorage.setItem("show_email_newsletter_dialog", "hidden");

@@ -1,6 +1,6 @@
-<div class="site-feature-component">
+<div class="site-feature-component  {($wrap) ? 'wrapped-container' : ''}">
   <h2 class="section-title">Why Shop With Us</h2>
-  <div class="site-features">
+  <div class="site-features {($wrap) ? 'wrapped' : ''}">
     <div class="feature-item">
       <img src="{$urls.theme_assets}icons/original.svg" />
       <div class="item-details">

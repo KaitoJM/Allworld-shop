@@ -35,8 +35,8 @@
         {widget name="ps_featuredproducts"}
         {* {widget name="ps_brandlist"} *}
         {include file='_partials/brands-list.tpl' cart=$cart}
-      <h2 Style="text-align:center; font-size: 30px;"> All Out Discount </h2>
-       {widget name="ps_specials"}
+      {* <h2 Style="text-align:center; font-size: 30px;"> All Out Discount </h2>
+       {widget name="ps_specials"} *}
         {* {include file='_partials/apple-section.tpl'} *}
         {include file='_partials/home-discount.tpl'}
         {include file='_partials/new_arrival.tpl'}

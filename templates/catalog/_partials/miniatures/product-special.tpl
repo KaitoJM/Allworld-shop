@@ -52,7 +52,6 @@
                 {else}
                   {$product.price}
                 {/if}
-                test
               </span>
 
               {if $product.has_discount}

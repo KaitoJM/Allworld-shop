@@ -71,8 +71,8 @@
   <br />
 </div>
 
-<a href="#"> <img src="{$urls.theme_assets}icons/giftwith1.png" style="position: fixed; z-index: 999; bottom: 30px; left: 30px; width: 80px;"> </a>
-<a href="https://www.facebook.com/messages/t/107399630876258"> <img src="{$urls.theme_assets}icons/messenger.png" style="position: fixed; z-index: 999; bottom: 30px; right: 30px; width: 50px; "> </a>
+{* <a href="#"> <img src="{$urls.theme_assets}icons/giftwith1.png" style="position: fixed; z-index: 999; bottom: 30px; left: 30px; width: 80px;"> </a>
+<a href="https://www.facebook.com/messages/t/107399630876258"> <img src="{$urls.theme_assets}icons/messenger.png" style="position: fixed; z-index: 999; bottom: 30px; right: 30px; width: 50px; "> </a> *}
 
 <div class="newsletter-dialog-wrapper" style="display:none">
   <div class="newsletter-dialog">

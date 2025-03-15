@@ -91,12 +91,23 @@ jQuery(function () {
     margin: 30,
     items: 4,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     slideSpeed: 1000,
     fluidSpeed: true,
     smartSpeed: 1000,
     autoplayHoverPause: true,
     animateOut: "fadeOut",
+    responsive: {
+      0: {
+        items: 1,
+      },
+      768: {
+        items: 5,
+      },
+      1040: {
+        items: 6,
+      },
+    },
   });
 
   $(".cover-item").zoom();

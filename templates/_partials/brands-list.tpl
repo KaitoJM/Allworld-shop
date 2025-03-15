@@ -98,9 +98,29 @@
         </li>
         <li>
           <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
-            <img src="{$urls.theme_assets}/images/brands-new/gigabyte-logo.png">
+            <img src="{$urls.theme_assets}/images/brands-new/gigabyte.png">
           </a>
         </li>
+        <li>
+          <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+            <img src="{$urls.theme_assets}/images/brands-new/corsair.png">
+          </a>
+        </li>
+        <li>
+        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+          <img src="{$urls.theme_assets}/images/brands-new/darkflash.png">
+        </a>
+      </li>
+      <li>
+        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+          <img src="{$urls.theme_assets}/images/brands-new/edifier.png">
+        </a>
+      </li>
+      <li>
+        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+          <img src="{$urls.theme_assets}/images/brands-new/esgaming.png">
+        </a>
+      </li>
       </ul>
     </div>
   </section>

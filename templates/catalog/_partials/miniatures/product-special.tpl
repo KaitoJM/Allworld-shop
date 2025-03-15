@@ -35,7 +35,6 @@
           {/if}
         {/block}
         <div class="product-summary">{$product.description_short nofilter}</div>
-
         {block name='product_price_and_shipping'}
           {if $product.show_price}
             <div class="product-price-and-shipping-special">
@@ -44,7 +43,6 @@
 
                 <span class="regular-price" aria-label="{l s='Regular price' d='Shop.Theme.Catalog'}">{$product.regular_price}</span>
               {/if}
-
               {hook h='displayProductPriceBlock' product=$product type="before_price"}
 
               <span class="price" aria-label="{l s='Price' d='Shop.Theme.Catalog'}">
@@ -54,6 +52,7 @@
                 {else}
                   {$product.price}
                 {/if}
+                test
               </span>
 
               {if $product.has_discount}

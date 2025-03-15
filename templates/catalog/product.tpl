@@ -226,7 +226,7 @@
     {/block}
 
     <br />
-    {widget name="ps_bestsellers"}
+    {* {widget name="ps_bestsellers"} *}
     <br />
     {widget name="ps_specials"}
 

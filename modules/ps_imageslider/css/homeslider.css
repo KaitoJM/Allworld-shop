@@ -91,13 +91,13 @@
 #image-grid .g-item .img-background {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   object-fit: cover;
 }
 
 #image-grid .g-item .fix-tiles {
   display: flex;
-  margin-top: 20px;
+  margin-top: 5px;
   gap: 20px;
 }
 #image-grid .g-item .fix-tiles .g-item {

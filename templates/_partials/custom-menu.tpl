@@ -101,7 +101,7 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}21-tablet-ipad">Tablet & iPad</a>
+      <a href="{$urls.base_url}21-tablet-ipad">Tablets</a>
       <div class="sub-menu">
         <ul>
           <li>

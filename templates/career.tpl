@@ -35,21 +35,21 @@
             <div class="co-row">
                 <div class="co-item">
                     <div class="co-item-top">
-                        <h4>Job Post Listing Here</h4>
+                        <h4>SEO Specialist</h4>
                         <p>
-                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
+                        We are seeking a knowledgeable and results-driven SEO Specialist to join our digital marketing team. The ideal candidate will have a deep understanding of search engine optimization techniques and a passion for improving website visibility and traffic through organic search.
                         </p>
                     </div>
                     <div class="co-item-bottom">
                         <ul>
-                            <li>
+                            {* <li>
                                 <label>Salary</label>
                                 <p class="bold">15,000 - 30,000</p>
-                            </li>
+                            </li> *}
                             <li>
                                 <label>Location</label>
-                                <p class="bold">Allworld Communications
-                                <br />- Calbayog</p>
+                                <p class="bold">Allworld Communications Calbayog Capoocan
+                                <br />Maharlika Highway, Brgy. Capoocan, Calbayog City</p>
                             </li>
                             <li>
                                 <label>Another Listing</label>
@@ -59,6 +59,83 @@
                     </div>
                 </div>
                 <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Salesman</h4>
+                        <p>
+                        We are seeking a motivated Salesman to join our team. The ideal candidate will have strong communication skills, the ability to build relationships, and a passion for achieving sales targets. Responsibilities include promoting and selling products/services to new clients and maintaining relationships with existing customers.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            {* <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li> *}
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications Naga
+                                <br />Naga City</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Salesman</h4>
+                        <p>
+                        We are seeking a motivated Salesman to join our team. The ideal candidate will have strong communication skills, the ability to build relationships, and a passion for achieving sales targets. Responsibilities include promoting and selling products/services to new clients and maintaining relationships with existing customers.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            {* <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li> *}
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications PC Super Mart
+                                <br />8006, Pioneer Street, Corner United, Kapitolyo, Pasig City</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co-item">
+                    <div class="co-item-top">
+                        <h4>Brand Ambassador</h4>
+                        <p>
+                        We are seeking a dynamic and passionate Brand Ambassador to represent our brand and engage with customers. The ideal candidate will have strong communication skills and a genuine enthusiasm for our products/services, helping to build brand awareness and loyalty.
+                        </p>
+                    </div>
+                    <div class="co-item-bottom">
+                        <ul>
+                            {* <li>
+                                <label>Salary</label>
+                                <p class="bold">15,000 - 30,000</p>
+                            </li> *}
+                            <li>
+                                <label>Location</label>
+                                <p class="bold">Allworld Communications Calbayog Capoocan
+                                <br />Maharlika Highway, Brgy. Capoocan, Calbayog City</p>
+                            </li>
+                            <li>
+                                <label>Another Listing</label>
+                                <p class="bold">List Here</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            {* </div>
+            <div class="co-row"> *}
+                {* <div class="co-item">
                     <div class="co-item-top">
                         <h4>Job Post Listing Here</h4>
                         <p>
@@ -82,8 +159,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="co-item">
+                </div> *}
+                {* <div class="co-item">
                     <div class="co-item-top">
                         <h4>Job Post Listing Here</h4>
                         <p>
@@ -107,10 +184,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-            <div class="co-row">
-                <div class="co-item">
+                </div> *}
+                {* <div class="co-item">
                     <div class="co-item-top">
                         <h4>Job Post Listing Here</h4>
                         <p>
@@ -134,57 +209,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="co-item">
-                    <div class="co-item-top">
-                        <h4>Job Post Listing Here</h4>
-                        <p>
-                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
-                        </p>
-                    </div>
-                    <div class="co-item-bottom">
-                        <ul>
-                            <li>
-                                <label>Salary</label>
-                                <p class="bold">15,000 - 30,000</p>
-                            </li>
-                            <li>
-                                <label>Location</label>
-                                <p class="bold">Allworld Communications
-                                <br />- Calbayog</p>
-                            </li>
-                            <li>
-                                <label>Another Listing</label>
-                                <p class="bold">List Here</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="co-item">
-                    <div class="co-item-top">
-                        <h4>Job Post Listing Here</h4>
-                        <p>
-                            This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
-                        </p>
-                    </div>
-                    <div class="co-item-bottom">
-                        <ul>
-                            <li>
-                                <label>Salary</label>
-                                <p class="bold">15,000 - 30,000</p>
-                            </li>
-                            <li>
-                                <label>Location</label>
-                                <p class="bold">Allworld Communications
-                                <br />- Calbayog</p>
-                            </li>
-                            <li>
-                                <label>Another Listing</label>
-                                <p class="bold">List Here</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                </div> *}
             </div>
         </div>
     </div>

@@ -25,10 +25,18 @@
 {block name='product_miniature_item'}
 <div class="js-product product {if $product.images && $product.images|count > 1}double-pic{/if}">
   <article class="product-miniature js-product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}">
-    <div class="prod-thumbnail thumbnail-container"> <!--to add wish list icon, add class "thumbnail-container"-->
+    <div class="prod-thumbnail thumbnail-container">
+    <!--to add wish list icon, add class "thumbnail-container"-->
+
+    <a href="#" class="add-to-whish-list" data-product_id="{$product.id}" data-customer_id="{$customer.id}"> 
+          <i class="fi-br-heart"></i>
+        </a>
+      
       <div class="thumbnail-top">
         {block name='product_thumbnail'}
+          
           {if $product.cover}
+            <br>
             <a href="{$product.url}" class="thumbnail product-thumbnail">
               <img
               src="{$product.cover.bySize.home_default.url}"
@@ -47,6 +55,7 @@
               {/if}
             </a>
           {else}
+            test
             <a href="{$product.url}" class="thumbnail product-thumbnail">
               <img
                 src="{$urls.no_picture_image.bySize.home_default.url}"
@@ -70,11 +79,11 @@
           {if $product.show_price}
             <div class="product-price-and-shipping">
               {hook h='displayProductPriceBlock' product=$product type="before_price"}
-
+              <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h3>
               <span class="price" aria-label="{l s='Price' d='Shop.Theme.Catalog'}">
                 {capture name='custom_price'}{hook h='displayProductPriceBlock' product=$product type='custom_price' hook_origin='products_list'}{/capture}
                 {if '' !== $smarty.capture.custom_price}
-                  {$smarty.capture.custom_price nofilter}
+                 {$smarty.capture.custom_price nofilter}
                 {else}
                   {$product.price}
                 {/if}
@@ -88,10 +97,11 @@
         {/block}
         {block name='product_name'}
           {if $page.page_name == 'index'}
-            <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h3>
+     {* <h3 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h3> *}
           {else}
-            <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h2>
+            {* <h2 class="h3 product-title"><a href="{$product.url}" content="{$product.url}">{$product.name|truncate:60:'...'}</a></h2> *}
           {/if}
+          <br>
           <form action="{$urls.pages.cart}" method="post">
           <input type="hidden" name="token" value="{$static_token}">
           <input type="hidden" name="id_product" value="{$product.id}">
@@ -105,9 +115,6 @@
           <button class="product-buy-now">
             Buy now
           </button>
-          <a href="#" class="add-to-whish-list" data-product_id="{$product.id}" data-customer_id="{$customer.id}">
-            <i class="fi-br-heart"></i>
-          </a>
         </div>
         {/block}
       </div>

@@ -9,7 +9,7 @@
             <div class="contact-footer">
                 <img src="{$urls.theme_assets}/icons/allworld-icon.png" />
                 <div class="contact-info">
-                <p>sales@allworld.info</p>
+                <p>careers@allworld.info</p>
                 <p>+63 9451777351</p>
                 </div>
             </div>

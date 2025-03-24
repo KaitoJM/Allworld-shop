@@ -23,6 +23,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <div id="js-product-list-top" class="row products-selection">
+
   <div class="first-top">
     <div class="total-products">
       {if $listing.pagination.total_items > 1}
@@ -31,12 +32,20 @@
         <p>{l s='There is 1 product.' d='Shop.Theme.Catalog'}</p>
       {/if}
     </div>
+
     <div class="sort">
       <div class="row sort-by-row">
         {block name='sort_by'}
           {include file='catalog/_partials/sort-orders.tpl' sort_orders=$listing.sort_orders}
         {/block}
+
+        {* {block name='pagination'}
+          {include file='_partials/pagination.tpl' pagination=$listing.pagination}
+        {/block} *}
       </div>
+    </div>
+    <div class ="pagination-top">
+    {include file='_partials/pagination.tpl' pagination=$listing.pagination}
     </div>
   </div>
 </div>

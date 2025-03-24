@@ -250,7 +250,7 @@
       </footer>
     {/block}
     <br />
-    {include file='_partials/site-features.tpl'}
+    {* {include file='_partials/site-features.tpl'} *}
   </section>
 
 {/block}

@@ -84,5 +84,5 @@
 
     {hook h="displayFooterCategory"}
   </section>
-  {include file='_partials/site-features.tpl' cart=$cart}
+  {* {include file='_partials/site-features.tpl' cart=$cart} *}
 {/block}

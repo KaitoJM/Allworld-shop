@@ -13,7 +13,7 @@
                 <a class="btn" id="btn-contact-scroll">Contact us</a>
             </div>
             <div class="email-info">
-                <p class="email">Sales@allworld.com</p>
+                <p class="email">customercare@allworld.info</p>
                 <p>or send as an email</p>
             </div>
         </div>
@@ -103,7 +103,7 @@
                                 <img src="{$urls.theme_assets}/icons/bank.png" />
                             </div>
                             <div class="po-item-content">
-                                <h5>Bank Tranfers</h5>
+                                <h5>Bank</h5>
                                 <p>
                                 This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
                                 </p>
@@ -114,7 +114,7 @@
                                 <img src="{$urls.theme_assets}/icons/installment.png" />
                             </div>
                             <div class="po-item-content">
-                                <h5>Installment & Straight Payment</h5>
+                                <h5>Payment</h5>
                                 <p>
                                 This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.
                                 </p>
@@ -289,6 +289,6 @@
     </div>
     <div class="white-section">
         {include file='_partials/contact-section.tpl'}
-        {include file='_partials/branch-section.tpl'}
+        {* {include file='_partials/branch-section.tpl'} *}
     </div>
 {/block}

@@ -33,7 +33,7 @@
        {include file='_partials/head.tpl'}
      {/block}
    </head>
- 
+
    <body id="{$page.page_name}" class="{$page.body_classes|classnames}">
      {block name='hook_after_body_opening_tag'}
        {hook h='displayAfterBodyOpeningTag'}
@@ -43,7 +43,6 @@
         {block name='product_activation'}
           {include file='catalog/_partials/product-activation.tpl'}
         {/block}
-       
         <header id="header">
           {block name='header'}
             {include file='_partials/header.tpl'}
@@ -56,13 +55,19 @@
             {/block}
           </div>
         </header>
+    
         {include file='_partials/custom-menu.tpl'}
+        
         <div class="main-layout">
           <div class="left-navigation">
             {block name='left_nav'}
               {include file='_partials/left-navigation.tpl'}
             {/block}
           </div>
+          
+          <div class="top-banner-left">
+          {include file='_partials/banner-top.tpl'}
+            </div>
 
           <div class="main-content">
             <section id="wrapper">
@@ -89,7 +94,7 @@
                 {hook h="displayWrapperBottom"}
             </section>
         
-            <footer id="footer" class="js-footer">
+             <footer id="footer" class="js-footer">
                 {block name="footer"}
                 {include file="_partials/footer.tpl"}
                 {/block}

@@ -56,8 +56,6 @@
           {/block}
           </div>
         </header>
-        {include file='_partials/custom-menu.tpl'}
-        
         <div class="main-layout full">
           <div class="main-content">
             <section id="wrapper">

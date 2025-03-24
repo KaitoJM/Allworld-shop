@@ -2,7 +2,10 @@
   <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
   <ul>
     <li>
-      <a href="{$urls.base_url}18-smartphones">Smartphones</a>
+      <a href="{$urls.base_url}18-smartphones">
+        Smartphones
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul class="justify">
           <li>
@@ -36,7 +39,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}19-desktop-pc">Desktop PC</a>
+      <a href="{$urls.base_url}19-desktop-pc">
+        Desktop PC
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -101,7 +107,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}21-tablet-ipad">Tablets</a>
+      <a href="{$urls.base_url}21-tablet-ipad">
+        Tablets
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -117,7 +126,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}22-essential">Essential</a>
+      <a href="{$urls.base_url}22-essential">
+        Essential
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -133,7 +145,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}23-sound-and-vision">Sound and Vision</a>
+      <a href="{$urls.base_url}23-sound-and-vision">
+        Sound and Vision
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -155,7 +170,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}24-printing">Printing</a>
+      <a href="{$urls.base_url}24-printing">
+        Printing
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+      </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -174,7 +192,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}25-home-entertainment">Home Entertainment</a>
+      <a href="{$urls.base_url}25-home-entertainment">
+        Home Entertainment
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+        </a>
       <div class="sub-menu">
         <ul>
           <li>
@@ -202,7 +223,10 @@
       </div>
     </li>
     <li>
-      <a href="{$urls.base_url}60-power-solutions">Power Solutions</a>
+      <a href="{$urls.base_url}60-power-solutions">
+        Power Solutions
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+        </a>
       <div class="sub-menu">
         <ul>
           <li>

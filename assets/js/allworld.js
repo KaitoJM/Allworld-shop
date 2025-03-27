@@ -91,7 +91,7 @@ jQuery(function () {
     margin: 30,
     items: 4,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     slideSpeed: 1000,
     fluidSpeed: true,
     smartSpeed: 1000,
@@ -105,7 +105,7 @@ jQuery(function () {
         items: 5,
       },
       1040: {
-        items: 6,
+        items: 4,
       },
     },
   });
@@ -352,7 +352,7 @@ $("#btn-contact-scroll").click(function () {
 $("#btn-oppurtunity-scroll").click(function () {
   $([document.documentElement, document.body]).animate(
     {
-      scrollTop: $(".current-oppurtunities-section").offset().top,
+      scrollTop: $(".headc").offset().top,
     },
     1000
   );

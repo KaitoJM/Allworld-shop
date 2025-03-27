@@ -81,11 +81,11 @@
         {hook h='displayFooterAfter'}
       {/block}
     </div>
-
+    
     {block name='hook_footer'}
       {hook h='displayFooterLinks'}
     {/block}
-    
+    <img src="{$urls.theme_assets}icons/handleupdated.png" style="width:140px; height:140px;">
     {* <div class="footer-extra">
       {block name='hook_footer_after'}
         {hook h='displayFooterAfter'}

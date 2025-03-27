@@ -72,6 +72,7 @@
   margin-bottom: 30px;
   overflow: hidden;
   flex-wrap: wrap;
+  /* margin-top: -149px; */
 }
 
 #image-grid .g-item {
@@ -91,14 +92,14 @@
 
 #image-grid .g-item .img-background {
   width: 100%;
-  height: 100%;
-  /* border-radius: 10px; */
+  height: 93%;
+  border-radius: 10px;
   object-fit: cover;
 }
 
 #image-grid .g-item .fix-tiles {
   display: flex;
-  margin-top: 5px;
+  margin-top: 17px;
   gap: 20px;
 }
 #image-grid .g-item .fix-tiles .g-item {
@@ -124,6 +125,15 @@
     display: flex;
     margin-top: 5px;
     gap: 20px;
-    height: 87px !important;
+    height: 80px !important;
+  }
+
+  #image-grid {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-top: -149px !important;
   }
 }

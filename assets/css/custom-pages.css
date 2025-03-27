@@ -100,8 +100,10 @@
   text-align: center;
   font-size: 1em;
   font-weight: 400;
-  max-width: 700px;
+  max-width: 702px;
   margin: 0px auto;
+  text-align: justify;
+  text-indent: 50px;
 }
 
 @media (max-width: 550px) {
@@ -139,6 +141,7 @@
   max-width: 700px;
   margin: auto;
   margin-top: 30px;
+  margin-right: 490px;
 }
 
 @media (max-width: 550px) {
@@ -1027,4 +1030,53 @@
 
 .img-item {
   height: 100px;
+}
+
+.column2 {
+  float: right;
+}
+
+img#imgban {
+  filter: none;
+}
+
+.sub-menu h1 {
+  margin-left: 45px;
+  margin-bottom: -4px;
+}
+
+.sbb {
+  float: right;
+  margin-top: -283px;
+  margin-right: 101px;
+}
+
+ul.justify2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sbb h1 {
+  margin-left: 28px;
+}
+
+.hotdeals {
+  float: right;
+  margin-top: -245px;
+  width: 66%;
+  margin-right: -140px;
+  margin-bottom: 14px;
+}
+
+img#imgd {
+  gap: 10px;
+  border: rad;
+  /* border: 5px solid #555; */
+  /* box-shadow: 10px 10px; */
+}
+
+img#imgd:hover {
+  border-radius: 10px;
+  box-shadow: 0em 0em 0.5em 0em hwb(0 72% 28%);
+  transition: 0.3s ease-in-out;
 }

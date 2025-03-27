@@ -7,6 +7,7 @@
         <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
       <div class="sub-menu">
+      <h1> Smartphones </h1>
         <ul class="justify">
           <li>
             <a href="{$urls.base_url}18-smartphones?q=Brand-Apple">Apple</a>
@@ -14,9 +15,9 @@
           <li>
             <a href="{$urls.base_url}18-smartphones?q=Brand-Samsung">Samsung</a>
           </li>
-          <li>
+          {* <li>
             <a href="{$urls.base_url}18-smartphones?q=Brand-Huawei">Huawei</a>
-          </li>
+          </li> *}
           <li>
             <a href="{$urls.base_url}18-smartphones?q=Brand-Xiaomi">Xiaomi</a>
           </li>
@@ -36,6 +37,8 @@
             <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Tecno</a>
           </li>
         </ul>
+        {include file='_partials/hotdeals.tpl'}
+        <img src="{$urls.theme_assets}icons/bannerdesktop2.png" style="width: 100%; height:100%;" id="imgban" />
       </div>
     </li>
     <li>
@@ -44,6 +47,7 @@
         <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
       <div class="sub-menu">
+      <h1> Desktop PC </h1>
         <ul>
           <li>
             <a href="{$urls.base_url}28-all-in-one-pc">All-In-One PC</a>
@@ -76,6 +80,63 @@
             <a href="{$urls.base_url}55-ssd">SSD</a>
           </li>
         </ul>
+        <div class="sbb">
+        <h1> Shop By Brands </h1>
+        <ul class="justify2">
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Apple">1stPlayer</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Samsung">Acer</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Huawei">Asus</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Xiaomi">AMD</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Oppo">Antec</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Vivo">Biostar</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Realme">Corsair</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Nokia">Darkflash</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Deepcool</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Electron</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Esgaming</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Fractal</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Frontier</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Gigabyte</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Intel</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Kebos</a>
+          </li>
+          <li>
+            <a href="{$urls.base_url}18-smartphones?q=Brand-Tecno">Lexar</a>
+          </li>
+        </ul>
+        </div>
+        <img src="{$urls.theme_assets}icons/bannerdesktop.png" style="width: 100%; height:100%;" id="imgban" />
       </div>
     </li>
     <li>

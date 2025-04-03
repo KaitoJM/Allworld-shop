@@ -8,8 +8,8 @@
             <li><a href="{$urls.base_url}career">Careers</a></li>
         </ul>
         <h1>Careers</h1>
-        <h2>We offer big commissions, comprehensive training, and career growth opportunities. No experience? No problem! We welcome individuals of all skill levels and provide hands-on training to help you succeed. More than just a workplace, we foster a supportive, mentoring, guiding, and ensuring everyone thrives in a positive environment. Join us and grow with a company that values your success as much as you do!</h2>
-        <div class="actions">
+        <h2>We offer big commissions, training, and career growth opportunities, no experience needed! Join a supportive team that mentors and guides you to success. Grow with a company that values your future as much as you do!</h2>
+        <div class="actionscareer">
             <div class="left">
                 <a class="btn" id="btn-oppurtunity-scroll">Current Opportunities</a>
             </div>
@@ -21,7 +21,7 @@
     <div class="section">
         <div class="work-with-us-section">
             <div class="cover">
-                <img src="{$urls.theme_assets}/images/why-work-with-us.png" />
+                <img src="{$urls.theme_assets}/icons/joinus.png" />
             </div>
             <div class="detail">
                 <h3>Why work with us</h3>
@@ -50,7 +50,7 @@
                             </li> *}
                             <li>
                                 <label>Location</label>
-                                <p class="bold">Allworld Communications Calbayog Capoocan
+                                <p>Allworld Communications Calbayog Capoocan
                                 <br />Maharlika Highway, Brgy. Capoocan, Calbayog City</p>
                             </li>
                             {* <li>
@@ -75,7 +75,7 @@
                             </li> *}
                             <li>
                                 <label>Location</label>
-                                <p class="bold">Allworld Communications Naga
+                                <p>Allworld Communications Naga
                                 <br />Naga City, Camarines Sur </p>
                             </li>
                             {* <li>
@@ -100,7 +100,7 @@
                             </li> *}
                             <li>
                                 <label>Location</label>
-                                <p class="bold">Allworld Communications PC Super Mart
+                                <p>Allworld Communications PC Super Mart
                                 <br />8006, Pioneer Street, Corner United, Kapitolyo, Pasig City</p>
                             </li>
                             {* <li>
@@ -125,7 +125,7 @@
                             </li> *}
                             <li>
                                 <label>Location</label>
-                                <p class="bold">Allworld Communications Calbayog Capoocan
+                                <p>Allworld Communications Calbayog Capoocan
                                 <br />Maharlika Highway, Brgy. Capoocan, Calbayog City</p>
                             </li>
                             {* <li>

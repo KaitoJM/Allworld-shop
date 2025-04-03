@@ -20,7 +20,7 @@ A go-to partner for all your technology needs, including computers, mobile phone
 
     <div class="about-us-images">
         <div class="img-item">
-            <img src="{$urls.theme_assets}icons/pic1.png" />
+            <img src="{$urls.theme_assets}icons/frst1.png" />
         </div>
         <div class="img-item">
             <img src="{$urls.theme_assets}icons/pic3.png" />

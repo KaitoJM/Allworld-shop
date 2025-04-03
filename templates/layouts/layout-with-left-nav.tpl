@@ -38,7 +38,7 @@
      {block name='hook_after_body_opening_tag'}
        {hook h='displayAfterBodyOpeningTag'}
      {/block}
- 
+       
      <main>
         {block name='product_activation'}
           {include file='catalog/_partials/product-activation.tpl'}
@@ -57,7 +57,6 @@
         </header>
     
         {include file='_partials/custom-menu.tpl'}
-        
         <div class="main-layout">
           <div class="left-navigation">
             {block name='left_nav'}
@@ -65,9 +64,12 @@
             {/block}
           </div>
           
-          <div class="top-banner-left">
-          {include file='_partials/banner-top.tpl'}
-            </div>
+          <div class="bannerhome">
+          <h1 id="headban"> Where Technology <br>Meets Elegance</h1>
+          <img id="bantop" src="{$urls.theme_assets}/icons/banner-top.png" />
+          </div>
+          {* <div class="tbanner">
+            </div> *}
 
           <div class="main-content">
             <section id="wrapper">

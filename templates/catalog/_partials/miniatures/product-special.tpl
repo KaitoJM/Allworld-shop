@@ -77,7 +77,18 @@
             <i class="fi-br-shopping-bag-add"></i>
             Add to cart
           </button>
+          <div class="other-action-container">
+          <button class="product-add-to-cart-buy">
+            Buy now
+          </button>
+        </div>
         </form>
+        {* <div class="other-action-container">
+          <button class="product-add-to-cart">
+            Buy now
+          </button>
+        </div> *}
+
       </div>
 
       <div class="thumbnail-img">

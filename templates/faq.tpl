@@ -10,11 +10,11 @@
         <h1>Frequently Asked<br />Questions</h1>
         <div class="actions">
             <div class="left">
-                <a class="btn" id="btn-contact-scroll">Contact us</a>
+                <a class="btn" id="btn-contact-scroll"><span class="cont">Contact us</span></a>
             </div>
             <div class="email-info">
-                <p class="email">customercare@allworld.info</p>
-                <p>or send as an email</p>
+                <p class="email">Email: customercare@allworld.info</p>
+                <p class="email">Phone: +63 966 891 1848</p>
             </div>
         </div>
     </div>
@@ -84,58 +84,6 @@
                         </div>
                     </li>
                 </ul>
-                <div class="payment-option-section">
-                    <h4>Payment Options</h4>
-                    <div class="po-grid">
-                        <div class="po-grid-item">
-                            <div class="po-item-icon">
-                                <img src="{$urls.theme_assets}/icons/cash.png" />
-                            </div>
-                            <div class="po-item-content">
-                                <h5>Cash</h5>
-                                <p>
-                                Pay upon pickup or delivery.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="po-grid-item">
-                            <div class="po-item-icon">
-                                <img src="{$urls.theme_assets}/icons/payment.png" />
-                            </div>
-                            <div class="po-item-content">
-                                <h5>E-Wallet Payment</h5>
-                                <p>
-                                Available through Gcash and Grab Pay Via Paymongo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="po-grid">
-                        <div class="po-grid-item">
-                            <div class="po-item-icon">
-                                <img src="{$urls.theme_assets}/icons/bank.png" />
-                            </div>
-                            <div class="po-item-content">
-                                <h5>Bank</h5>
-                                <p>
-                                Options includes BPI, BDO and Metrobank via Paymongo.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="po-grid-item">
-                            <div class="po-item-icon">
-                                <img src="{$urls.theme_assets}/icons/installment.png" />
-                            </div>
-                            <div class="po-item-content">
-                                <h5>Installment</h5>
-                                <p>
-                                Credit cards from BDO, BPI, and Metrobank are accepted. Installments for
-                                Home Credit and Skyro can also be made without a credit card.
-                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="faq-section">

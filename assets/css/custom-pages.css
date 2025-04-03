@@ -47,6 +47,13 @@
     margin-left: -15px;
     padding: 15px;
     background-attachment: unset;
+    margin-top: -90px;
+  }
+
+  .section-detail {
+    /* align-items: center; */
+    margin: auto;
+    text-align: center;
   }
 
   .main-layout .main-content .page-header-section h2 {
@@ -141,12 +148,28 @@
   max-width: 700px;
   margin: auto;
   margin-top: 30px;
-  margin-right: 490px;
+  margin-right: 513px;
+}
+
+.main-layout .main-content .page-header-section .actionscareer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-right: 410px;
 }
 
 @media (max-width: 550px) {
   .main-layout .main-content .page-header-section .actions {
     flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .main-layout .main-content .page-header-section .actionscareer {
+    flex-direction: column;
+    margin-right: 0px;
   }
 }
 
@@ -154,7 +177,7 @@
   background-color: #fff;
   color: #333;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   display: block;
   font-size: 0.9em;
   cursor: pointer;
@@ -178,6 +201,11 @@
   .main-layout .main-content .page-header-section .email-info {
     align-items: center;
   }
+
+  .main-layout .main-content .page-header-section .email-info p.email {
+    font-size: 18px !important;
+    text-align: center;
+  }
 }
 
 .main-layout .main-content .page-header-section .email-info p {
@@ -186,6 +214,7 @@
 
 .main-layout .main-content .page-header-section .email-info p.email {
   font-size: 1.3em;
+  width: 109%;
 }
 
 .section {
@@ -262,16 +291,18 @@
 
 .accordion-list li .section-item .section-item-content {
   display: none;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   font-size: 0.9em;
 }
 
 .accordion-list li .arrow-indicator {
   transition: 0.5s;
+  transition: 0.3s ease-in-out;
 }
 
 .accordion-list li .arrow-indicator.open {
   transform: rotate(180deg);
+  transition: 0.3s ease-in-out;
 }
 
 .payment-option-section {
@@ -710,6 +741,7 @@
 .current-oppurtunities-section .co-row .co-item .co-item-bottom ul li p {
   text-align: right;
   margin: 5px;
+  font-weight: 700;
 }
 
 .about-us-images {
@@ -725,6 +757,12 @@
     margin-top: -50px;
     gap: 15px;
     margin-bottom: -12px !important;
+  }
+
+  .current-oppurtunities-section .co-row .co-item .co-item-bottom ul li p {
+    text-align: left;
+    margin: 5px;
+    font-weight: 700;
   }
 }
 
@@ -747,10 +785,15 @@
   width: 424px;
 }
 
+.main-layout .main-content .site-features.wrapped .site-feature-component {
+  box-shadow: 0em 0em 2em 1px hwb(0 72% 28%);
+}
+
 .main-layout .main-content .site-features.wrapped {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 0;
+  /* box-shadow: 0em 0em 2em 1px hwb(0 72% 28%); */
 }
 
 .main-layout .main-content .site-features.wrapped .feature-item {
@@ -768,6 +811,7 @@
 
 .wrapped-container {
   background-color: transparent !important;
+  color: red!;
 }
 
 @media (max-width: 735px) {
@@ -809,6 +853,7 @@
 
 .main-layout .main-content p {
   text-align: justify;
+  /* margin-left: 40px; */
 }
 
 @media (min-width: 1700px) {
@@ -843,7 +888,7 @@
   }
 
   .main-layout .main-content p {
-    text-align: left;
+    text-align: justify;
   }
 }
 
@@ -964,6 +1009,13 @@
   .about-allworld-logo {
     width: 288px;
     margin: 86px auto;
+    margin-bottom: 81px !important;
+  }
+
+  .site-feature-component.wrapped-container {
+    box-shadow: 0em 0em 0em 0px hwb(0 72% 28%) !important;
+    margin-top: -82px !important;
+    margin-bottom: -16px !important;
   }
 
   .bold {
@@ -1038,6 +1090,12 @@
 
 img#imgban {
   filter: none;
+  margin-top: -13px;
+}
+
+img#imgbantab {
+  filter: none;
+  margin-top: 75px;
 }
 
 .sub-menu h1 {
@@ -1051,18 +1109,75 @@ img#imgban {
   margin-right: 101px;
 }
 
+.sbbessential {
+  float: right;
+  margin-top: -182px;
+  margin-right: 101px;
+}
+
+.sbbsoundandvision {
+  float: right;
+  margin-top: -214px;
+  margin-right: 101px;
+}
+.sbbhomeandenter {
+  float: right;
+  margin-top: -245px;
+  margin-right: 101px;
+}
+
+.sbbpowersol {
+  float: right;
+  margin-top: -176px;
+  margin-right: 101px;
+}
+
 ul.justify2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* .custom-main-menu ul li .sub-menu li:hover {
+  box-shadow: 0em 0em 0.5em 0em hwb(0 72% 28%);
+  transition: 0.3s ease-in-out;
+} */
+
+/* .custom-main-menu ul li a:hover {
+  color: red !important;
+  transition: 0.3s ease-in-out;
+} */
+
 .sbb h1 {
   margin-left: 28px;
 }
 
-.hotdeals {
+.hotdealsmobile {
   float: right;
   margin-top: -245px;
+  width: 66%;
+  margin-right: -140px;
+  margin-bottom: 14px;
+}
+
+.hotdealslaptop {
+  float: right;
+  margin-top: -245px;
+  width: 66%;
+  margin-right: -140px;
+  margin-bottom: 14px;
+}
+
+.hotdealsprinting {
+  float: right;
+  margin-top: -245px;
+  width: 66%;
+  margin-right: -140px;
+  margin-bottom: 14px;
+}
+
+.hotdealstablets {
+  float: right;
+  margin-top: -179px;
   width: 66%;
   margin-right: -140px;
   margin-bottom: 14px;
@@ -1079,4 +1194,98 @@ img#imgd:hover {
   border-radius: 10px;
   box-shadow: 0em 0em 0.5em 0em hwb(0 72% 28%);
   transition: 0.3s ease-in-out;
+}
+
+a.no-sub {
+  /* box-shadow: inset 0 0 0 0 #54b3d6; */
+  /* color: #54b3d6; */
+  padding: 0 0.25rem;
+  margin: 0 -0.25px;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+a.no-sub:hover {
+  color: #ffaf00 !important;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: inset 304px 0 0 0 #dd3333;
+}
+
+p.h6.hidden-xs-up {
+  margin-left: 38px;
+}
+
+.site-feature-component.wrapped-container {
+  box-shadow: 0em 0em 2em 1px hwb(0 72% 28%);
+}
+
+p.rpara {
+  margin: auto;
+  width: 50%;
+  margin-top: 16px;
+  text-align: center !important;
+}
+
+p.ppolicy {
+  margin: 10px;
+  width: 104%;
+  text-align: justify !important;
+}
+
+.ppolicysec {
+  margin-bottom: 30px;
+}
+
+span.boldpage {
+  font-weight: 700;
+}
+
+ul.bulletpage {
+  list-style-type: none;
+  margin: auto;
+}
+
+.sectionpages {
+  width: 71%;
+  /* align-items: center; */
+  margin: auto;
+}
+img#bantop {
+  margin-top: 20px;
+  float: right;
+  margin-right: -1px;
+  width: 101%;
+  height: 100%;
+}
+
+h1#headban {
+  display: block;
+  margin-bottom: -233px;
+  margin-left: 214px;
+  font-size: 35px;
+}
+
+.bannerhome {
+  margin-top: 229px;
+  margin-bottom: 427px;
+}
+
+@media (max-width: 762px) {
+  img#bantop {
+    margin-top: 149px;
+    width: 130% !important;
+  }
+
+  .bannerhome {
+    margin-top: -17px;
+    margin-bottom: 154px;
+  }
+
+  h1#headban {
+    display: block;
+    margin-top: 213px;
+    margin-bottom: -234px;
+    margin-left: 36px;
+    font-size: 15px;
+  }
 }

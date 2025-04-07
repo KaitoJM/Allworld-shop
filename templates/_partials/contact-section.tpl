@@ -3,13 +3,13 @@
         <div class="card">
             <div class="card-body">
                 <h3>Got more questions?</h3>
-                <p>This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet.</p>
+                <p>Please take a moment to visit our return and refund policy for your reference. Thank you!</p>
             </div>
             <div class="card-footer">
             <div class="contact-footer">
                 <img src="{$urls.theme_assets}/icons/allworld-icon.png" />
                 <div class="contact-info">
-                <p>sales@allworld.info</p>
+                <p>customercare@allworld.info</p>
                 <p>+63 9451777351</p>
                 </div>
             </div>

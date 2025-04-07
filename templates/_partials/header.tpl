@@ -32,29 +32,43 @@
   gtag('config', 'G-MSM4EBWBW8');
 </script>
 {/literal}
-<div class="logo-container">
-  {renderLogo}
-</div>
-<div class="header-container">
-  {block name='header_nav1'}
-    <nav class="header-nav1">
-      {hook h='displayNav1'}
-    </nav>
-  {/block}
+<div class="header-container-top">
+  <div class="logo-container">
+    {renderLogo}
+  </div>
+  <div class="header-container-main">
+    {block name='header_nav1'}
+      <nav class="header-nav1">
+        
+      </nav>
+    {/block}
 
-  {block name='header_top'}
-    <div class="header-top">
-      {hook h='displayTop'}
+    {block name='header_top'}
+      <div class="header-top">
+        {hook h='displayTop'}
+      </div>
+    {/block}
+
+    {block name='header_nav2'}
+      <nav class="header-nav2">
+        {if $customer.is_logged}
+          <a class="link-fav" href="{$urls.base_url}module/blockwishlist/lists"><i class="fi-br-heart"></i></a>
+        {/if}
+        {hook h='displayNav2'}
+        <a class="link-categories" href="#"><i class="fi-br-menu-burger"></i></a>
+      </nav>
+    {/block}
+  </div>
+</div>
+<div class="header-container-bottom">
+  <div class="header-container-bottom-margin">
+    <div class="categories-trigger">
+      <img src="{$urls.theme_assets}svg/fi-br-menu-burger.svg" />
+      <a href="#">Product Categories</a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-down.svg" />
+      {include file='_partials/custom-menu.tpl'}
     </div>
-  {/block}
-
-  {block name='header_nav2'}
-    <nav class="header-nav2">
-      {if $customer.is_logged}
-        <a class="link-fav" href="{$urls.base_url}module/blockwishlist/lists"><i class="fi-br-heart"></i></a>
-      {/if}
-      {hook h='displayNav2'}
-      <a class="link-categories" href="#"><i class="fi-br-menu-burger"></i></a>
-    </nav>
-  {/block}
+    {hook h='displayNav1'}
+  </div>
 </div>
+

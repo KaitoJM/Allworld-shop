@@ -23,8 +23,15 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
+
+
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12" id="blockEmailSubscription_{$hookName}">
-  <div class="row">
+<div class="row">
+<div class="footerbanner">
+<a href="#"><img src="{$urls.theme_assets}icons/footerp2.png" /></a>
+</div>
+<br>
+<br>
     <h3 id="block-newsletter-label" >Subscribe to our newsletter <br><span style='font-family: Arial, Helvetica, sans-serif; font-size: 15px;'> and stay on the loop </span></br></h3>
     <div>
       <form action="{$urls.current_url}#blockEmailSubscription_{$hookName}" method="post">

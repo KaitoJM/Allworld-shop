@@ -1,5 +1,5 @@
 <div class="site-feature-component  {($wrap) ? 'wrapped-container' : ''}">
-  <h2 class="section-title">Why Shop With Us</h2>
+<span class="why"><h3>Why Shop With Us</h3></span>
   <div class="site-features {($wrap) ? 'wrapped' : ''}">
     <div class="feature-item">
       <img src="{$urls.theme_assets}icons/original.svg" />
@@ -12,7 +12,7 @@
       <img src="{$urls.theme_assets}icons/delivery.svg" />
       <div class="item-details">
         <div class="item-title">Free Delivery<br />Nationwide</div>
-        <p>Enjoy Free Nationwide Delivery!</p>
+        <p class="sf">Enjoy Free Nationwide Delivery!</p>
       </div>
     </div>
     <div class="feature-item">

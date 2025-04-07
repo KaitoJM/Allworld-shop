@@ -68,7 +68,7 @@
             >
           </div>
         </div>
-
+        
         {if $contact.orders}
           <div class="form-group row">
             <label class="col-md-3 form-control-label" for="id-order">{l s='Order reference' d='Shop.Forms.Labels'}</label>
@@ -103,6 +103,7 @@
         <label class="col-md-3 form-control-label" for="contactform-message">{l s='Message' d='Shop.Forms.Labels'}</label>
         <div class="col-md-9">
           <textarea
+            maxlength="300"
             id="contactform-message"
             class="form-control"
             name="message"
@@ -112,14 +113,14 @@
         </div>
       </div>
 
-      {if isset($id_module)}
+      {* {if isset($id_module)}
         <br />
         <div class="form-group row">
           <div class="offset-md-3">
             {hook h='displayGDPRConsent' id_module=$id_module}
           </div>
         </div>
-      {/if}
+      {/if} *}
 
     </section>
 

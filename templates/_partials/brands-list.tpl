@@ -102,22 +102,22 @@
           </a>
         </li>
         <li>
-          <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+          <a href="{$urls.base_url}brand/33-corsair" title="Corsair" class="brand-name">
             <img src="{$urls.theme_assets}/images/brands-new/corsair.png">
           </a>
         </li>
         <li>
-        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+        <a href="{$urls.base_url}brand/21-darkflash" title="Darkflash" class="brand-name">
           <img src="{$urls.theme_assets}/images/brands-new/darkflash.png">
         </a>
       </li>
       <li>
-        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+        <a href="{$urls.base_url}brand/49-edifier" title="Edifier" class="brand-name">
           <img src="{$urls.theme_assets}/images/brands-new/edifier.png">
         </a>
       </li>
       <li>
-        <a href="{$urls.base_url}brand/39-gigabyte" title="Gigabyte" class="brand-name">
+        <a href="{$urls.base_url}brand/21-esgaming" title="Esgaming" class="brand-name">
           <img src="{$urls.theme_assets}/images/brands-new/esgaming.png">
         </a>
       </li>

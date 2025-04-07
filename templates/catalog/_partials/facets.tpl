@@ -43,7 +43,7 @@
       {if !$facet.displayed}
         {continue}
       {/if}
-
+      
       <section class="facet clearfix">
         <p class="h6 facet-title hidden-sm-down">{$facet.label}</p>
         {assign var=_expand_id value=10|mt_rand:100000}
@@ -89,6 +89,7 @@
                         {/if}
                       </span>
                     {else}
+                      
                       <span class="custom-radio">
                         <input
                           id="facet_input_{$_expand_id}_{$filter_key}"
@@ -141,6 +142,7 @@
                     </span>
                     <i class="fi-br-caret-down"></i>
                   </a>
+                
                   <div class="dropdown-menu">
                     {foreach from=$facet.filters item="filter"}
                       {if !$filter.active}

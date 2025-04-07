@@ -57,7 +57,6 @@
             {$listing.rendered_active_filters nofilter}
           </div>
         {/block}
-
         {block name='product_list'}
           {include file='catalog/_partials/products.tpl' listing=$listing productClass="col-xs-12 col-sm-6 col-xl-4"}
         {/block}
@@ -84,5 +83,5 @@
 
     {hook h="displayFooterCategory"}
   </section>
-  {include file='_partials/site-features.tpl' cart=$cart}
+  {* {include file='_partials/site-features.tpl' cart=$cart} *}
 {/block}

@@ -1,8 +1,8 @@
 <div class="join-us-section">
     <img src="{$urls.theme_assets}icons/footera1.png" />
     <div class="join-us-details">
-        <h3>Join Us</h3>
-        <p>This is just placeholder text. Don’t be alarmed, this is just here to fill up space since your finalized copy isn’t ready yet. Once we have your content finalized, we’ll replace this placeholder text with your real content.</p>
+        <h2>Join Us</h2>
+        <p>We offer big commissions, comprehensive training, and career growth opportunities. No experience? No problem! We welcome individuals of all skill levels and provide hands-on training to help you succeed. More than just a workplace, we foster a supportive, mentoring, guiding, and ensuring everyone thrives in a positive environment. Join us and grow with a company that values your success as much as you do!</p>
         <a href="#">Careers</a>
     </div>
 </div>

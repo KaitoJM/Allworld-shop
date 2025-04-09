@@ -24,7 +24,7 @@
  *}
 
 {if isset($notifications)}
-<aside id="notifications">
+<asidezZ id="notifications">
   <div class="container">
     {if $notifications.error}
       {block name='notifications_error'}

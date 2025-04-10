@@ -6161,7 +6161,7 @@ p#fsta {
 
 /* Moi added code */
 
-#header .header-container-bottom-margin {
+#header .header-container-bottom .header-container-bottom-margin {
   justify-content: center;
   max-width: 100%;
   padding: 0 1rem;
@@ -6173,6 +6173,27 @@ p#fsta {
 
 #header .categories-trigger > *:not(.custom-main-menu) {
   display: none;
+}
+
+#header .custom-main-menu > ul {
+  padding-top: 4rem;
+}
+
+#header .custom-main-menu a.category-close > i:before {
+  font-size: 16px;
+  color: #000;
+}
+
+#header .custom-main-menu li {
+  position: relative;
+}
+
+#header .custom-main-menu li > a > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1.3rem 1rem;
+  z-index: 10;
 }
 
 

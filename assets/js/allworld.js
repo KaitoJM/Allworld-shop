@@ -241,6 +241,18 @@ jQuery(function () {
     }, 300);
     e.preventDefault();
   });
+
+
+  // Moi added
+
+  $('#header .custom-main-menu li > a > img').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).closest('li').parent('li').closest('.sub-menu').slideToggle();
+  });
+
+  // End Moi added
+
 });
 
 // newsletter dialog

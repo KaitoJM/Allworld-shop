@@ -6156,3 +6156,24 @@ p#fsta {
 /* span {
   background-color: white !important;
 } */
+
+
+
+/* Moi added code */
+
+#header .header-container-bottom-margin {
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+#header .categories-trigger {
+  padding: 0;
+}
+
+#header .categories-trigger > *:not(.custom-main-menu) {
+  display: none;
+}
+
+
+/* End Moi added code */

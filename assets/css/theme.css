@@ -6161,40 +6161,41 @@ p#fsta {
 
 /* Moi added code */
 
-#header .header-container-bottom .header-container-bottom-margin {
-  justify-content: center;
-  max-width: 100%;
-  padding: 0 1rem;
-}
+@media(max-width: 600px) {
+  #header .categories-trigger > *:not(.custom-main-menu) {
+    display: none;
+  }
 
-#header .categories-trigger {
-  padding: 0;
-}
+  .custom-main-menu > ul {
+    padding-top: 4rem;
+  }
 
-#header .categories-trigger > *:not(.custom-main-menu) {
-  display: none;
-}
+  .custom-main-menu a.category-close > i:before {
+    font-size: 16px;
+    color: #000;
+  }
 
-#header .custom-main-menu > ul {
-  padding-top: 4rem;
-}
+  #header .header-container-bottom .header-container-bottom-margin {
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 
-#header .custom-main-menu a.category-close > i:before {
-  font-size: 16px;
-  color: #000;
-}
+  #header .categories-trigger {
+    padding: 0;
+  }
 
-#header .custom-main-menu li {
-  position: relative;
-}
+  #header .custom-main-menu li {
+    position: relative;
+  }
 
-#header .custom-main-menu li > a > img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 1.3rem 1rem;
-  z-index: 10;
+  #header .custom-main-menu li > a > img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.3rem 1rem;
+    z-index: 10;
+  }
 }
-
 
 /* End Moi added code */

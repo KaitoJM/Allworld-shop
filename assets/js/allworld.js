@@ -248,7 +248,8 @@ jQuery(function () {
   $('.custom-main-menu li > img').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
-    // $(this).closest('li').parent('li').closest('.sub-menu').slideToggle();
+    $('.custom-main-menu .sub-menu').hide();
+    $(this).siblings('.sub-menu').slideToggle();
   });
 
   // End Moi added

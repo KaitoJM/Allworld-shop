@@ -1,16 +1,12 @@
 <div class="custom-main-menu {if $page.page_name == 'category'}category-menu{/if}">
   <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
-
-  <div class="mobile-search-wrapper">
-    {widget name='ps_searchbar'}
-  </div>
-
   <ul>
     <li>
       <a href="{$urls.base_url}18-smartphones">
         Smartphones
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
-      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+
       <div class="sub-menu">
       <h1> Smartphones </h1>
         <ul class="justify">
@@ -52,8 +48,10 @@
       </div>
     </li>
     <li>
-    <a href="{$urls.base_url}20-laptops">Laptops</a>
-    <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+    <a href="{$urls.base_url}20-laptops">
+      Laptops
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+    </a>
     <div class="sub-menu">
     <h1> Laptops </h1>
       <ul>
@@ -94,8 +92,8 @@
   <li>
       <a href="{$urls.base_url}24-printing">
         Printing
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Printing </h1>
         <ul class="printing">
@@ -124,8 +122,8 @@
     <li>
       <a href="{$urls.base_url}19-desktop-pc">
         Desktop PC
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Desktop PC </h1>
         <ul>
@@ -246,8 +244,8 @@
     <li>
       <a href="{$urls.base_url}21-tablet-ipad">
         Tablets
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Tablets </h1>
         <ul>
@@ -279,8 +277,8 @@
     <li>
       <a href="{$urls.base_url}22-essential">
         Essential
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Essential </h1>
         <ul>
@@ -347,8 +345,8 @@
     <li>
       <a href="{$urls.base_url}23-sound-and-vision">
         Sound and Vision
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Sound and Vision </h1>
         <ul>
@@ -430,8 +428,8 @@
     <li>
       <a href="{$urls.base_url}25-home-entertainment">
         Home Entertainment
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
         </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Home Entertainment </h1>
         <ul>
@@ -534,8 +532,8 @@
     <li>
       <a href="{$urls.base_url}60-power-solutions">
         Power Solutions
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
         </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Power Solutions </h1>
         <ul>

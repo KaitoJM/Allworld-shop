@@ -347,7 +347,6 @@ a {
 }
 .custom-main-menu > ul > li {
   height: 100%;
-  position: relative;
 }
 .custom-main-menu ul li a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -364,7 +363,9 @@ a {
   width: 20px;
   height: auto;
   filter: none;
+}
 
+.custom-main-menu ul > li a > img {
   position: absolute;
   right: 0;
   top: 0;
@@ -6192,7 +6193,17 @@ p#fsta {
   }
 
   .custom-main-menu > ul {
-    padding-top: 1rem;
+    top: 50px;
+    position: relative;
+  }
+
+  .custom-main-menu > ul > li {
+    position: relative;
+  }
+
+  .custom-main-menu > ul > li:hover .sub-menu {
+    all: unset;
+    display: none;
   }
 
   .custom-main-menu li > a {

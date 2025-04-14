@@ -1,11 +1,16 @@
 <div class="custom-main-menu {if $page.page_name == 'category'}category-menu{/if}">
   <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
+
+  <div class="mobile-search-wrapper">
+    {widget name='ps_searchbar'}
+  </div>
+
   <ul>
     <li>
       <a href="{$urls.base_url}18-smartphones">
         Smartphones
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       </a>
+      <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
       <div class="sub-menu">
       <h1> Smartphones </h1>
         <ul class="justify">
@@ -47,9 +52,8 @@
       </div>
     </li>
     <li>
-    <a href="{$urls.base_url}20-laptops">Laptops
+    <a href="{$urls.base_url}20-laptops">Laptops</a>
     <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
-    </a>
     <div class="sub-menu">
     <h1> Laptops </h1>
       <ul>

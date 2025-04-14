@@ -245,10 +245,10 @@ jQuery(function () {
 
   // Moi added
 
-  $('#header .custom-main-menu li > a > img').click(function(e) {
+  $('.custom-main-menu li > img').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
-    $(this).closest('li').parent('li').closest('.sub-menu').slideToggle();
+    // $(this).closest('li').parent('li').closest('.sub-menu').slideToggle();
   });
 
   // End Moi added

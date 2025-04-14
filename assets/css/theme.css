@@ -117,6 +117,14 @@ a {
   #header {
     height: 157px !important;
   }
+
+  #header .header-container-bottom {
+    height: 0px;
+  }
+
+  #header .header-container-bottom .menu ul {
+    display: none;
+  }
   /* #header .header-container-bottom .header-container-bottom-margin {
     display: none !important;
   } */
@@ -180,6 +188,7 @@ a {
   #header .for-m {
     display: block !important;
     width: 100%;
+    z-index: -1;
   }
   #header .for-m .header-top {
     display: block !important;
@@ -6163,7 +6172,6 @@ p#fsta {
 /* span {
   background-color: white !important;
 } */
-
 
 
 /* Moi added code */

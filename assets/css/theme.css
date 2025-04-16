@@ -573,12 +573,11 @@ ul.printing {
     opacity: 1;
     visibility: visible;
   }
-  .custom-main-menu > ul > li:hover .sub-menu {
-    box-shadow: none;
-    left: 0px;
-    top: 0px;
+
+  .custom-main-menu > ul > li > a:hover .sub-menu {
     display: block;
   }
+
   .custom-main-menu > ul > li {
     height: auto;
   }
@@ -589,6 +588,7 @@ ul.printing {
   .custom-main-menu > ul > li > a {
     font-size: 1rem;
     height: 40px;
+    pointer-events: none;
   }
   .custom-main-menu ul li .sub-menu li .sub-menu-img {
     display: none;
@@ -620,16 +620,31 @@ ul.printing {
   }
 }
 @media (max-width: 767px) {
-  .custom-main-menu > ul > li .sub-menu {
+  /* .custom-main-menu > ul > li .sub-menu {
     position: static;
     width: 100%;
     background-color: transparent;
     height: auto;
     left: 0px;
     top: -30px;
-    /* display: none !important; */
+    display: none !important;
     opacity: 1;
     visibility: visible;
+  } */
+
+  .custom-main-menu > ul > li:hover .sub-menu {
+    box-shadow: none;
+    left: 0px;
+    top: 0px;
+    display: block;
+  }
+
+  .sub-menu h1 {
+    display: none;
+  }
+
+  .custom-main-menu ul li .sub-menu > ul {
+    margin-left: -23px;
   }
 
   .hotdealsmobile {

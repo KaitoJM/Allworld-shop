@@ -245,7 +245,7 @@ jQuery(function () {
 
   // Moi added
 
-  $('.custom-main-menu li > img').click(function(e) {
+  $('.custom-main-menu li > a > img').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
     $('.custom-main-menu .sub-menu').hide();

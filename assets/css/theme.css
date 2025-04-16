@@ -366,10 +366,6 @@ a {
 }
 
 .custom-main-menu ul > li a > img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 1.3rem 1rem;
   z-index: 10;
 }
 

@@ -6173,6 +6173,11 @@ p#fsta {
 
 /* Moi added code */
 
+#authentication #login-form,
+#password .forgotten-password {
+  margin-top: 0;
+}
+
 @media(max-width: 1024px) {
   .custom-main-menu a.category-close > i:before {
     font-size: 16px;

@@ -1661,7 +1661,7 @@ product-add-to-cart-special:hover {
   .cart-item
   .product-line-grid
   .product-line-grid-body {
-  flex: 1;
+  /* flex: 1; */
 }
 .cart-grid
   .cart-grid-body
@@ -2658,6 +2658,7 @@ product-add-to-cart-special:hover {
   .order-confirmation-table .order-line.row > div.qty .row > div {
     text-align: right;
     width: 100%;
+    border: 1px solid rgb(185, 185, 185);
   }
   .order-confirmation-table .order-line.row > div.qty .row > div:last-child {
     text-align: right;
@@ -2673,8 +2674,35 @@ product-add-to-cart-special:hover {
     width: 100%;
     margin: 0px;
   }
+
+  .box-order-confirm .order-confirmation-hook {
+    margin-left: -47px !important;
+    margin-top: -16px;
+  }
+
+  .order-confirmation-table .order-line.row > div:nth-child(2) {
+    flex: none;
+    padding: 0 20px;
+    width: 35%;
+  }
+
+  .order-confirmation-table .order-line.row > div:last-child .row {
+    flex-direction: row;
+    margin-top: 126px;
+    margin-left: -293px;
+  }
+
+  .box-order-confirm .action-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 12px;
+    align-items: center;
+  }
+
   .box-order-confirm .msg-head {
     flex-direction: column;
+    margin-left: -45px;
   }
   .box-order-confirm .box-head {
     background-image: none;
@@ -2699,11 +2727,7 @@ product-add-to-cart-special:hover {
   text-align: right;
   font-size: 1.2em;
 }
-.box-order-confirm .action-footer {
-  display: flex;
-  justify-content: end;
-  margin-top: 20px;
-}
+
 .box-order-confirm .action-footer a {
   display: block;
   width: 260px;
@@ -3465,7 +3489,7 @@ product-add-to-cart-special:hover {
   width: 100%;
 }
 .special-offers-section article .prod-thumbnail .thumbnail-img a {
-  position: relative;
+  /* position: relative; */
   margin-left: -224px;
 }
 .special-offers-section article .prod-thumbnail .thumbnail-img a:after {
@@ -4462,7 +4486,7 @@ table#order-products tbody .product-detail-flex .product-detail {
   max-width: 400px;
   display: block;
   margin: auto;
-  margin-top: -26%;
+  margin-top: -2%;
 }
 #authentication .btn-primary,
 #password .btn-primary {
@@ -6218,7 +6242,7 @@ p#fsta {
   }
 
   .custom-main-menu > ul > li .sub-menu > ul {
-    padding-left: 0!important;
+    padding-left: 0 !important;
   }
 
   /* .custom-main-menu > ul > li:hover .sub-menu {

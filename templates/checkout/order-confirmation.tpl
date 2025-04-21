@@ -86,7 +86,6 @@
               </section>
               {/if}
             {/block} *}
-          
             {block name='customer_registration_form'}
               {if $customer.is_guest}
                 <div id="registration-form" class="card">
@@ -115,7 +114,7 @@
 {block name='page_content_container'}
   {block name='hook_order_confirmation_2'}
     <section id="content-hook-order-confirmation-footer">
-      {hook h='displayOrderConfirmation2'}
+      {* {hook h='displayOrderConfirmation2'} *}
     </section>
   {/block}
   <br />

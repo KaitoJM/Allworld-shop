@@ -46,18 +46,11 @@
       <div class="form-group row">
         <label class="col-md-3 form-control-label" for="id_contact">{l s='Subject' d='Shop.Forms.Labels'}</label>
         <div class="col-md-6">
-          {* <select name="id_contact" id="id_contact" class="form-control form-control-select">
+          <select name="id_contact" id="id_contact" class="form-control form-control-select">
             {foreach from=$contact.contacts item=contact_elt}
               <option value="{$contact_elt.id_contact}">{$contact_elt.name}</option>
             {/foreach}
-          </select> *}
-          <select name="id_contact" id="id_contact" class="form-control form-control-select">
-    {foreach from=$contact.contacts item=contact_elt}
-        <option value="{$contact_elt.id_contact}" {if isset($selected_contact_id) && $selected_contact_id == $contact_elt.id_contact}selected{/if}>
-            {$contact_elt.name}
-        </option>
-    {/foreach}
-</select>
+          </select>
         </div>
       </div>
       

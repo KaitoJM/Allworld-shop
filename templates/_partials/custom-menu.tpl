@@ -1,6 +1,6 @@
 <div class="custom-main-menu {if $page.page_name == 'category'}category-menu{/if}">
   <a class="category-close" href="#"><i class="fi-br-cross"></i></a>
-  <ul>
+  <ul class="mobile-menu-ul">
     <li>
       <a href="{$urls.base_url}18-smartphones">
         Smartphones

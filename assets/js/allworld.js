@@ -242,7 +242,6 @@ jQuery(function () {
     e.preventDefault();
   });
 
-
   // Moi added
 
   $('.custom-main-menu ul.mobile-menu-ul > li > a').click(function(e) {
@@ -253,7 +252,6 @@ jQuery(function () {
   });
 
   // End Moi added
-
 });
 
 // newsletter dialog

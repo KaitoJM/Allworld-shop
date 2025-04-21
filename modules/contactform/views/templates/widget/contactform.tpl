@@ -42,7 +42,7 @@
           <h3 class="page-title">{l s='Contact us' d='Shop.Theme.Global'}</h3>
         </div>
       </div> *}
-
+      
       <div class="form-group row">
         <label class="col-md-3 form-control-label" for="id_contact">{l s='Subject' d='Shop.Forms.Labels'}</label>
         <div class="col-md-6">

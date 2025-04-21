@@ -6213,10 +6213,18 @@ p#fsta {
     position: relative;
   }
 
-  .custom-main-menu > ul > li:hover .sub-menu {
-    all: unset;
+  .custom-main-menu > ul > li .sub-menu > h1 {
     display: none;
   }
+
+  .custom-main-menu > ul > li .sub-menu > ul {
+    padding-left: 0!important;
+  }
+
+  /* .custom-main-menu > ul > li:hover .sub-menu {
+    all: unset;
+    display: none;
+  } */
 
   .custom-main-menu li > a {
     position: relative;
@@ -6237,6 +6245,10 @@ p#fsta {
 
   #header .categories-trigger {
     padding: 0;
+  }
+
+  .custom-main-menu > ul > li > a {
+    pointer-events: none;
   }
 }
 

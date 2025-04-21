@@ -4,7 +4,7 @@
     <li>
       <a href="{$urls.base_url}18-smartphones">
         Smartphones
-        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg" />
+        <img src="{$urls.theme_assets}svg/fi-br-angle-small-right.svg " />
       </a>
 
       <div class="sub-menu">
@@ -64,7 +64,7 @@
         <li>
           <a href="{$urls.base_url}20-laptops?q=Brand-Lenovo">Lenovo</a>
         </li>
-        <li>
+        <li>  
           <a href="{$urls.base_url}20-laptops?q=Brand-Huawei">Huawei</a>
         </li>
         <li>

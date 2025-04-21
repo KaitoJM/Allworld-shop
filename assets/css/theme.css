@@ -577,12 +577,11 @@ ul.printing {
     opacity: 1;
     visibility: visible;
   }
-  .custom-main-menu > ul > li:hover .sub-menu {
-    box-shadow: none;
-    left: 0px;
-    top: 0px;
+
+  .custom-main-menu > ul > li > a:hover .sub-menu {
     display: block;
   }
+
   .custom-main-menu > ul > li {
     height: auto;
   }
@@ -593,6 +592,7 @@ ul.printing {
   .custom-main-menu > ul > li > a {
     font-size: 1rem;
     height: 40px;
+    pointer-events: none;
   }
   .custom-main-menu ul li .sub-menu li .sub-menu-img {
     display: none;
@@ -624,16 +624,31 @@ ul.printing {
   }
 }
 @media (max-width: 767px) {
-  .custom-main-menu > ul > li .sub-menu {
+  /* .custom-main-menu > ul > li .sub-menu {
     position: static;
     width: 100%;
     background-color: transparent;
     height: auto;
     left: 0px;
     top: -30px;
-    /* display: none !important; */
+    display: none !important;
     opacity: 1;
     visibility: visible;
+  } */
+
+  .custom-main-menu > ul > li:hover .sub-menu {
+    box-shadow: none;
+    left: 0px;
+    top: 0px;
+    display: block;
+  }
+
+  .sub-menu h1 {
+    display: none;
+  }
+
+  .custom-main-menu ul li .sub-menu > ul {
+    margin-left: -23px;
   }
 
   .hotdealsmobile {
@@ -1100,6 +1115,7 @@ ul.printing {
   align-items: stretch;
   font-size: 1rem;
   margin-left: 41px;
+  margin-right: 31px;
 }
 .page-home .product-list-container {
   /* justify-content: space-between; */
@@ -1179,6 +1195,7 @@ ul.printing {
 }
 
 .product-list-container .product .product-description {
+  margin-top: 26px;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -1344,7 +1361,7 @@ product-add-to-cart-special:hover {
 }
 #footer .footer-body {
   background-color: white;
-  margin: 0 -30px;
+  /* margin: 0 -30px; */
   padding: 30px;
   padding-right: calc(30px + (var(--space_gutter) - 30px));
   margin-right: calc(-30px - (var(--space_gutter) + 30px));
@@ -1644,7 +1661,7 @@ product-add-to-cart-special:hover {
   .cart-item
   .product-line-grid
   .product-line-grid-body {
-  flex: 1;
+  /* flex: 1; */
 }
 .cart-grid
   .cart-grid-body
@@ -2641,6 +2658,7 @@ product-add-to-cart-special:hover {
   .order-confirmation-table .order-line.row > div.qty .row > div {
     text-align: right;
     width: 100%;
+    border: 1px solid rgb(185, 185, 185);
   }
   .order-confirmation-table .order-line.row > div.qty .row > div:last-child {
     text-align: right;
@@ -2656,8 +2674,35 @@ product-add-to-cart-special:hover {
     width: 100%;
     margin: 0px;
   }
+
+  .box-order-confirm .order-confirmation-hook {
+    margin-left: -47px !important;
+    margin-top: -16px;
+  }
+
+  .order-confirmation-table .order-line.row > div:nth-child(2) {
+    flex: none;
+    padding: 0 20px;
+    width: 35%;
+  }
+
+  .order-confirmation-table .order-line.row > div:last-child .row {
+    flex-direction: row;
+    margin-top: 126px;
+    margin-left: -293px;
+  }
+
+  .box-order-confirm .action-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 12px;
+    align-items: center;
+  }
+
   .box-order-confirm .msg-head {
     flex-direction: column;
+    margin-left: -45px;
   }
   .box-order-confirm .box-head {
     background-image: none;
@@ -2682,11 +2727,7 @@ product-add-to-cart-special:hover {
   text-align: right;
   font-size: 1.2em;
 }
-.box-order-confirm .action-footer {
-  display: flex;
-  justify-content: end;
-  margin-top: 20px;
-}
+
 .box-order-confirm .action-footer a {
   display: block;
   width: 260px;
@@ -3448,7 +3489,7 @@ product-add-to-cart-special:hover {
   width: 100%;
 }
 .special-offers-section article .prod-thumbnail .thumbnail-img a {
-  position: relative;
+  /* position: relative; */
   margin-left: -224px;
 }
 .special-offers-section article .prod-thumbnail .thumbnail-img a:after {
@@ -4445,7 +4486,7 @@ table#order-products tbody .product-detail-flex .product-detail {
   max-width: 400px;
   display: block;
   margin: auto;
-  margin-top: -26%;
+  margin-top: -2%;
 }
 #authentication .btn-primary,
 #password .btn-primary {
@@ -6170,10 +6211,9 @@ p#fsta {
   background-color: white !important;
 } */
 
-
 /* Moi added code */
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   .custom-main-menu a.category-close > i:before {
     font-size: 16px;
     color: #000;
@@ -6202,7 +6242,7 @@ p#fsta {
   }
 
   .custom-main-menu > ul > li .sub-menu > ul {
-    padding-left: 0!important;
+    padding-left: 0 !important;
   }
 
   /* .custom-main-menu > ul > li:hover .sub-menu {
@@ -6216,10 +6256,10 @@ p#fsta {
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   #header .categories-trigger > *:not(.custom-main-menu) {
     display: none;
-  }  
+  }
 
   #header .header-container-bottom .header-container-bottom-margin {
     justify-content: center;

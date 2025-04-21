@@ -242,18 +242,16 @@ jQuery(function () {
     e.preventDefault();
   });
 
-
   // Moi added
 
-  $('.custom-main-menu li > a > img').click(function(e) {
+  $(".custom-main-menu li > img").click(function (e) {
     e.preventDefault();
     e.stopPropagation();
-    $('.custom-main-menu .sub-menu').hide();
-    $(this).siblings('.sub-menu').slideToggle();
+    $(".custom-main-menu .sub-menu").hide();
+    $(this).siblings(".sub-menu").slideToggle();
   });
 
   // End Moi added
-
 });
 
 // newsletter dialog

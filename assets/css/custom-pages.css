@@ -853,7 +853,7 @@
 
 .main-layout .main-content p {
   text-align: justify;
-  /* margin-left: 40px; */
+  margin-left: 40px !important;
 }
 
 @media (min-width: 1700px) {

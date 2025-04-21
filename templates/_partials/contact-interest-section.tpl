@@ -17,6 +17,6 @@
             </div>
             </div>
         </div>
-        {widget name="contactform"}
+        {widget name="contactform" allowed_contacts=[1,2,3]}
     </section>
 </div>

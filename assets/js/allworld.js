@@ -244,11 +244,12 @@ jQuery(function () {
 
   // Moi added
 
-  $('.custom-main-menu ul.mobile-menu-ul > li > a').click(function(e) {
+  $('.custom-main-menu ul.mobile-menu-ul > li > a:not(.no-sub)').click(function(e) {
     e.preventDefault();
     e.stopPropagation();
-    $('.custom-main-menu ul.mobile-menu-ul > li .sub-menu').hide();
-    $(this).siblings('.sub-menu').slideToggle();
+    $('.custom-main-menu ul.mobile-menu-ul > li .sub-menu').slideUp();
+    $(this).siblings('.sub-menu').slideDown();
+    console.log('clicked: ' + $(this).attr('href'));
   });
 
   // End Moi added

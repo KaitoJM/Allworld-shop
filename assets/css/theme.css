@@ -6282,9 +6282,14 @@ p#fsta {
     padding-left: 24px;
   }
 
-  .custom-main-menu > ul > li > a {
-    pointer-events: none;
+  .custom-main-menu > ul > li .sub-menu {
+    padding-left: 24px;
   }
+
+  .custom-main-menu > ul > li > a {
+    pointer-events: all;
+  }
+
 }
 
 /* End Moi added code */

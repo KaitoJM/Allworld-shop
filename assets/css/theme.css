@@ -3652,8 +3652,8 @@ product-add-to-cart-special:hover {
   gap: 20px;
   align-items: center;
   justify-content: center;
-  float: right;
-  margin-top: -50px;
+  /* float: right; */
+  /* margin-top: -50px; */
   margin-right: 327px;
 }
 
@@ -3684,6 +3684,12 @@ product-add-to-cart-special:hover {
 .special-offers-section article .prod-thumbnail .price {
   font-size: 1.2em;
 }
+
+.other-action-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 .special-offers-section article .prod-thumbnail .product-add-to-cart {
   width: 176px;
   border-radius: 5px;
@@ -3691,7 +3697,7 @@ product-add-to-cart-special:hover {
   color: #d9072d;
   border: 1px solid #d9072d;
   height: 50px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 1em;
   display: flex;
   gap: 20px;

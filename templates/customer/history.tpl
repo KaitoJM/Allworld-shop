@@ -59,6 +59,7 @@
               <th>{l s='Payment' d='Shop.Theme.Checkout'}</th>
               <th>{l s='Total' d='Shop.Theme.Checkout'}</th>
               <th></th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -79,6 +80,9 @@
                   >
                     {$order.history.current.ostate_name}
                   </span>
+                </td>
+                <td>
+                  {hook h='displayCancelOrder' id_order={$order.details.id}}
                 </td>
               </tr>
             {/foreach}

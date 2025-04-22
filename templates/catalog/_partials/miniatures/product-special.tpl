@@ -73,11 +73,15 @@
           <input type="hidden" name="token" value="{$static_token}">
           <input type="hidden" name="id_product" value="{$product.id}">
           <input type="hidden" name="qty" value="1">
+          {* <button type="submit" class="product-add-to-cart" data-button-action="add-to-cart">
+            <i class="fi-br-shopping-bag-add"></i>
+            Add to cart
+          </button> *}
+          <div class="other-action-container">
           <button type="submit" class="product-add-to-cart" data-button-action="add-to-cart">
             <i class="fi-br-shopping-bag-add"></i>
             Add to cart
           </button>
-          <div class="other-action-container">
           <button class="product-add-to-cart-buy">
             Buy now
           </button>

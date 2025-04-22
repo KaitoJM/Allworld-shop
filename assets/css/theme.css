@@ -1195,7 +1195,7 @@ ul.printing {
 }
 
 .product-list-container .product .product-description {
-  margin-top: 26px;
+  margin-top: 27px;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -1331,6 +1331,7 @@ product-add-to-cart-special:hover {
 .product-list-container .product .product-add-to-cart:hover {
   background-color: var(--accent_color);
   color: white;
+  transition: 0.2s ease-in-out;
 }
 
 .product-list-container .product .other-action-container .add-to-whish-list {
@@ -3640,7 +3641,7 @@ product-add-to-cart-special:hover {
 }
 
 .special-offers-section article .prod-thumbnail .product-add-to-cart-buy {
-  width: 208px;
+  width: 156px;
   border-radius: 5px;
   background-color: var(--accent_color);
   color: #fff;
@@ -3653,7 +3654,7 @@ product-add-to-cart-special:hover {
   justify-content: center;
   float: right;
   margin-top: -50px;
-  margin-right: 273px;
+  margin-right: 327px;
 }
 
 .product-title a {
@@ -3684,7 +3685,7 @@ product-add-to-cart-special:hover {
   font-size: 1.2em;
 }
 .special-offers-section article .prod-thumbnail .product-add-to-cart {
-  width: 208px;
+  width: 176px;
   border-radius: 5px;
   background-color: white;
   color: #d9072d;

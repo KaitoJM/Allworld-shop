@@ -63,10 +63,10 @@ jQuery(function () {
     autoplayHoverPause: true,
     responsive: {
       0: {
-        items: 4,
+        items: 3,
       },
       768: {
-        items: 5,
+        items: 3,
       },
       1040: {
         items: 6,
@@ -244,13 +244,15 @@ jQuery(function () {
 
   // Moi added
 
-  $('.custom-main-menu ul.mobile-menu-ul > li > a:not(.no-sub)').click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    $('.custom-main-menu ul.mobile-menu-ul > li .sub-menu').slideUp();
-    $(this).siblings('.sub-menu').slideDown();
-    console.log('clicked: ' + $(this).attr('href'));
-  });
+  $(".custom-main-menu ul.mobile-menu-ul > li > a:not(.no-sub)").click(
+    function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $(".custom-main-menu ul.mobile-menu-ul > li .sub-menu").slideUp();
+      $(this).siblings(".sub-menu").slideDown();
+      console.log("clicked: " + $(this).attr("href"));
+    }
+  );
 
   // End Moi added
 });

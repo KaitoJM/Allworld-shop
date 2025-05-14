@@ -639,6 +639,7 @@
           </li>
         </ul>
       </div> *}
+      {* {include file='_partials/footer.tpl' cart=$cart} *}
     </li>
   </ul>
 </div>
